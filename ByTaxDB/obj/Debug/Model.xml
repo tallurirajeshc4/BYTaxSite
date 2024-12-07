@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataSchemaModel FileFormatVersion="1.2" SchemaVersion="2.9" DspName="Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider" CollationLcid="1033" CollationCaseSensitive="False" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+	<Header>
+		<CustomData Category="AnsiNulls">
+			<Metadata Name="AnsiNulls" Value="True" />
+		</CustomData>
+		<CustomData Category="QuotedIdentifier">
+			<Metadata Name="QuotedIdentifier" Value="True" />
+		</CustomData>
+		<CustomData Category="CompatibilityMode">
+			<Metadata Name="CompatibilityMode" Value="160" />
+		</CustomData>
+		<CustomData Category="Reference" Type="Assembly">
+			<Metadata Name="LogicalName" Value="ByTaxDB.dll" />
+			<Metadata Name="FileName" Value="C:\PROJECTS\BYTAXPORTAL\BYTAXSITE\BYTAXDB\OBJ\DEBUG\BYTAXDB.DLL" />
+			<Metadata Name="AssemblyName" Value="ByTaxDB" />
+			<Metadata Name="PermissionSet" Value="SAFE" />
+			<Metadata Name="Owner" Value="" />
+			<Metadata Name="GenerateSqlClrDdl" Value="True" />
+			<Metadata Name="IsVisible" Value="True" />
+			<Metadata Name="IsModelAware" Value="True" />
+			<Metadata Name="SkipCreationIfEmpty" Value="True" />
+			<Metadata Name="AssemblySymbolsName" Value="C:\Projects\BYTaxPortal\BYTaxSite\ByTaxDB\obj\Debug\ByTaxDB.pdb" />
+		</CustomData>
+		<CustomData Category="SqlCmdVariables" Type="SqlCmdVariable" />
+	</Header>
+	<Model>
+		<Element Type="SqlDatabaseOptions">
+			<Property Name="Collation" Value="SQL_Latin1_General_CP1_CI_AS" />
+			<Property Name="IsAnsiNullDefaultOn" Value="True" />
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Property Name="IsAnsiWarningsOn" Value="True" />
+			<Property Name="IsArithAbortOn" Value="True" />
+			<Property Name="IsConcatNullYieldsNullOn" Value="True" />
+			<Property Name="IsTornPageProtectionOn" Value="False" />
+			<Property Name="IsFullTextEnabled" Value="True" />
+			<Property Name="PageVerifyMode" Value="3" />
+			<Property Name="DefaultLanguage" Value="" />
+			<Property Name="DefaultFullTextLanguage" Value="" />
+			<Property Name="QueryStoreStaleQueryThreshold" Value="367" />
+			<Relationship Name="DefaultFilegroup">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[PRIMARY]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlTable" Name="[dbo].[tbl_LoginUser]">
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="Columns">
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[tbl_LoginUser].[LoginUserId]">
+						<Property Name="IsNullable" Value="False" />
+						<Property Name="IsIdentity" Value="True" />
+						<Property Name="IdentitySeed" Value="1001" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[bigint]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[tbl_LoginUser].[FirstName]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="100" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[tbl_LoginUser].[LastName]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="100" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[tbl_LoginUser].[Emailid]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="200" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[tbl_LoginUser].[Mobile]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[bigint]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[tbl_LoginUser].[Password]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="100" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[tbl_LoginUser].[LoginStatus]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="1" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[char]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[tbl_LoginUser].[Ipaddress]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[tbl_LoginUser].[CREATEDDATE]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[datetime]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[tbl_LoginUser].[ROLEID]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[tbl_LoginUser].[TimeZone]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="20" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Filegroup">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[PRIMARY]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlTable" Name="[dbo].[tbl_LoginUserHistory]">
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="Columns">
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[tbl_LoginUserHistory].[EMAIL]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[tbl_LoginUserHistory].[IPADDRESS]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="25" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[tbl_LoginUserHistory].[LOGINDATE]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[datetime]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[tbl_LoginUserHistory].[STATUS]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="1" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[char]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Filegroup">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[PRIMARY]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[USP_INS_REGISTER_LoginUser]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[        
+BEGIN        
+SET NOCOUNT ON         
+        
+IF LEN(@Mobile)<>10        
+BEGIN        
+RAISERROR ('Invalid Mobile Number. Please enter Correct Mobile Number',16, 1 );        
+RETURN;        
+END        
+        
+IF (        
+     CHARINDEX(' ',LTRIM(RTRIM(@Emailid))) = 0         
+AND  LEFT(LTRIM(@Emailid),1) <> '@'         
+AND  RIGHT(RTRIM(@Emailid),1) <> '.'         
+AND  CHARINDEX('.',@Emailid ,CHARINDEX('@',@Emailid)) - CHARINDEX('@',@Emailid ) > 1         
+AND  LEN(LTRIM(RTRIM(@Emailid ))) - LEN(REPLACE(LTRIM(RTRIM(@Emailid)),'@','')) = 1         
+AND  CHARINDEX('.',REVERSE(LTRIM(RTRIM(@Emailid)))) >= 3         
+AND  (CHARINDEX('.@',@Emailid ) = 0 AND CHARINDEX('..',@Emailid ) = 0)        
+)        
+    print ''        
+ELSE        
+BEGIN        
+   RAISERROR ('Please enter valid Email Id',16, 1 );        
+   END        
+        
+   --IF EXISTS(SELECT PanNo FROM TBL_INVESTERUSERS WHERE PanNo=@PanNo)        
+   --BEGIN        
+   --RAISERROR ('PAN NUMBER ALREADY REGISTERED',16, 1 );        
+   --RETURN ;        
+   --END        
+        
+   IF EXISTS(SELECT Emailid FROM tbl_LoginUser WHERE emailid=@Emailid)        
+   BEGIN        
+   RAISERROR ('EMAIL ID ALREADY REGISTERED',16, 1 );        
+   RETURN;        
+   END        
+
+   --IF EXISTS(SELECT mobile FROM TBL_INVESTERUSERS WHERE mobile=@mobile)
+   --BEGIN
+   --RAISERROR('MOBILE NUMBER ALREADY REGISTERED',16,1);
+   --RETURN;
+   --END
+        
+INSERT INTO tbl_LoginUser(FirstName,LastName,Emailid,Mobile,Password,Ipaddress,CREATEDDATE,LoginStatus)        
+VALUES(UPPER(TRIM(@FirstName)),UPPER(TRIM(@LastName)),UPPER(TRIM(@Emailid)),@mobile,TRIM(@Password),@Ipaddress,GETDATE(),'Y')        
+IF(@@ERROR=0)  BEGIN  SET @Result=@@IDENTITY    RETURN @Result END     ELSE RETURN 0       
+END]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[USP_INS_REGISTER_LoginUser].[@Mobile]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USP_INS_REGISTER_LoginUser].[@Emailid]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[tbl_LoginUser]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[tbl_LoginUser].[Emailid]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[tbl_LoginUser]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[tbl_LoginUser].[FirstName]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[tbl_LoginUser].[LastName]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[tbl_LoginUser].[Emailid]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[tbl_LoginUser].[Mobile]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[tbl_LoginUser].[Password]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[tbl_LoginUser].[Ipaddress]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[tbl_LoginUser].[CREATEDDATE]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[tbl_LoginUser].[LoginStatus]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USP_INS_REGISTER_LoginUser].[@FirstName]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USP_INS_REGISTER_LoginUser].[@LastName]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USP_INS_REGISTER_LoginUser].[@Password]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USP_INS_REGISTER_LoginUser].[@Ipaddress]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USP_INS_REGISTER_LoginUser].[@Result]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[USP_INS_REGISTER_LoginUser].[@FirstName]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="100" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[USP_INS_REGISTER_LoginUser].[@LastName]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="100" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[USP_INS_REGISTER_LoginUser].[@Emailid]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="200" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[USP_INS_REGISTER_LoginUser].[@Mobile]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[bigint]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[USP_INS_REGISTER_LoginUser].[@Password]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="100" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[USP_INS_REGISTER_LoginUser].[@TimeZone]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="20" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[USP_INS_REGISTER_LoginUser].[@Ipaddress]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[USP_INS_REGISTER_LoginUser].[@Result]">
+						<Property Name="IsOutput" Value="True" />
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="2120" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[USP_INS_REGISTER_LoginUser]&#xD;&#xA;(        &#xD;&#xA;@FirstName Varchar(100) ,    &#xD;&#xA;@LastName Varchar(100),&#xD;&#xA;@Emailid varchar(200),        &#xD;&#xA;@Mobile bigint ,        &#xD;&#xA;@Password varchar(100) , &#xD;&#xA;@TimeZone Varchar(20),      &#xD;&#xA;@Ipaddress varchar(50) ,    &#xD;&#xA;@Result int out    &#xD;&#xA;)        &#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[USP_VALIDATE_LoginUser]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[  
+BEGIN  
+SET NOCOUNT ON;  
+DECLARE @STATUS CHAR(1)  
+IF NOT EXISTS(SELECT Emailid FROM tbl_LoginUser WHERE Emailid=@emailid)  
+BEGIN  
+SET @STATUS ='N';  
+ INSERT INTO tbl_LoginUserHistory(EMAIL,IPADDRESS ,LOGINDATE,STATUS)  
+    VALUES(@emailid,@IPADDRESS,GETDATE(),'E')  
+    RAISERROR ('EMAIL NOT EXISTS',16, 1 );  
+   RETURN;  
+END  
+IF  EXISTS(SELECT Emailid FROM tbl_LoginUser WHERE Emailid=@emailid AND Password<>@PWD)  
+BEGIN  
+  SET @STATUS ='N';  
+  INSERT INTO tbl_LoginUserHistory(EMAIL,IPADDRESS ,LOGINDATE,STATUS)  
+    VALUES(@emailid,@IPADDRESS,GETDATE(),'P')  
+  RAISERROR ('PLEASE ENTER CORRECT EMAIL AND PASSWORD',16, 1 );  
+     RETURN;  
+END   
+IF  EXISTS(SELECT Emailid FROM tbl_LoginUser WHERE Emailid=@emailid AND Password=@PWD)  
+BEGIN  
+ SET @STATUS ='Y';  
+ INSERT INTO tbl_LoginUserHistory(EMAIL,IPADDRESS ,LOGINDATE,STATUS)  
+    VALUES(@emailid,@IPADDRESS,GETDATE(),'Y')  
+ SELECT LoginUserId,FirstName,LastName,Emailid,ROLEID FROM tbl_LoginUser WHERE emailid=@emailid AND Password=@PWD   
+END   
+END]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[char]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[tbl_LoginUser]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[tbl_LoginUser].[Emailid]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USP_VALIDATE_LoginUser].[@emailid]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[tbl_LoginUserHistory]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[tbl_LoginUserHistory].[EMAIL]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[tbl_LoginUserHistory].[IPADDRESS]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[tbl_LoginUserHistory].[LOGINDATE]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[tbl_LoginUserHistory].[STATUS]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USP_VALIDATE_LoginUser].[@IPADDRESS]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[tbl_LoginUser].[Password]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USP_VALIDATE_LoginUser].[@PWD]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[tbl_LoginUser]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[tbl_LoginUser].[LoginUserId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[tbl_LoginUser].[FirstName]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[tbl_LoginUser].[LastName]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[tbl_LoginUser].[Emailid]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[tbl_LoginUser].[ROLEID]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[tbl_LoginUser].[Password]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[USP_VALIDATE_LoginUser].[@emailid]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[USP_VALIDATE_LoginUser].[@PWD]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="100" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[USP_VALIDATE_LoginUser].[@IPADDRESS]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="25" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="1196" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[USP_VALIDATE_LoginUser]  &#xD;&#xA;(  &#xD;&#xA;@emailid VARCHAR(50),  &#xD;&#xA;@PWD  varchar(100),  &#xD;&#xA;@IPADDRESS VARCHAR(25)  &#xD;&#xA;)  &#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+	</Model>
+</DataSchemaModel>

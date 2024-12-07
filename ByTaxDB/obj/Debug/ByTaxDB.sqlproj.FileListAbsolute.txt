@@ -1,0 +1,10 @@
+C:\Projects\BYTaxPortal\BYTaxSite\ByTaxDB\bin\Debug\ByTaxDB.dacpac
+C:\Projects\BYTaxPortal\BYTaxSite\ByTaxDB\bin\Debug\ByTaxDB.dll
+C:\Projects\BYTaxPortal\BYTaxSite\ByTaxDB\bin\Debug\ByTaxDB.pdb
+C:\Projects\BYTaxPortal\BYTaxSite\ByTaxDB\obj\Debug\ByTaxDB.sqlproj.AssemblyReference.cache
+C:\Projects\BYTaxPortal\BYTaxSite\ByTaxDB\obj\Debug\ByTaxDB.dll
+C:\Projects\BYTaxPortal\BYTaxSite\ByTaxDB\obj\Debug\ByTaxDB.pdb
+C:\Projects\BYTaxPortal\BYTaxSite\ByTaxDB\obj\Debug\Model.xml
+C:\Projects\BYTaxPortal\BYTaxSite\ByTaxDB\obj\Debug\refactor.xml
+C:\Projects\BYTaxPortal\BYTaxSite\ByTaxDB\obj\Debug\postdeploy.sql
+C:\Projects\BYTaxPortal\BYTaxSite\ByTaxDB\obj\Debug\predeploy.sql

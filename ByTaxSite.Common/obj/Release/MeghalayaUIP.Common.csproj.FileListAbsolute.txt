@@ -1,0 +1,11 @@
+D:\CMS Projects\Meghalaya\FinalCode\MeghalayaUIP.Common\bin\Release\MeghalayaUIP.Common.dll
+D:\CMS Projects\Meghalaya\FinalCode\MeghalayaUIP.Common\bin\Release\MeghalayaUIP.Common.pdb
+D:\CMS Projects\Meghalaya\FinalCode\MeghalayaUIP.Common\bin\Release\MeghalayaUIP.IDAL.dll
+D:\CMS Projects\Meghalaya\FinalCode\MeghalayaUIP.Common\bin\Release\MeghalayaUIP.Payments.dll
+D:\CMS Projects\Meghalaya\FinalCode\MeghalayaUIP.Common\bin\Release\MeghalayaUIP.IDAL.pdb
+D:\CMS Projects\Meghalaya\FinalCode\MeghalayaUIP.Common\bin\Release\MeghalayaUIP.Payments.pdb
+D:\CMS Projects\Meghalaya\FinalCode\MeghalayaUIP.Common\obj\Release\MeghalayaUIP.Common.csproj.AssemblyReference.cache
+D:\CMS Projects\Meghalaya\FinalCode\MeghalayaUIP.Common\obj\Release\MeghalayaUIP.Common.csproj.CoreCompileInputs.cache
+D:\CMS Projects\Meghalaya\FinalCode\MeghalayaUIP.Common\obj\Release\MeghalayaUIP.Common.csproj.CopyComplete
+D:\CMS Projects\Meghalaya\FinalCode\MeghalayaUIP.Common\obj\Release\MeghalayaUIP.Common.dll
+D:\CMS Projects\Meghalaya\FinalCode\MeghalayaUIP.Common\obj\Release\MeghalayaUIP.Common.pdb

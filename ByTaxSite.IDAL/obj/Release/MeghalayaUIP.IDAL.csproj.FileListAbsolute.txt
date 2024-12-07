@@ -1,0 +1,6 @@
+D:\CMS Projects\Meghalaya\FinalCode\MeghalayaUIP.IDAL\bin\Release\MeghalayaUIP.IDAL.dll
+D:\CMS Projects\Meghalaya\FinalCode\MeghalayaUIP.IDAL\bin\Release\MeghalayaUIP.IDAL.pdb
+D:\CMS Projects\Meghalaya\FinalCode\MeghalayaUIP.IDAL\obj\Release\MeghalayaUIP.IDAL.csproj.AssemblyReference.cache
+D:\CMS Projects\Meghalaya\FinalCode\MeghalayaUIP.IDAL\obj\Release\MeghalayaUIP.IDAL.csproj.CoreCompileInputs.cache
+D:\CMS Projects\Meghalaya\FinalCode\MeghalayaUIP.IDAL\obj\Release\MeghalayaUIP.IDAL.dll
+D:\CMS Projects\Meghalaya\FinalCode\MeghalayaUIP.IDAL\obj\Release\MeghalayaUIP.IDAL.pdb

@@ -1,0 +1,13 @@
+D:\CMS Projects\Meghalaya\FinalCode\MeghalayaUIP.DAL\bin\Release\MeghalayaUIP.DAL.dll
+D:\CMS Projects\Meghalaya\FinalCode\MeghalayaUIP.DAL\bin\Release\MeghalayaUIP.DAL.pdb
+D:\CMS Projects\Meghalaya\FinalCode\MeghalayaUIP.DAL\bin\Release\MeghalayaUIP.Common.dll
+D:\CMS Projects\Meghalaya\FinalCode\MeghalayaUIP.DAL\bin\Release\MeghalayaUIP.IDAL.dll
+D:\CMS Projects\Meghalaya\FinalCode\MeghalayaUIP.DAL\bin\Release\MeghalayaUIP.Payments.dll
+D:\CMS Projects\Meghalaya\FinalCode\MeghalayaUIP.DAL\bin\Release\MeghalayaUIP.Common.pdb
+D:\CMS Projects\Meghalaya\FinalCode\MeghalayaUIP.DAL\bin\Release\MeghalayaUIP.IDAL.pdb
+D:\CMS Projects\Meghalaya\FinalCode\MeghalayaUIP.DAL\bin\Release\MeghalayaUIP.Payments.pdb
+D:\CMS Projects\Meghalaya\FinalCode\MeghalayaUIP.DAL\obj\Release\MeghalayaUIP.DAL.csproj.AssemblyReference.cache
+D:\CMS Projects\Meghalaya\FinalCode\MeghalayaUIP.DAL\obj\Release\MeghalayaUIP.DAL.csproj.CoreCompileInputs.cache
+D:\CMS Projects\Meghalaya\FinalCode\MeghalayaUIP.DAL\obj\Release\MeghalayaUIP.DAL.csproj.CopyComplete
+D:\CMS Projects\Meghalaya\FinalCode\MeghalayaUIP.DAL\obj\Release\MeghalayaUIP.DAL.dll
+D:\CMS Projects\Meghalaya\FinalCode\MeghalayaUIP.DAL\obj\Release\MeghalayaUIP.DAL.pdb
