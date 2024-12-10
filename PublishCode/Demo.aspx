@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-           <marquee> <h1>Welcome to BY TAX Portal!</h1></marquee>
+           <marquee> <h1>Welcome to Brigade Tax Portal!</h1></marquee>
         </div>
     </form>
 </body>

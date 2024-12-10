@@ -21,7 +21,7 @@
 }
         .pricing-card {
     border: none;
-    border-radius: 4px;
+    border-radius: 18px;
     margin-bottom: 28px;
     -webkit-transition: all 0.6s;
     transition: all 0.6s;
@@ -29,8 +29,8 @@
         .pricing-card .card-header {
     background-color: #0147cd;
     color: #fff;
-    padding-top: 40px;
-    padding-bottom: 36px;
+    padding-top: 20px;
+    padding-bottom: 4px;
 }
         .pricing-plan-title {
     font-size: 20px;
@@ -94,10 +94,10 @@
                   <h5 class="pricing-plan-title">Federal Standard Tax Return<br /> (Form 1040)</h5>
                   <h3 class="pricing-plan-cost">$ 20.00</h3>
                 </div>
-                <div class="card-body">
+                <%--<div class="card-body">
                  
                   <a href="login.aspx" class="btn btn-success pricing-plan-purchase-btn">Choose Plan</a>
-                </div>
+                </div>--%>
               </div>
             </div>
             <div class="col-md-4">
@@ -106,10 +106,10 @@
                   <h5 class="pricing-plan-title">Non Resident Federal Tax Return <br />(Form 1040NR)</h5>
                   <h3 class="pricing-plan-cost">$ 50.00</h3>
                 </div>
-                <div class="card-body">
+               <%-- <div class="card-body">
                   
                   <a href="login.aspx" class="btn btn-success pricing-plan-purchase-btn">Choose Plan</a>
-                </div>
+                </div>--%>
               </div>
             </div>
             <div class="col-md-4">
@@ -118,10 +118,10 @@
                   <h5 class="pricing-plan-title">Each State Tax Return<br />&nbsp;</h5>
                   <h3 class="pricing-plan-cost">$ 30.00</h3>
                 </div>
-                <div class="card-body">
+                <%--<div class="card-body">
                  
                   <a href="login.aspx" class="btn btn-success pricing-plan-purchase-btn">Choose Plan</a>
-                </div>
+                </div>--%>
               </div>
             </div>
           </div>
@@ -133,10 +133,10 @@
                   <h5 class="pricing-plan-title">Schedule A (Itemized Deductions)</h5>
                   <h3 class="pricing-plan-cost">$ 100.00</h3>
                 </div>
-                <div class="card-body">
+               <%-- <div class="card-body">
                  
                   <a href="login.aspx" class="btn btn-success pricing-plan-purchase-btn">Choose Plan</a>
-                </div>
+                </div>--%>
               </div>
             </div>
             <div class="col-md-4">
@@ -145,10 +145,10 @@
                   <h5 class="pricing-plan-title">Non Resident Spouse Election</h5>
                   <h3 class="pricing-plan-cost">$ 100.00</h3>
                 </div>
-                <div class="card-body">
+                <%--<div class="card-body">
                   
                   <a href="login.aspx" class="btn btn-success pricing-plan-purchase-btn">Choose Plan</a>
-                </div>
+                </div>--%>
               </div>
             </div>
             <div class="col-md-4">
@@ -157,10 +157,10 @@
                   <h5 class="pricing-plan-title">Schedule C/E/1099 Misc</h5>
                   <h3 class="pricing-plan-cost">$ 150.00</h3>
                 </div>
-                <div class="card-body">
+                <%--<div class="card-body">
                  
                   <a href="login.aspx" class="btn btn-success pricing-plan-purchase-btn">Choose Plan</a>
-                </div>
+                </div>--%>
               </div>
             </div>
           </div>
@@ -172,10 +172,10 @@
                   <h5 class="pricing-plan-title">Stock Transaction-Per Page<br /> (Schedule D)</h5>
                   <h3 class="pricing-plan-cost">$ 10.00</h3>
                 </div>
-                <div class="card-body">
+               <%-- <div class="card-body">
                  
                   <a href="login.aspx" class="btn btn-success pricing-plan-purchase-btn">Choose Plan</a>
-                </div>
+                </div>--%>
               </div>
             </div>
             <div class="col-md-4">
@@ -184,10 +184,10 @@
                   <h5 class="pricing-plan-title">Other Tax Planning's to reduce <br />your Tax Liability</h5>
                   <h3 class="pricing-plan-cost">$ 30.00</h3>
                 </div>
-                <div class="card-body">
+                <%--<div class="card-body">
                   
                   <a href="login.aspx" class="btn btn-success pricing-plan-purchase-btn">Choose Plan</a>
-                </div>
+                </div>--%>
               </div>
             </div>
             <div class="col-md-4">
@@ -196,10 +196,10 @@
                   <h5 class="pricing-plan-title">City/County Tax return Filing<br />&nbsp;</h5>
                   <h3 class="pricing-plan-cost">FREE</h3>
                 </div>
-                <div class="card-body">
+                <%--<div class="card-body">
                  
                   <a href="login.aspx" class="btn btn-success pricing-plan-purchase-btn">Choose Plan</a>
-                </div>
+                </div>--%>
               </div>
             </div>
           </div>
@@ -211,10 +211,10 @@
                   <h5 class="pricing-plan-title">ITIN & FBAR/FATCA Processing</h5>
                   <h3 class="pricing-plan-cost">FREE</h3>
                 </div>
-                <div class="card-body">
+                <%--<div class="card-body">
                  
                   <a href="login.aspx" class="btn btn-success pricing-plan-purchase-btn">Choose Plan</a>
-                </div>
+                </div>--%>
               </div>
             </div>
             <div class="col-md-4">
@@ -223,10 +223,10 @@
                   <h5 class="pricing-plan-title">Tax Expert Consultation</h5>
                   <h3 class="pricing-plan-cost">FREE</h3>
                 </div>
-                <div class="card-body">
+                <%--<div class="card-body">
                   
                   <a href="login.aspx" class="btn btn-success pricing-plan-purchase-btn">Choose Plan</a>
-                </div>
+                </div>--%>
               </div>
             </div>
             <div class="col-md-4">
@@ -235,10 +235,10 @@
                   <h5 class="pricing-plan-title">Form W-4 Assistance</h5>
                   <h3 class="pricing-plan-cost">FREE</h3>
                 </div>
-                <div class="card-body">
+                <%--<div class="card-body">
                  
                   <a href="login.aspx" class="btn btn-success pricing-plan-purchase-btn">Choose Plan</a>
-                </div>
+                </div>--%>
               </div>
             </div>
           </div>
@@ -250,10 +250,10 @@
                   <h5 class="pricing-plan-title">Form 1040X Amendment ($150 or 10% of your Additional Refund(Whichever is higher)</h5>
                   <h3 class="pricing-plan-cost">$ 150.00</h3>
                 </div>
-                <div class="card-body">
+                <%--<div class="card-body">
                  
                   <a href="login.aspx" class="btn btn-success pricing-plan-purchase-btn">Choose Plan</a>
-                </div>
+                </div>--%>
               </div>
             </div>
            

@@ -24,7 +24,7 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="h-100">
                         <h1 class="display-6 mb-5">We're Here To Assist You With Exploring Protection</h1>
-                        <p class="fs-5 text-primary mb-4">At BY Tax, we believe that tax filing should be straightforward and stress-free for everyone. Founded by a team of experienced tax professionals, our mission is to provide innovative and user-friendly tax solutions tailored to meet the unique needs of individuals and businesses.</p>
+                        <p class="fs-5 text-primary mb-4">At Brigade Tax, we believe that tax filing should be straightforward and stress-free for everyone. Founded by a team of experienced tax professionals, our mission is to provide innovative and user-friendly tax solutions tailored to meet the unique needs of individuals and businesses.</p>
                         <div class="row g-4 mb-4">
                             <!-- <div class="col-sm-6">
                                 <div class="d-flex align-items-center">
@@ -76,7 +76,7 @@
                 <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
                     <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">About Us</p>
                     
-                    <p class="mb-4">At Beat your tax, we believe that tax filing shouldn’t be a hassle. Whether you’re an individual taxpayer, a small business owner, or a freelancer, our team of experienced professionals is dedicated to making the process smooth and stress-free. With our expert guidance and personalized service, you can focus on what matters most while we handle your tax needs.
+                    <p class="mb-4">At Brigade tax, we believe that tax filing shouldn’t be a hassle. Whether you’re an individual taxpayer, a small business owner, or a freelancer, our team of experienced professionals is dedicated to making the process smooth and stress-free. With our expert guidance and personalized service, you can focus on what matters most while we handle your tax needs.
                     </p>
                     <div class="border rounded p-4">
                         <nav>

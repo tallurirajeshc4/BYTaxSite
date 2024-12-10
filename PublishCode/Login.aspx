@@ -251,7 +251,7 @@
                                 <div class="login-left">
                                     <h2>Welcome Back!</h2>
                                     <p>To keep connected with</p>
-                                    <h5>BY TAX</h5>
+                                    <h5>Brigade Tax</h5>
                                     <p>with your personal info</p>
                                 </div>
                                 <div class="login-right">

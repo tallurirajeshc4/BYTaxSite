@@ -15,10 +15,10 @@
                                 <div class="col-lg-8">
                                     <p
                                         class="d-inline-block border border-white rounded text-primary fw-semi-bold py-1 px-3 animated slideInDown">
-                                        <marquee>Welcome to <b>BY Tax</b></marquee></p>
-                                    <h1 class="display-1 mb-4 animated slideInDown">Your Trusted Tax Filing Partner
+                                        <marquee>Welcome to <b>Brigade Tax</b></marquee></p>
+                                    <h1 class="display-1 mb-4 animated slideInDown">Your!! Trusted Tax Filing Partner
                                     </h1>
-                                    <a href="ITF.html" class="btn btn-primary py-3 px-5 animated slideInDown">Explore More</a>
+                                    <a href="ITF.aspx" class="btn btn-primary py-3 px-5 animated slideInDown">Explore More</a>
                                 </div>
                             </div>
                         </div>
@@ -32,9 +32,9 @@
                                 <div class="col-lg-7">
                                     <p
                                         class="d-inline-block border border-white rounded text-primary fw-semi-bold py-1 px-3 animated slideInDown">
-                                        <marquee>Welcome to <b>BY Tax</b></marquee></p>
+                                        <marquee>Welcome to <b>Brigade Tax</b></marquee></p>
                                     <h1 class="display-1 mb-4 animated slideInDown">Simplify Your Taxes, One Return at a Time</h1>
-                                    <a href="ITF.html" class="btn btn-primary py-3 px-5 animated slideInDown">Explore More</a>
+                                    <a href="ITF.aspx" class="btn btn-primary py-3 px-5 animated slideInDown">Explore More</a>
                                 </div>
                             </div>
                         </div>
@@ -57,7 +57,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <!-- <p><marquee>1. Refund is being subjected to provision u/s 245(2) of the Income Tax… | 2. Processing demand of Income tax return for AY 2024-25. | 3. Form 1 of DTVSV 2024 is now available for online filing.…</marquee></p> -->
-                     <p>"At Beat your tax, we believe that tax filing shouldn’t be a hassle. Whether you’re an individual taxpayer, a small business owner, or a freelancer, our team of experienced professionals is dedicated in making the process smooth and stress-free. With our expert guidance and personalized service, you can focus on what matters most while we handle your tax needs."</p>
+                     <p>"At Brigade Tax, we believe that tax filing shouldn’t be a hassle. Whether you’re an individual taxpayer, a small business owner, or a freelancer, our team of experienced professionals is dedicated in making the process smooth and stress-free. With our expert guidance and personalized service, you can focus on what matters most while we handle your tax needs."</p>
                 </div>
             </div>
         </div>
@@ -74,7 +74,7 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">About Us</p>
                     
-                    <p class="mb-4">At Beat your tax, we believe that tax filing shouldn’t be a hassle. Whether you’re an individual taxpayer, a small business owner, or a freelancer, our team of experienced professionals is dedicated to making the process smooth and stress-free. With our expert guidance and personalized service, you can focus on what matters most while we handle your tax needs.
+                    <p class="mb-4">At Brigade Tax, we believe that tax filing shouldn’t be a hassle. Whether you’re an individual taxpayer, a small business owner, or a freelancer, our team of experienced professionals is dedicated to making the process smooth and stress-free. With our expert guidance and personalized service, you can focus on what matters most while we handle your tax needs.
                     </p>
                     <div class="border rounded p-4">
                         <nav>
@@ -175,7 +175,7 @@
                                 <p class="text-white mb-0">Our tax specialists stay updated on the latest tax laws and regulations, ensuring you benefit from all available deductions and credits. We guarantee timely submissions to avoid penalties, keeping you compliant with all tax deadlines..</p>
                             </div>
                         </div>
-                        <a class="btn btn-light" href="">Read More</a>
+                        <a class="btn btn-light" href="About.aspx">Read More</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
@@ -194,7 +194,7 @@
                                 <p class="text-white mb-0">EWe take the time to understand your unique financial situation, offering tailored solutions that align with your goals.</p>
                             </div>
                         </div>
-                        <a class="btn btn-light" href="">Read More</a>
+                        <a class="btn btn-light" href="About.aspx">Read More</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
@@ -213,7 +213,7 @@
                                 <p class="text-white mb-0">Our intuitive online platform makes filing your taxes simple and quick. Access your documents anytime, anywhere, and enjoy seamless communication with our team.</p>
                             </div>
                         </div>
-                        <a class="btn btn-light" href="">Read More</a>
+                        <a class="btn btn-light" href="About.aspx">Read More</a>
                     </div>
                 </div>
             </div>
@@ -235,7 +235,7 @@
                                 <p class="text-white mb-0">No hidden fees, no surprises. We provide clear, upfront pricing so you know exactly what to expect.</p>
                             </div>
                         </div>
-                        <a class="btn btn-light" href="">Read More</a>
+                        <a class="btn btn-light" href="About.aspx">Read More</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
@@ -254,7 +254,7 @@
                                 <p class="text-white mb-0">We strive to ensure the utmost security for our clients' sensitive information.</p>
                             </div>
                         </div>
-                        <a class="btn btn-light" href="">Read More</a>
+                        <a class="btn btn-light" href="About.aspx">Read More</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
@@ -273,7 +273,7 @@
                                 <p class="text-white mb-0">Your satisfaction is our priority. We listen to your needs and work collaboratively to achieve the best outcomes.</p>
                             </div>
                         </div>
-                        <a class="btn btn-light" href="">Read More</a>
+                        <a class="btn btn-light" href="About.aspx">Read More</a>
                     </div>
                 </div>
             </div>
@@ -297,109 +297,125 @@
             </div>
             </div>
     <!-- Service Start -->
-    <div class="container-xxl service py-5" style="background: url(assets/img/bg-source.png);">
-        <div class="container">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 1200px;">
-                <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Our Services</p>
-                <h1 class="display-5 mb-5">Awesome Financial Services For Business</h1>
+
+
+    <!-- ======= Recent Blog Posts Section ======= -->
+    <section id="recent-blog-posts" class="recent-blog-posts container-xxl service py-5" style="background: url(assets/img/bg-source.png);">
+      <div class="container" data-aos="fade-up"">
+
+    
+    
+  <div class=" section-header text-center">
+        <h2>Awesome Financial Services For Business</h2>
+        <p><b>10+ Years of Experience.</b></p>
+      </div>
+
+      <div class="row gy-5">
+
+        <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="post-item position-relative h-100">
+
+            <div class="post-img position-relative overflow-hidden">
+              <img src="assets/img/service-1.jpg" class="img-fluid" alt="" style="width:100%;height:280px;border-radius: 4px;">
+              
             </div>
-            <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="col-lg-4">
-                    <div class="nav nav-pills d-flex justify-content-between w-100 h-100 me-4">
-                        <button class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-4 active"
-                            data-bs-toggle="pill" data-bs-target="#tab-pane-1" type="button">
-                            <h5 class="m-0"><i class="fa fa-bars text-primary me-3"></i>Individual Tax Filing</h5>
-                        </button>
-                        <button class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-4"
-                            data-bs-toggle="pill" data-bs-target="#tab-pane-2" type="button">
-                            <h5 class="m-0"><i class="fa fa-bars text-primary me-3"></i>Business Tax Solutions</h5>
-                        </button>
-                        <button class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-4"
-                            data-bs-toggle="pill" data-bs-target="#tab-pane-3" type="button">
-                            <h5 class="m-0"><i class="fa fa-bars text-primary me-3"></i>Indian Tax filing</h5>
-                        </button>
-                        
-                    </div>
+
+            <div class="post-content d-flex flex-column">
+
+              <h3 class="post-title">Individual Tax Filing</h3>
+                <p>Get assistance with your personal tax returns, maximizing your refund...</p>
+             <%-- <div class="meta d-flex align-items-center">
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-person"></i> <span class="ps-2">Julia Parker</span>
                 </div>
-                <div class="col-lg-8">
-                    <div class="tab-content w-100">
-                        <div class="tab-pane fade show active" id="tab-pane-1">
-                            <div class="row g-4">
-                                <div class="col-md-6" style="min-height: 350px;">
-                                    <div class="position-relative h-100">
-                                        <img class="position-absolute rounded w-100 h-100" src="assets/img/service-1.jpg"
-                                            style="object-fit: cover;" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <h3 class="mb-4">5 Years Of Experience In Individual Tax Filing Support</h3>
-                                    <p class="mb-4">Get assistance with your personal tax returns, maximizing your refund and minimizing your tax liability.</p>
-                                    <p><i class="fa fa-check text-primary me-3"></i>Secured Loans</p>
-                                    <p><i class="fa fa-check text-primary me-3"></i>Credit Facilities</p>
-                                    <p><i class="fa fa-check text-primary me-3"></i>Cash Advanced</p>
-                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="tab-pane-2">
-                            <div class="row g-4">
-                                <div class="col-md-6" style="min-height: 350px;">
-                                    <div class="position-relative h-100">
-                                        <img class="position-absolute rounded w-100 h-100" src="assets/img/service-2.jpg"
-                                            style="object-fit: cover;" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <h3 class="mb-4">5 Years Of Experience In Business Tax Solutions Support</h3>
-                                    <p class="mb-4">From sole proprietorships to corporations, we offer comprehensive tax planning and filing services tailored to your business needs.</p>
-                                    <p><i class="fa fa-check text-primary me-3"></i>Secured Loans</p>
-                                    <p><i class="fa fa-check text-primary me-3"></i>Credit Facilities</p>
-                                    <p><i class="fa fa-check text-primary me-3"></i>Cash Advanced</p>
-                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="tab-pane-3">
-                            <div class="row g-4">
-                                <div class="col-md-6" style="min-height: 350px;">
-                                    <div class="position-relative h-100">
-                                        <img class="position-absolute rounded w-100 h-100" src="assets/img/service-3.jpg"
-                                            style="object-fit: cover;" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <h3 class="mb-4">5 Years Of Experience In Indian Tax filing Support</h3>
-                                    <p class="mb-4">Our expert Indian tax team will help Indian citizens with the seamless processing of both US and India tax returns.</p>
-                                    <p><i class="fa fa-check text-primary me-3"></i>Secured Loans</p>
-                                    <p><i class="fa fa-check text-primary me-3"></i>Credit Facilities</p>
-                                    <p><i class="fa fa-check text-primary me-3"></i>Cash Advanced</p>
-                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="tab-pane-4">
-                            <div class="row g-4">
-                                <div class="col-md-6" style="min-height: 350px;">
-                                    <div class="position-relative h-100">
-                                        <img class="position-absolute rounded w-100 h-100" src="assets/img/service-4.jpg"
-                                            style="object-fit: cover;" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <h3 class="mb-4">15 Years Of Experience In Personalized Service Support</h3>
-                                    <p class="mb-4">We take the time to understand your unique financial situation, offering tailored solutions that align with your goals.</p>
-                                    <p><i class="fa fa-check text-primary me-3"></i>Secured Loans</p>
-                                    <p><i class="fa fa-check text-primary me-3"></i>Credit Facilities</p>
-                                    <p><i class="fa fa-check text-primary me-3"></i>Cash Advanced</p>
-                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <span class="px-3 text-black-50">/</span>
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-folder2"></i> <span class="ps-2">Politics</span>
                 </div>
+              </div>--%>
+
+              <hr>
+
+              <a href="ITF.aspx" class="readmore stretched-link"><span>Read More</span><i
+                  class="bi bi-arrow-right"></i></a>
+
             </div>
-        </div>
-    </div>
+
+          </div>
+        </div><!-- End post item -->
+
+        <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="post-item position-relative h-100">
+
+            <div class="post-img position-relative overflow-hidden">
+              <img src="assets/img/service-2.jpg" class="img-fluid" alt="" style="width:100%;height:280px;border-radius: 4px;">
+              
+            </div>
+
+            <div class="post-content d-flex flex-column">
+
+              <h3 class="post-title">Business Tax Solutions</h3>
+                <p>From sole proprietorships to corporations, we offer...</p>
+              <%--<div class="meta d-flex align-items-center">
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-person"></i> <span class="ps-2">Mario Douglas</span>
+                </div>
+                <span class="px-3 text-black-50">/</span>
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-folder2"></i> <span class="ps-2">Sports</span>
+                </div>
+              </div>--%>
+
+              <hr>
+
+              <a href="BTS.aspx" class="readmore stretched-link"><span>Read More</span><i
+                  class="bi bi-arrow-right"></i></a>
+
+            </div>
+
+          </div>
+        </div><!-- End post item -->
+
+        <div class="col-xl-4 col-md-6">
+          <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="300">
+
+            <div class="post-img position-relative overflow-hidden">
+              <img src="assets/img/service-3.jpg" class="img-fluid" alt="" style="width:100%;height:280px;border-radius: 4px;">
+             
+            </div>
+
+            <div class="post-content d-flex flex-column">
+
+              <h3 class="post-title">Indian Tax filing</h3>
+                <p>Our expert Indian tax team will help Indian citizens with the seamless...</p>
+              <%--<div class="meta d-flex align-items-center">
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-person"></i> <span class="ps-2">Lisa Hunter</span>
+                </div>
+                <span class="px-3 text-black-50">/</span>
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-folder2"></i> <span class="ps-2">Economics</span>
+                </div>
+              </div>--%>
+
+              <hr>
+
+              <a href="IndianTF.aspx" class="readmore stretched-link"><span>Read More</span><i
+                  class="bi bi-arrow-right"></i></a>
+
+            </div>
+
+          </div>
+        </div><!-- End post item -->
+
+      </div>
+
+      </div>
+    </section>
+    <!-- End Recent Blog Posts Section -->
+
+
+    
     <!-- Service End -->
 
 
