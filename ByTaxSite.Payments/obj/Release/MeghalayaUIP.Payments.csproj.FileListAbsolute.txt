@@ -1,6 +1,0 @@
-D:\CMS Projects\Meghalaya\FinalCode\MeghalayaUIP.Payments\bin\Release\MeghalayaUIP.Payments.dll
-D:\CMS Projects\Meghalaya\FinalCode\MeghalayaUIP.Payments\bin\Release\MeghalayaUIP.Payments.pdb
-D:\CMS Projects\Meghalaya\FinalCode\MeghalayaUIP.Payments\obj\Release\MeghalayaUIP.Payments.csproj.AssemblyReference.cache
-D:\CMS Projects\Meghalaya\FinalCode\MeghalayaUIP.Payments\obj\Release\MeghalayaUIP.Payments.csproj.CoreCompileInputs.cache
-D:\CMS Projects\Meghalaya\FinalCode\MeghalayaUIP.Payments\obj\Release\MeghalayaUIP.Payments.dll
-D:\CMS Projects\Meghalaya\FinalCode\MeghalayaUIP.Payments\obj\Release\MeghalayaUIP.Payments.pdb
