@@ -1,5 +1,17 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Outer.Master" AutoEventWireup="true" CodeBehind="Careers.aspx.cs" Inherits="BYTAX.Careers" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+ <style>
+             .page-header {
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+    background: url(assets/img/pagebanners/carrer.jpg) !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+                     h1.display-3.mb-4.slideInDown {
+    color: #fff;
+}
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <!-- Page Header Start -->
@@ -31,7 +43,14 @@
                         <div class="tab-content" id="nav-tabContent">
                             
                             <div class="tab-pane fade show active" id="nav-mission" role="tabpanel" aria-labelledby="nav-mission-tab">
-                                <p>"Thank you for your interest, but there are no job openings available at this time. Please check back at another time"</p>
+                                <h2>JOIN OUR TEAM</h2>
+                                <hr />
+                                <h5>Current Job Openings:</h5>
+                                <p>We are excited to announce that we currently have openings for the following position(s):</p>
+                                <h6><i class="fi fi-tr-employee-man"></i> Customer Care</h6>
+                                <h6><i class="fi fi-tr-employee-man"></i> Telecaller<br /><br /></h6>
+                                <p>"Apply today and become a part of our dynamic team!"</p>
+                                <%--<p>"Thank you for your interest, but there are no job openings available at this time. Please check back at another time"</p>--%>
                             </div>
                             
                         </div>

@@ -4,7 +4,7 @@
 
 <html>
 <head runat="server">
-    <title>Welcome to Brigade Tax – Your Trusted Tax Filing Partner</title>
+    <title>Brigade Tax Consultant – Your Trusted Tax Filing Partner</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -49,13 +49,13 @@
     <!-- Navbar Start -->
     <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
         <div class="top-bar row gx-0 align-items-center d-none d-lg-flex">
-            <div class="col-lg-4 px-5 text-start">
+            <div class="col-lg-5 text-lg-right text-center ms-4">
                 <small><i class="fa fa-envelope text-primary me-2"></i>contact@brigadetax.com</small>
-                <small class="ms-4"><i class="fa fa-phone-alt text-primary me-2"></i>+91 78420 90940</small>
+                <small class="">&nbsp;<i class="fa fa-phone-alt text-primary me-2"></i>+1 (302)-231-5550, +91 7893835721</small>
                
             </div>
             
-          <div class="col-lg-4 text-center">
+          <div class="col-lg-3 text-center">
             <div class="header-opening-time text-lg-right text-center">
                 <a href="refer.aspx"><p class="blink"> <i class="fi fi-tr-bullhorn"></i> Refer & Get Rewards</p></a>
             </div>
@@ -69,7 +69,10 @@
 
         <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
             <a href="Home.aspx" class="navbar-brand ms-4 ms-lg-0">
-                <h1 class="display-5 text-primary m-0">Brigade Tax</h1>
+               <%-- <h1 class="display-5 text-primary m-0">Brigade Tax</h1>--%>
+                <img src="assets/img/logonew.png" alt="Brigade Tax Consultant – Your Trusted Tax Filing Partner" style="
+    width: 50%;
+">
             </a>
             <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
                 data-bs-target="#navbarCollapse">
@@ -77,20 +80,20 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto bg-light rounded p-4 p-lg-0">
-                    <a href="Home.aspx" class="nav-item nav-link active">Home</a>
-                    <a href="About.aspx" class="nav-item nav-link">About Us</a>
-                    <a href="Pricing.aspx" class="nav-item nav-link">Pricing</a>
+                    <a href="Home.aspx" class="nav-item nav-link active"><i class="fi fi-tr-house-chimney"></i> Home</a>
+                    <a href="About.aspx" class="nav-item nav-link"><i class="fi fi-tr-book-user"></i> About Us</a>
+                    <a href="Pricing.aspx" class="nav-item nav-link"><i class="fi fi-tr-tags"></i> Pricing</a>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fi fi-tr-supplier-alt"></i> Services</a>
                         <div class="dropdown-menu border-light m-0">
-                            <a href="ITF.aspx" class="dropdown-item">Individual Tax Filing</a>
-                            <a href="BTS.aspx" class="dropdown-item">Business Tax Solutions</a>
-                            <a href="IndianTF.aspx" class="dropdown-item">Indian Tax filing</a>
+                            <a href="ITF.aspx" class="dropdown-item"><i class="fi fi-tr-tax"></i> Individual Tax Filing</a>
+                            <a href="BTS.aspx" class="dropdown-item"><i class="fi fi-tr-tax"></i> Business Tax Solutions</a>
+                            <a href="IndianTF.aspx" class="dropdown-item"><i class="fi fi-tr-tax"></i> Indian Tax filing</a>
                            
                         </div>
                     </div>
-                    <a href="careers.aspx" class="nav-item nav-link">Careers</a>
-                    <a href="contact.aspx" class="nav-item nav-link">Contact Us</a>
+                    <a href="careers.aspx" class="nav-item nav-link"><i class="fi fi-tr-employee-man"></i> Careers</a>
+                    <a href="contact.aspx" class="nav-item nav-link"><i class="fi fi-tr-customer-service"></i> Contact Us</a>
                 </div>
                 <div class="d-none d-lg-flex ms-2">
                     <a class="btn btn-light btn-sm-square rounded-circle ms-3" href="#">
@@ -118,13 +121,13 @@
         </div>
 
          <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid bg-dark text-light footer py-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-4">Our Office</h4>
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>(713) XXX-6620</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+1 (302)-231-5550</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>contact@brigadetax.com</p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i
@@ -150,8 +153,8 @@
                     <a class="btn btn-link" href="About.aspx">About Us</a>
                     <a class="btn btn-link" href="Contact.aspx">Contact Us</a>
                     <a class="btn btn-link" href="ITF.aspx">Our Services</a>
-                    <a class="btn btn-link" href="#">Terms & Condition</a>
-                    <a class="btn btn-link" href="#">Support</a>
+                    <a class="btn btn-link" href="Termsconditions.aspx">Terms & Condition</a>
+                    <a class="btn btn-link" href="Privacypolicy.aspx">Privacy Policy</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-4">Newsletter</h4>
@@ -190,7 +193,7 @@
         </div>
     </div>
         <div class="whatsapp">
-        <a href="https://wa.me/+918328106802" target="_blank">
+        <a href="https://wa.me/+917893835721" target="_blank">
             <img src="assets/img/wa.gif" alt="WhatsApp Button" style="width: 10%;">
             </a>
         </div>
@@ -210,15 +213,15 @@
 
     <!-- Template Javascript -->
     <script src="assets/js/main.js"></script>
-    <script type="text/javascript">
+    <%--<script type="text/javascript">
         $(window).on('load',function(){
-         var delayMs = 1500; // delay in milliseconds
+         var delayMs = 1500; 
          
          setTimeout(function(){
              $('#myModal2').modal('show');
          }, delayMs);
      });  
-    </script>
+    </script>--%>
     </form>
 </body>
 </html>

@@ -1,5 +1,17 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Outer.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="BYTAX.Contact" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <style>
+        .page-header {
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+    background: url(assets/img/pagebanners/contact.jpg) !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+        h1.display-3.mb-4.slideInDown {
+    color: #fff;
+}
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
    <!-- Page Header Start -->
@@ -25,9 +37,9 @@
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                     <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Contact</p>
                     <h1 class="display-5 mb-4">If You Have Any Query, Please Contact Us</h1>
-                    <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form
+                    <%--<p class="mb-4">The contact form is currently inactive. Get a functional and working contact form
                         with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're
-                        done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
+                        done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>--%>
                     <form>
                         <div class="row g-3">
                             <div class="col-md-6">

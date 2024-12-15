@@ -1,5 +1,12 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Outer.Master" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="BYTAX.Home" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <style>
+        .rounded {
+    border-radius: 8px !important;
+    background: #fff;
+    box-shadow: 1px 4px 5px;
+}
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
@@ -15,8 +22,8 @@
                                 <div class="col-lg-8">
                                     <p
                                         class="d-inline-block border border-white rounded text-primary fw-semi-bold py-1 px-3 animated slideInDown">
-                                        <marquee>Welcome to <b>Brigade Tax</b></marquee></p>
-                                    <h1 class="display-1 mb-4 animated slideInDown">Your!! Trusted Tax Filing Partner
+                                        Welcome to <b>Brigade Tax</b></p>
+                                    <h1 class="display-1 mb-4 animated slideInDown">Your! Trusted Tax Filing Partner
                                     </h1>
                                     <a href="ITF.aspx" class="btn btn-primary py-3 px-5 animated slideInDown">Explore More</a>
                                 </div>
@@ -29,11 +36,11 @@
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-start">
-                                <div class="col-lg-7">
+                                <div class="col-lg-9">
                                     <p
                                         class="d-inline-block border border-white rounded text-primary fw-semi-bold py-1 px-3 animated slideInDown">
-                                        <marquee>Welcome to <b>Brigade Tax</b></marquee></p>
-                                    <h1 class="display-1 mb-4 animated slideInDown">Simplify Your Taxes, One Return at a Time</h1>
+                                        Welcome to <b>Brigade Tax</b></p>
+                                    <h1 class="display-1 mb-4 animated slideInDown">Simplify Your Taxes,<br /> One Return at a Time</h1>
                                     <a href="ITF.aspx" class="btn btn-primary py-3 px-5 animated slideInDown">Explore More</a>
                                 </div>
                             </div>
@@ -152,7 +159,7 @@
     </div>
     <!-- About End -->
 
-    <div class="container-xxl py-5">
+    <div class="container-xxl py-5" style="background: linear-gradient(rgb(232 237 255 / 97%), rgb(53 94 252 / 69%)), url(assets/img/1.png);background-position: center;">
         <div class="container">
             <div class="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 1200px; visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
                 <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Why Choosing Us!</p>
@@ -472,26 +479,18 @@
             </div>
         </div>
     </div>
-    <div class="modal" id="myModal2">
+    <%--<div class="modal" id="myModal2">
             <div class="modal-dialog modal-lg" role="document">
               <div class="modal-content">
-                <!-- <div class="modal-header">
-                    <h5 class="modal-title" style="font-size: 22px;color: #9C27B0;font-weight: 700;font-family: 'Archivo';text-shadow: -1px 2px 5px #fff;">Welcome to Uttar Pradesh Real Estate Regulatory Authority</h5>
-                  
-                </div> -->
+                
                 <div class="modal-body">
-                    <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <i class="fi fi-tr-octagon-xmark"></i>
-                      </button> -->
+                    
                       <img src="assets/img/popupbg.gif" style="border-radius: 12px !important;width: 100%;">
-                  <!-- <p>As per Order U.P. RERA is offering RERA 2.0 for user access from 18/08/2024 onwards. Existing U.P. RERA 1.0 promoters can claim their projects in U.P. RERA 2.0 by using Claim Process explained in User manual. <b>New Portal users must sign up in RERA 2.0.</b> All module wise user manuals are available under the menu "<b>Website Guide</b>".<br/><br/></p>
-                  <p>You can download Uttar Pradesh RERA Mobile application (Android) from Play store by using below Link:</p>
-                  <p>App Name:- <b>UP RERA</b></p>
-                  <p>Link:- Coming Soon</p> -->
+                  
                 </div>
               </div>
             </div>
-          </div>
+          </div>--%>
 
 
 </asp:Content>

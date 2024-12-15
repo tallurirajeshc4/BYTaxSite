@@ -1,5 +1,17 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Outer.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="BYTAX.About" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <style>
+                             .page-header {
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+    background: url(assets/img/pagebanners/about.jpg) !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+                     h1.display-3.mb-4.slideInDown {
+    color: #fff;
+}
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
@@ -18,6 +30,7 @@
     </div>
     <!-- Page Header End -->
      <!-- About Start -->
+    <div style="background: url(assets/img/aboutbg.jpg);background-size: contain;">
      <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
@@ -43,7 +56,7 @@
                         <div class="border-top mt-4 pt-4">
                             <div class="d-flex align-items-center">
                                 <img class="flex-shrink-0 rounded-circle me-3" src="img/profile.jpg" alt="" >
-                                <h5 class="mb-0">Call Us: +012 345 6789</h5>
+                                <h5 class="mb-0">Call Us: +1 (302)-231-5550</h5>
                             </div>
                         </div>
                     </div>
@@ -78,12 +91,12 @@
                     
                     <p class="mb-4">At Brigade tax, we believe that tax filing shouldn’t be a hassle. Whether you’re an individual taxpayer, a small business owner, or a freelancer, our team of experienced professionals is dedicated to making the process smooth and stress-free. With our expert guidance and personalized service, you can focus on what matters most while we handle your tax needs.
                     </p>
-                    <div class="border rounded p-4">
+                    <div class="border rounded p-4" style="background:#fff;">
                         <nav>
                             <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
                                 
-                                <button class="nav-link fw-semi-bold" id="nav-mission-tab" data-bs-toggle="tab" data-bs-target="#nav-mission" type="button" role="tab" aria-controls="nav-mission" aria-selected="false">Mission</button>
-                                <button class="nav-link fw-semi-bold" id="nav-vision-tab" data-bs-toggle="tab" data-bs-target="#nav-vision" type="button" role="tab" aria-controls="nav-vision" aria-selected="false">Vision</button>
+                                <button class="nav-link fw-semi-bold active" id="nav-mission-tab" data-bs-toggle="tab" data-bs-target="#nav-mission" type="button" role="tab" aria-controls="nav-mission" aria-selected="true"><i class="fi fi-tr-challenge"></i> Mission</button>
+                                <button class="nav-link fw-semi-bold" id="nav-vision-tab" data-bs-toggle="tab" data-bs-target="#nav-vision" type="button" role="tab" aria-controls="nav-vision" aria-selected="false"><i class="fi fi-tr-bullseye-arrow"></i> Vision</button>
                             </div>
                         </nav>
                         <div class="tab-content" id="nav-tabContent">
@@ -105,7 +118,7 @@
                     <div class="col-md-3 wow fadeIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
                         <div class="boxitem">
                             <div class="ps-3">
-                                <h4>Integrity</h4>
+                                <h4><i class="fi fi-tr-puzzle-piece-integration"></i> Integrity</h4>
                                 <span>We uphold the highest ethical standards in our work, ensuring our clients can trust us to act in their best interests.</span>
                             </div>
                         </div>
@@ -113,7 +126,7 @@
                     <div class="col-md-3 wow fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
                         <div class="boxitem">
                             <div class="ps-3">
-                                <h4>Innovation</h4>
+                                <h4><i class="fi fi-tr-bulb"></i> Innovation</h4>
                                 <span>We embrace technology and creative solutions to enhance the tax filing experience, constantly looking for ways to improve and streamline our services.</span>
                             </div>
                         </div>
@@ -121,7 +134,7 @@
                     <div class="col-md-3 wow fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
                         <div class="boxitem">
                             <div class="ps-3">
-                                <h4>Adaptability</h4>
+                                <h4><i class="fi fi-tr-user-skill-gear"></i> Adaptability</h4>
                                 <span>We stay agile and responsive to the ever-changing tax landscape, ensuring our services remain relevant and effective for our clients.</span>
                             </div>
                         </div>
@@ -129,7 +142,7 @@
                     <div class="col-md-3 wow fadeIn" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeIn;">
                         <div class="boxitem">
                             <div class="ps-3">
-                                <h4>Empowerment</h4>
+                                <h4><i class="fi fi-tr-process"></i> Empowerment</h4>
                                 <span>We educate our clients about tax matters, ensuring they are well-informed and confident in their financial choices.</span>
                             </div>
                         </div>
@@ -139,4 +152,5 @@
             
         </div>
     </div>
+</div>
 </asp:Content>

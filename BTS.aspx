@@ -1,77 +1,90 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Outer.Master" AutoEventWireup="true" CodeBehind="BTS.aspx.cs" Inherits="BYTAX.BTS" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-        <style>
-        
-/*** Service ***/
-.service-item {
-    box-shadow: 0 0 45px rgba(0, 0, 0, .07);
-    border: 1px solid transparent;
-    transition: .5s;
-}
+    <style>
+        .page-header {
+            padding-top: 12rem;
+            padding-bottom: 6rem;
+            background: url(assets/img/pagebanners/BT.jpg) !important;
+            background-size: cover !important;
+            background-position: center !important;
+        }
 
-   .service-item:hover {
-    box-shadow: none;
-    border-color: blue;
-    color: #fff;
-    *background: blue;
-    background-size: cover;
-    background-position: right;
-    
-}
+        h1.display-3.mb-4.slideInDown {
+            color: #000;
+        }
+        /*** Service ***/
+        .service-item {
+            box-shadow: 0 0 45px rgba(0, 0, 0, .07);
+            border: 1px solid transparent;
+            transition: .5s;
+        }
 
-    .service-item .service-icon,
-    .service-item .service-btn {
-        margin: -1px 0 0 -1px;
-        width: 65px;
-        height: 65px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #FFFFFF;
-        background: var(--primary);
-        border-radius: 5px 0;
-        transition: .5s;
-    }
+            .service-item:hover {
+                box-shadow: none;
+                border-color: blue;
+                color: #fff;
+                *background: blue;
+                background-size: cover;
+                background-position: right;
+            }
 
-    .service-item .service-btn {
-        margin: -1px -1px 0 0;
-        border-radius: 0 5px;
-        opacity: 0;
-    }
+            .service-item .service-icon,
+            .service-item .service-btn {
+                margin: -1px 0 0 -1px;
+                width: 65px;
+                height: 65px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #FFFFFF;
+                background: var(--primary);
+                border-radius: 5px 0;
+                transition: .5s;
+            }
 
-    .service-item:hover .service-btn {
-        opacity: 1;
-    }
-    .h-100 {
-    height: 70% !important;
-}
-    .service-item {
-    position: relative;
-    margin: 0px 0 50px 0 !important;
-    box-shadow: 0 0 45px rgba(0, 0, 0, .07);
-}
+            .service-item .service-btn {
+                margin: -1px -1px 0 0;
+                border-radius: 0 5px;
+                opacity: 0;
+            }
+
+            .service-item:hover .service-btn {
+                opacity: 1;
+            }
+
+        .h-100 {
+            height: 70% !important;
+        }
+
+        .service-item {
+            position: relative;
+            margin: 0px 0 50px 0 !important;
+            box-shadow: 0 0 45px rgba(0, 0, 0, .07);
+            height: 250px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-     <!-- Page Header Start -->
+    <!-- Page Header Start -->
     <div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container">
             <h1 class="display-3 mb-4 animated slideInDown">Business Tax Solutions</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb mb-0">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Services</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Business Tax Solutions</li>
+                    <li class="breadcrumb-item"><a href="#" style="color: #000 !important;">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#" style="color: #000 !important;">Services</a></li>
+                    <li class="breadcrumb-item active" aria-current="page" style="color: #000 !important;">Business Tax Solutions</li>
                 </ol>
             </nav>
         </div>
     </div>
     <!-- Page Header End -->
-     <!-- About Start -->
-     <div class="container-xxl py-5">
+    <!-- About Start -->
+    <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
-                
+
                 <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="h-100">
                         <h1 class="display-6 mb-5">We're Here To Assist You With Exploring Protection</h1>
@@ -90,8 +103,6 @@
                             <li>Investment Income (interest, dividends, and capital gains)</li>
                             <li>Business Income (if self-employed or running a small business)</li>
                         </ul>--%>
-                        
-                      
                     </div>
                 </div>
 
@@ -111,131 +122,113 @@
         </div>
     </div>
     <!-- About End -->
-    <div class="container-xxl py-6">
+    <div class="container-xxl py-1 mb-1" style="background: url(assets/img/servicesbg.jpg); background-size: cover; background-position: center; padding: 80px 0px 0px 0px !important;">
         <div class="container">
             <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px; visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
-                
             </div>
             <div class="row g-4">
-                <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
                     <div class="service-item rounded">
-                        <div class="d-flex justify-content-between">
+                        <div class="d-flex justify-content-center">
                             <div class="service-icon">
-                                <i class="fa fa-user-tie fa-2x"></i>
+                                <img src="assets/img/services/b1.jpg" style="width: 150%;" id="serviceing" />
                             </div>
-                            <a class="service-btn" href="">
-                                <i class="fa fa-link fa-2x"></i>
-                            </a>
+
                         </div>
-                        <a href=""><div class="p-3">
-                            <h5 class="">Filing Deadline</h5>
-                            <span>The typical deadline for individual tax filing is April 15 of each year, for the previous year's taxes...</span>
-                        </div></a><br />
-                         <a class="btn btn-light" href="About.aspx">Read More</a>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-                    <div class="service-item rounded">
-                        <div class="d-flex justify-content-between">
-                            <div class="service-icon">
-                                <i class="fa fa-chart-pie fa-2x"></i>
+                        <a href="">
+                            <div class="p-3">
+                                <h5 class="">Business incorporation</h5>
+                                <span>Launching your business is an exciting journey, and we’re here to simplify the process...</span>
                             </div>
-                            <a class="service-btn" href="">
-                                <i class="fa fa-link fa-2x"></i>
-                            </a>
-                        </div>
-                        <a href=""><div class="p-3">
-                            <h5 class="mb-3">Taxable Income</h5>
-                            <span>Whether you’re an individual taxpayer, a small business owner, or a freelancer, our team of experienced professionals...</span>
-                        </div><br /></a>
-                        
-                        <a class="btn btn-light" href="About.aspx">Read More</a>
-                    </div>
-                </div>
-               <%-- <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
-                    <div class="service-item rounded">
-                        <div class="d-flex justify-content-between">
-                            <div class="service-icon">
-                                <i class="fa fa-chart-line fa-2x"></i>
-                            </div>
-                            <a class="service-btn" href="">
-                                <i class="fa fa-link fa-2x"></i>
-                            </a>
-                        </div>
-                        <div class="p-3">
-                            <h5 class="mb-3">Market Analysis</h5>
-                            <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</span>
-                        </div>
-                    </div>
-                </div>--%>
-                <%--<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
-                    <div class="service-item rounded h-100">
-                        <div class="d-flex justify-content-between">
-                            <div class="service-icon">
-                                <i class="fa fa-chart-area fa-2x"></i>
-                            </div>
-                            <a class="service-btn" href="">
-                                <i class="fa fa-link fa-2x"></i>
-                            </a>
-                        </div>
-                        <div class="p-5">
-                            <h5 class="mb-3">Financial Analaysis</h5>
-                            <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</span>
-                        </div>
+                        </a>
+                        <br />
+                        <a class="btn btn-light" href="Businessincorporation.aspx">Read More</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-                    <div class="service-item rounded h-100">
-                        <div class="d-flex justify-content-between">
+                    <div class="service-item rounded">
+                        <div class="d-flex justify-content-center">
                             <div class="service-icon">
-                                <i class="fa fa-balance-scale fa-2x"></i>
+                                <img src="assets/img/services/b2.jpg" style="width: 150%;" id="serviceing" />
                             </div>
-                            <a class="service-btn" href="">
-                                <i class="fa fa-link fa-2x"></i>
-                            </a>
+
                         </div>
-                        <div class="p-5">
-                            <h5 class="mb-3">legal Advisory</h5>
-                            <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</span>
-                        </div>
+                        <a href="">
+                            <div class="p-3">
+                                <h5 class="mb-3">BOI Reporting Services</h5>
+                                <span>Ensure compliance with the U.S. Department of Treasury’s Beneficial Ownership Information (BOI)  ...</span>
+                            </div>
+                            <br />
+                        </a>
+
+                        <a class="btn btn-light" href="BOIreporting.aspx">Read More</a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
-                    <div class="service-item rounded h-100">
-                        <div class="d-flex justify-content-between">
+
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                    <div class="service-item rounded">
+                        <div class="d-flex justify-content-center">
                             <div class="service-icon">
-                                <i class="fa fa-house-damage fa-2x"></i>
+                                <img src="assets/img/services/b3.jpg" style="width: 150%;" id="serviceing" />
                             </div>
-                            <a class="service-btn" href="">
-                                <i class="fa fa-link fa-2x"></i>
-                            </a>
+
                         </div>
-                        <div class="p-5">
-                            <h5 class="mb-3">Tax &amp; Insurance</h5>
-                            <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</span>
-                        </div>
+                        <a href="">
+                            <div class="p-3">
+                                <h5 class="mb-3">Business Return Filing Services</h5>
+                                <span>Stay compliant and stress-free with our comprehensive business tax return filing services...</span>
+                            </div>
+                            <br />
+                        </a>
+
+                        <a class="btn btn-light" href="Businessreturn.aspx">Read More</a><br />
                     </div>
-                </div>--%>
+                </div>
+
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                    <div class="service-item rounded" style="margin-top: 30px !important;">
+                        <div class="d-flex justify-content-center">
+                            <div class="service-icon">
+                                <img src="assets/img/services/b4.jpg" style="width: 150%;" id="serviceing" />
+                            </div>
+
+                        </div>
+                        <a href="">
+                            <div class="p-3">
+                                <h5 class="mb-3">Business IRS Audit Representation</h5>
+                                <span>Facing an IRS audit can be daunting, but you don’t have to handle it alone...</span>
+                            </div>
+                            <br />
+                        </a>
+
+                        <a class="btn btn-light" href="BusinessIRS.aspx">Read More</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                    <div class="service-item rounded" style="margin-top: 30px !important;">
+                        <div class="d-flex justify-content-center">
+                            <div class="service-icon">
+                                <img src="assets/img/services/b5.jpg" style="width: 150%;" id="serviceing" />
+                            </div>
+
+                        </div>
+                        <a href="">
+                            <div class="p-3">
+                                <h5 class="mb-3">Tax Planning Services</h5>
+                                <span>Optimize your financial outcomes with expert tax planning services from Brigade Tax...</span>
+                            </div>
+                            <br />
+                        </a>
+
+                        <a class="btn btn-light" href="Businesstaxplanning.aspx">Read More</a>
+                    </div>
+                </div>
+
+
             </div>
         </div>
     </div>
 
-    <div class="container-xxl py-1">
-        <div class="container">
-            <div class="row g-4 align-items-end mb-4">
-                
-                
-                
-                <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-                  
-                    
-                    <p class="mb-4">At Brigade tax, we believe that tax filing shouldn’t be a hassle. Whether you’re an individual taxpayer, a small business owner, or a freelancer, our team of experienced professionals is dedicated to making the process smooth and stress-free. With our expert guidance and personalized service, you can focus on what matters most while we handle your tax needs.
-                    </p>
-                    <p>Once all income, deductions, and credits are accounted for, the taxpayer will either owe taxes or receive a refund. Taxes are typically paid through withholding (W-2) or estimated tax payments (self-employed individuals). Refunds are issued when more taxes have been paid than owed.</p>
-                    
-                </div>
-            </div>
-            
-        </div>
-    </div>
+
 </asp:Content>

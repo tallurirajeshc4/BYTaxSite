@@ -3,6 +3,16 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <style>
+                     .page-header {
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+    background: url(assets/img/pagebanners/pricing.jpg) !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+                     h1.display-3.mb-4.slideInDown {
+    color: #fff;
+}
         .pricing-table-header {
     background-color: #0f3783;
     color: #fff !important;
@@ -27,10 +37,16 @@
     transition: all 0.6s;
 }
         .pricing-card .card-header {
-    background-color: #0147cd;
     color: #fff;
     padding-top: 20px;
     padding-bottom: 4px;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #355efc 0%, #a2cdc8 100%);
+    box-shadow: 1px 4px 5px #0a1f70;
+}
+        .card-header:hover {
+    box-shadow: none;
+    background: #708dfd;
 }
         .pricing-plan-title {
     font-size: 20px;
@@ -58,7 +74,7 @@
 }
     </style>
     <!-- Page Header Start -->
-    <div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid page-header wow fadeIn" data-wow-delay="0.1s">
         <div class="container">
             <h1 class="display-3 mb-4 animated slideInDown">Pricing</h1>
             <nav aria-label="breadcrumb animated slideInDown">
@@ -71,7 +87,7 @@
         </div>
     </div>
     <!-- Page Header End -->
-    <div class="container-xxl py-1">
+    <div class="container-xxl" style="background: url(assets/img/pricingbg.jpg);background-size: contain;padding: 45px 0px;">
         <div class="container">
     <div class="row">
         
@@ -87,7 +103,70 @@
             <div class="container">
       <div class="tab-content pricing-tab-content" id="pills-tabContent">
         <div class="tab-pane show active" id="monthly-plans" role="tabpanel" aria-labelledby="monthly-plans-tab">
+              <div class="row">
+  <div class="col-md-4">
+    <div class="card pricing-card text-center shadow border-0">
+      <div class="card-header">
+        <h5 class="pricing-plan-title">ITIN & FBAR/FATCA Processing</h5>
+        <h3 class="pricing-plan-cost">FREE</h3>
+      </div>
+      <%--<div class="card-body">
+       
+        <a href="login.aspx" class="btn btn-success pricing-plan-purchase-btn">Choose Plan</a>
+      </div>--%>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card pricing-card text-center shadow border-0">
+      <div class="card-header">
+        <h5 class="pricing-plan-title">Tax Expert Consultation</h5>
+        <h3 class="pricing-plan-cost">FREE</h3>
+      </div>
+      <%--<div class="card-body">
+        
+        <a href="login.aspx" class="btn btn-success pricing-plan-purchase-btn">Choose Plan</a>
+      </div>--%>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card pricing-card text-center shadow border-0">
+      <div class="card-header">
+        <h5 class="pricing-plan-title">Form W-4 Assistance</h5>
+        <h3 class="pricing-plan-cost">FREE</h3>
+      </div>
+      <%--<div class="card-body">
+       
+        <a href="login.aspx" class="btn btn-success pricing-plan-purchase-btn">Choose Plan</a>
+      </div>--%>
+    </div>
+  </div>
+</div>
           <div class="row">
+              <div class="col-md-4">
+  <div class="card pricing-card text-center shadow border-0">
+    <div class="card-header">
+      <h5 class="pricing-plan-title">City/County Tax return Filing<br />&nbsp;</h5>
+      <h3 class="pricing-plan-cost">FREE</h3>
+    </div>
+    <%--<div class="card-body">
+     
+      <a href="login.aspx" class="btn btn-success pricing-plan-purchase-btn">Choose Plan</a>
+    </div>--%>
+  </div>
+</div>
+               <div class="col-md-4">
+   <div class="card pricing-card text-center shadow border-0">
+     <div class="card-header">
+       <h5 class="pricing-plan-title">Stock Transaction-Per Page<br /> (Schedule D)</h5>
+       <h3 class="pricing-plan-cost">$ 10.00</h3>
+     </div>
+    <%-- <div class="card-body">
+      
+       <a href="login.aspx" class="btn btn-success pricing-plan-purchase-btn">Choose Plan</a>
+     </div>--%>
+   </div>
+ </div>
+ 
             <div class="col-md-4">
               <div class="card pricing-card text-center shadow border-0">
                 <div class="card-header">
@@ -100,18 +179,7 @@
                 </div>--%>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="card pricing-card text-center shadow border-0">
-                <div class="card-header">
-                  <h5 class="pricing-plan-title">Non Resident Federal Tax Return <br />(Form 1040NR)</h5>
-                  <h3 class="pricing-plan-cost">$ 50.00</h3>
-                </div>
-               <%-- <div class="card-body">
-                  
-                  <a href="login.aspx" class="btn btn-success pricing-plan-purchase-btn">Choose Plan</a>
-                </div>--%>
-              </div>
-            </div>
+            
             <div class="col-md-4">
               <div class="card pricing-card text-center shadow border-0">
                 <div class="card-header">
@@ -124,9 +192,35 @@
                 </div>--%>
               </div>
             </div>
+                              <div class="col-md-4">
+  <div class="card pricing-card text-center shadow border-0">
+    <div class="card-header">
+      <h5 class="pricing-plan-title">Other Tax Planning's to reduce <br />your Tax Liability</h5>
+      <h3 class="pricing-plan-cost">$ 30.00</h3>
+    </div>
+    <%--<div class="card-body">
+      
+      <a href="login.aspx" class="btn btn-success pricing-plan-purchase-btn">Choose Plan</a>
+    </div>--%>
+  </div>
+</div>
+                              <div class="col-md-4">
+  <div class="card pricing-card text-center shadow border-0">
+    <div class="card-header">
+      <h5 class="pricing-plan-title">Non Resident Federal Tax Return <br />(Form 1040NR)</h5>
+      <h3 class="pricing-plan-cost">$ 50.00</h3>
+    </div>
+   <%-- <div class="card-body">
+      
+      <a href="login.aspx" class="btn btn-success pricing-plan-purchase-btn">Choose Plan</a>
+    </div>--%>
+  </div>
+</div>
           </div>
 
             <div class="row">
+               
+              
             <div class="col-md-4">
               <div class="card pricing-card text-center shadow border-0">
                 <div class="card-header">
@@ -166,82 +260,11 @@
           </div>
 
             <div class="row">
-            <div class="col-md-4">
-              <div class="card pricing-card text-center shadow border-0">
-                <div class="card-header">
-                  <h5 class="pricing-plan-title">Stock Transaction-Per Page<br /> (Schedule D)</h5>
-                  <h3 class="pricing-plan-cost">$ 10.00</h3>
-                </div>
-               <%-- <div class="card-body">
-                 
-                  <a href="login.aspx" class="btn btn-success pricing-plan-purchase-btn">Choose Plan</a>
-                </div>--%>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card pricing-card text-center shadow border-0">
-                <div class="card-header">
-                  <h5 class="pricing-plan-title">Other Tax Planning's to reduce <br />your Tax Liability</h5>
-                  <h3 class="pricing-plan-cost">$ 30.00</h3>
-                </div>
-                <%--<div class="card-body">
-                  
-                  <a href="login.aspx" class="btn btn-success pricing-plan-purchase-btn">Choose Plan</a>
-                </div>--%>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card pricing-card text-center shadow border-0">
-                <div class="card-header">
-                  <h5 class="pricing-plan-title">City/County Tax return Filing<br />&nbsp;</h5>
-                  <h3 class="pricing-plan-cost">FREE</h3>
-                </div>
-                <%--<div class="card-body">
-                 
-                  <a href="login.aspx" class="btn btn-success pricing-plan-purchase-btn">Choose Plan</a>
-                </div>--%>
-              </div>
-            </div>
+           
+            
           </div>
 
-            <div class="row">
-            <div class="col-md-4">
-              <div class="card pricing-card text-center shadow border-0">
-                <div class="card-header">
-                  <h5 class="pricing-plan-title">ITIN & FBAR/FATCA Processing</h5>
-                  <h3 class="pricing-plan-cost">FREE</h3>
-                </div>
-                <%--<div class="card-body">
-                 
-                  <a href="login.aspx" class="btn btn-success pricing-plan-purchase-btn">Choose Plan</a>
-                </div>--%>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card pricing-card text-center shadow border-0">
-                <div class="card-header">
-                  <h5 class="pricing-plan-title">Tax Expert Consultation</h5>
-                  <h3 class="pricing-plan-cost">FREE</h3>
-                </div>
-                <%--<div class="card-body">
-                  
-                  <a href="login.aspx" class="btn btn-success pricing-plan-purchase-btn">Choose Plan</a>
-                </div>--%>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card pricing-card text-center shadow border-0">
-                <div class="card-header">
-                  <h5 class="pricing-plan-title">Form W-4 Assistance</h5>
-                  <h3 class="pricing-plan-cost">FREE</h3>
-                </div>
-                <%--<div class="card-body">
-                 
-                  <a href="login.aspx" class="btn btn-success pricing-plan-purchase-btn">Choose Plan</a>
-                </div>--%>
-              </div>
-            </div>
-          </div>
+            
 
             <div class="row">
             <div class="col-md-12">
