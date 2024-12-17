@@ -79,7 +79,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav ms-auto bg-light rounded p-4 p-lg-0">
+                <div class="navbar-nav ms-auto rounded p-4 p-lg-0">
                     <a href="Home.aspx" class="nav-item nav-link active"><i class="fi fi-tr-house-chimney"></i> Home</a>
                     <a href="About.aspx" class="nav-item nav-link"><i class="fi fi-tr-book-user"></i> About Us</a>
                     <a href="Pricing.aspx" class="nav-item nav-link"><i class="fi fi-tr-tags"></i> Pricing</a>

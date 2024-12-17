@@ -165,7 +165,7 @@
                             </div>
                         </a>
                         <br />
-                        <a class="btn btn-light" href="About.aspx">Read More</a>
+                        <a class="btn btn-light" href="USIndividual.aspx">Read More</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
@@ -184,7 +184,7 @@
                             <br />
                         </a>
 
-                        <a class="btn btn-light" href="About.aspx">Read More</a>
+                        <a class="btn btn-light" href="CityLocal.aspx">Read More</a>
                     </div>
                 </div>
 
@@ -204,7 +204,7 @@
                             <br />
                         </a>
 
-                        <a class="btn btn-light" href="About.aspx">Read More</a><br />
+                        <a class="btn btn-light" href="FBARFATCA.aspx">Read More</a><br />
                     </div>
                 </div>
 
@@ -224,7 +224,7 @@
                             <br />
                         </a>
 
-                        <a class="btn btn-light" href="About.aspx">Read More</a>
+                        <a class="btn btn-light" href="ExtensionFiling.aspx">Read More</a>
                     </div>
                 </div>
 
@@ -238,13 +238,13 @@
                         </div>
                         <a href="">
                             <div class="p-3">
-                                <h5 class="mb-3">Audit Representation</h5>
+                                <h5 class="mb-3">Audit Support</h5>
                                 <span>Optimize your financial outcomes with expert tax planning services from Brigade Tax...</span>
                             </div>
                             <br />
                         </a>
 
-                        <a class="btn btn-light" href="About.aspx">Read More</a>
+                        <a class="btn btn-light" href="AuditSupport.aspx">Read More</a>
                     </div>
                 </div>
 
@@ -264,7 +264,7 @@
                             <br />
                         </a>
 
-                        <a class="btn btn-light" href="About.aspx">Read More</a>
+                        <a class="btn btn-light" href="TaxplanningAdvisory.aspx">Read More</a>
                     </div>
                 </div>
 
@@ -286,7 +286,7 @@
                             <br />
                         </a>
 
-                        <a class="btn btn-light" href="About.aspx">Read More</a>
+                        <a class="btn btn-light" href="ExpatTaxReturn.aspx">Read More</a>
                     </div>
                 </div>
 
@@ -306,7 +306,7 @@
                             <br />
                         </a>
 
-                        <a class="btn btn-light" href="About.aspx">Read More</a>
+                        <a class="btn btn-light" href="Amendment.aspx">Read More</a>
                     </div>
                 </div>
 
@@ -326,7 +326,7 @@
                             <br />
                         </a>
 
-                        <a class="btn btn-light" href="About.aspx">Read More</a>
+                        <a class="btn btn-light" href="ITINAssistance.aspx">Read More</a>
                     </div>
                 </div>
 

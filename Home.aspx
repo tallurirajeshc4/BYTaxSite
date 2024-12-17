@@ -4,7 +4,7 @@
         .rounded {
     border-radius: 8px !important;
     background: #fff;
-    box-shadow: 1px 4px 5px;
+    
 }
     </style>
 </asp:Content>
@@ -59,16 +59,15 @@
         </div>
     </div>
     <!-- Carousel End -->
-    <section id="headerbar1">
+   <%-- <section id="headerbar1">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
-                    <!-- <p><marquee>1. Refund is being subjected to provision u/s 245(2) of the Income Tax… | 2. Processing demand of Income tax return for AY 2024-25. | 3. Form 1 of DTVSV 2024 is now available for online filing.…</marquee></p> -->
-                     <p>"At Brigade Tax, we believe that tax filing shouldn’t be a hassle. Whether you’re an individual taxpayer, a small business owner, or a freelancer, our team of experienced professionals is dedicated in making the process smooth and stress-free. With our expert guidance and personalized service, you can focus on what matters most while we handle your tax needs."</p>
+                    <p>"At Brigade Tax, we believe that tax filing shouldn’t be a hassle. Whether you’re an individual taxpayer, a small business owner, or a freelancer, our team of experienced professionals is dedicated in making the process smooth and stress-free. With our expert guidance and personalized service, you can focus on what matters most while we handle your tax needs."</p>
                 </div>
             </div>
         </div>
-    </section>
+    </section>--%>
     <!-- About Start -->
     <div class="container-xxl py-5" style="background: url(assets/img/bgwhite.jpg);">
         <div class="container">
@@ -79,9 +78,9 @@
                 </div>
                 
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">About Us</p>
+                    <p class="d-inline-block text-primary fw-semi-bold py-1 px-3">About Us</p>
                     
-                    <p class="mb-4">At Brigade Tax, we believe that tax filing shouldn’t be a hassle. Whether you’re an individual taxpayer, a small business owner, or a freelancer, our team of experienced professionals is dedicated to making the process smooth and stress-free. With our expert guidance and personalized service, you can focus on what matters most while we handle your tax needs.
+                    <p class="mb-4 fw-semi-bold" style="font-weight: 600 !important;color: #0a1c5c;font-family: 'Jost';font-size: 18px;">At Brigade Tax, we believe that tax filing shouldn’t be a hassle. Whether you’re an individual taxpayer, a small business owner, or a freelancer, our team of experienced professionals is dedicated to making the process smooth and stress-free. With our expert guidance and personalized service, you can focus on what matters most while we handle your tax needs.
                     </p>
                     <div class="border rounded p-4">
                         <nav>
@@ -168,9 +167,9 @@
             <div class="row gy-5 gx-4">
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
                     <div class="service-item">
-                        <img class="img-fluid" src="assets/img/service-1.jpg" alt="" style="height: 300px !important;width: 100%;">
+                        <img class="img-fluid" src="assets/img/service-111.jpg" alt="" style="height: 300px !important;width: 100%;">
                         <div class="service-img">
-                            <img class="img-fluid" src="assets/img/service-1.jpg" alt="">
+                            <img class="img-fluid" src="assets/img/service-111.jpg" alt="">
                         </div>
                         <div class="service-detail">
                             <div class="service-title">
@@ -187,9 +186,9 @@
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
                     <div class="service-item">
-                        <img class="img-fluid" src="assets/img/service-2.jpg" alt="" style="height: 300px !important;width: 100%;">
+                        <img class="img-fluid" src="assets/img/service-211.jpg" alt="" style="height: 300px !important;width: 100%;">
                         <div class="service-img">
-                            <img class="img-fluid" src="assets/img/service-2.jpg" alt="">
+                            <img class="img-fluid" src="assets/img/service-211.jpg" alt="">
                         </div>
                         <div class="service-detail">
                             <div class="service-title">
@@ -198,7 +197,7 @@
                                 <hr class="w-25">
                             </div>
                             <div class="service-text">
-                                <p class="text-white mb-0">EWe take the time to understand your unique financial situation, offering tailored solutions that align with your goals.</p>
+                                <p class="text-white mb-0">We take the time to understand your unique financial situation, offering tailored solutions that align with your goals.</p>
                             </div>
                         </div>
                         <a class="btn btn-light" href="About.aspx">Read More</a>
@@ -206,9 +205,9 @@
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
                     <div class="service-item">
-                        <img class="img-fluid" src="assets/img/service-3.jpg" alt="" style="height: 300px !important;width: 100%;">
+                        <img class="img-fluid" src="assets/img/service-311.jpg" alt="" style="height: 300px !important;width: 100%;">
                         <div class="service-img">
-                            <img class="img-fluid" src="assets/img/service-3.jpg" alt="">
+                            <img class="img-fluid" src="assets/img/service-311.jpg" alt="">
                         </div>
                         <div class="service-detail">
                             <div class="service-title">
@@ -313,7 +312,7 @@
     
     
   <div class=" section-header text-center">
-        <h2>Awesome Financial Services For Business</h2>
+        <h2>Our Services</h2>
         <p><b>10+ Years of Experience.</b></p>
       </div>
 
@@ -431,12 +430,14 @@
         <div class="container pt-5">
             <div class="row justify-content-center">
                 <div class="col-lg-7">
-                    <div class="bg-white border rounded p-4 p-sm-5 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="bg-white border rounded p-4 p-sm-5 wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible;animation-delay: 0.5s;animation-name: fadeInUp;background: url(https://agileforgrowth.com/wp-content/uploads/2014/06/AFG-background.jpg);
+background-size: cover;background-position: center;border: none !important;;margin-bottom: 30px;">
+                    <%--<div class="bg-white border rounded p-4 p-sm-5 wow fadeInUp" data-wow-delay="0.5s">--%>
                         <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                             <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Get In Touch
                             </p>
                             <h1 class="display-5 mb-5">Request A Call-Back</h1>
-<p>Experience our user-friendly tax filing platform. Want to simplify tax season? Reach out to us for a free consultation or start your process online today.</p>
+<p class="text-dark">Experience our user-friendly tax filing platform. Want to simplify tax season? Reach out to us for a free consultation or start your process online today.</p>
                         </div>
                         <div class="row g-3">
                             <div class="col-sm-6">

@@ -3,6 +3,11 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
    <style>
+       .container-fluid.fixed-top.px-0.wow.fadeIn {
+    background: #fff;
+    height: 120px;
+    border-bottom: 0px solid #011a41;
+}
         .right-content.pull-right {
         visibility: hidden;
     }
@@ -299,7 +304,7 @@
                                           
                                         
                                         
-                                        <div class="text-center dont-have">Don’t have an account? <a href="Registration.html">Register</a></div>
+                                        <div class="text-center dont-have">Don’t have an account? <a href="Registration.aspx">Register</a></div>
                                     </div>
                                 </div>
                             </div>

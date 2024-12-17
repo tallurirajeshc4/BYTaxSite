@@ -50,6 +50,9 @@
                                 <h6><i class="fi fi-tr-employee-man"></i> Customer Care</h6>
                                 <h6><i class="fi fi-tr-employee-man"></i> Telecaller<br /><br /></h6>
                                 <p>"Apply today and become a part of our dynamic team!"</p>
+                                <h5><i class="fi fi-tr-clip-mail"></i> Email: contact@brigadetax.com</h5>
+                                <h5><i class="fi fi-tr-mobile-notch"></i> Mobile: +91 7893835721</h5>
+                                <p>We look forward to hearing from you!</p>
                                 <%--<p>"Thank you for your interest, but there are no job openings available at this time. Please check back at another time"</p>--%>
                             </div>
                             

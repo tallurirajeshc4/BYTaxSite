@@ -1,12 +1,27 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Outer.Master" AutoEventWireup="true" CodeBehind="Refer.aspx.cs" Inherits="BYTAX.Refer" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-  <div class="container-xxl py-5 mt-5" style="margin-top: 8% !important;">
+    <div class="container-xxl py-5 mt-5" style="    margin-top: 9% !important;
+    background: url(assets/img/whitebg.jpg);
+    background-position: bottom;
+    background-size: cover;">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-12 wow fadeIn" data-wow-delay="0.1s">
-                    <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Refer & Get Rewards</p>
+                    <h3>PLEASE REFER FRIENDS/COLLEAGUES AND EARN $UNTLIMITED$</h3>
+                    <h6>How it works: </h6>
+                    <ul class="text-dark">
+                        <li>Share your unique referral link on All Social Media Pages or via email/Phone but do not forget to ask your friends/colleagues and family friends to use Referral Code.</li>
+                        <li>Your referee must give your reference to us to get $10 waved off if they file taxes within 15 days of signing up and you will get $10 as a referral bonus.</li>
+                        <li>If you introduce us to your employer, you can get your tax filed as <b>FREE</b> for every year*.</li>
+                        <li>If you refer us to any of the Indian Organization for which you might be a part of it, you can get your tax filed <b>FREE</b> for every YEAR.</li>
+                        <li>You might be the part of many groups in “WhatsApp or Any Social Groups” do post our flyers/content/ About Us as reference well for every successful Tax Filing will honor you with a referral bonus of $10 per paid client.</li>
+                    </ul>
+                    <h5>We would be pleased to honor you with a Referral Bonus of Up to $100 and More* for referrals.  Please help us with their Name with Contact Number along with Email ID!</h5>
+                    <hr />
+                    <div class="border rounded p-4 bg-white">
                     <h4 class="display-5 mb-4">Invite a friend and enjoy exclusive rewards!</h4>
                     <form href="refer1.html" action="refer1.html">
                         <div class="row g-3">
@@ -54,8 +69,9 @@
                             </div>
                         </div>
                     </form>
+                        </div>
                 </div>
-                
+
             </div>
         </div>
     </div>

@@ -3,9 +3,14 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <style>
+               .container-fluid.fixed-top.px-0.wow.fadeIn {
+    background: #fff;
+    height: 120px;
+    border-bottom: 0px solid #011a41;
+}
         nav.navbar.navbar-expand-lg.navbar-light.py-lg-0.px-lg-5.wow.fadeIn {
     padding: 14px 50px !important;
-    border-bottom: 1px solid #dbdbdb;
+    *border-bottom: 1px solid #dbdbdb;
     border-radius: 8px;
 }
 .right-content.pull-right {
