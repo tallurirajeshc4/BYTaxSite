@@ -194,11 +194,11 @@ font-style: italic;font-weight: bold;">"State Single<br /> Window System for<br 
                                     <asp:LinkButton ID="linkIndReg" runat="server" OnClick="linkIndReg_Click" class="nav-link"><i class="fi fi-br-file-edit"></i> Documents <span class="sr-only">(current)</span></asp:LinkButton>
 
                                 </li>
-                                <li class="nav-item">
-                                    <%--<a class="nav-link" href="../PreReg/IndustryRegistration.aspx">Industry Registration</a>--%>
+                                <%--<li class="nav-item">
+                                   
                                     <asp:LinkButton ID="linkland" runat="server" class="nav-link" OnClick="linkland_Click"><i class="fi fi-br-land-layer-location"></i> Digital Tax Organizer <span class="sr-only">(current)</span></asp:LinkButton>
 
-                                </li>
+                                </li>--%>
                                 <li class="nav-item">
                                     <%--<a class="nav-link" href="../CFE/CFEUserDashboard.aspx">Pre-Establishment</a>--%>
                                     <asp:LinkButton ID="linkCFEDashbrd" runat="server" OnClick="linkCFEDashbrd_Click" class="nav-link"><i class="fi fi-br-form"></i> Tax Returns </asp:LinkButton>
@@ -212,21 +212,18 @@ font-style: italic;font-weight: bold;">"State Single<br /> Window System for<br 
                                     <asp:LinkButton ID="linkINC" runat="server" class="nav-link"><i class="fi fi-br-tools"></i> Incentives </asp:LinkButton>
 
                                 </li>--%>
-                               <%-- <li class="nav-item">
-                                    <%-- <a class="nav-link" href="#"><i class="fi fi-br-function-process"></i>Renewals</a>--%>
-                                    <asp:LinkButton ID="LinkRENDashBoard" runat="server" OnClick="LinkRENDashBoard_Click" class="nav-link"><i class="fi fi-br-function-process"></i> Renewals </asp:LinkButton>
-                                </li>--%>
+                               
                                
                                 
                                
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fi fi-br-person-circle-question"></i> Other Services
+                                    <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fi fi-br-person-circle-question"></i> My Referrals
                                     </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <%--<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 
                                         <asp:LinkButton ID="lnkGrievance" runat="server" OnClick="lnkGrievance_Click" class="dropdown-item">Pricing<span class="sr-only">(current)</span></asp:LinkButton>
                                         <a href="../refer.aspx" class="dropdown-item" target="_blank">My Referrals</a>
-                                    </div>
+                                    </div>--%>
                                 </li>
                                 <%--<li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fi fi-br-person-circle-question"></i>Other Services

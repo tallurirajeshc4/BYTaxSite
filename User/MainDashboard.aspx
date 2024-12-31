@@ -196,7 +196,7 @@
                         <h4><a href="../assets/img/Tax_Organizer_2024.docx" download><span class="badge rounded-pill bg-dark text-sm p-2" style="font-size: 16px; color: #fff; background: #033260 !important; display: flex; align-items: center;"><i class="fi fi-tr-bullseye-arrow"></i>&nbsp; Download</span></a></h4>
 
                     </div>
-                    <div class="card item1" style="width: 13rem;">
+                    <%--<div class="card item1" style="width: 13rem;">
                         <div class="card-body item">
                             <h5 class="card-title text-black"><a href="#" style="color: #000;">Future</a></h5>
                             <h6 class="card-subtitle mb-2 text-muted">UNIT ID : 17546577</h6>
@@ -204,9 +204,87 @@
                             <a href="#" class="card-link" style="color: darkblue">Draft</a>
 
                         </div>
-                    </div>
+                    </div>--%>
                 </div>
             </div>
+            <div class="card">
+    <div class="card-header d-flex justify-content-between">
+        <h3 class="card-title mt-1"><b>Please upload the applicable details</b></h3>
+        <h4 class="card-title mt-1">
+            <label id="Label1" runat="server"></label>
+
+        </h4>
+    </div>
+    <div class="card-body">
+        <div class="col-md-12 d-flex" id="padding">
+										<div class="col-md-12">
+											<div class="form-group row">
+												<label class="col-lg-6 col-form-label">1. Upload Fill Tax Organizer <span class="text-danger">&nbsp;*</span> </label>
+												<div class="col-lg-3 d-flex">
+													<input type="file" class="form-control"> 
+												</div>
+                                                <div class="col-md-3">
+                                                    <button type="button" class="btn btn-rounded btn-dark w-50">Upload</button>
+                                                </div>
+											</div>
+										</div>
+         
+
+									</div>
+        <div class="col-md-12 d-flex" id="padding">
+								<div class="col-md-12">
+									<div class="form-group row">
+										<label class="col-lg-6 col-form-label">2. Upload Pan Card <span class="text-danger">&nbsp;*</span></label>
+										<div class="col-lg-3 d-flex">
+				<input type="file" class="form-control"> 
+</div>
+<div class="col-md-3">
+    <button type="button" class="btn btn-rounded btn-dark w-50">Upload</button>
+</div>
+									</div>
+								</div>
+ 
+
+							</div>
+                <div class="col-md-12 d-flex" id="padding">
+								<div class="col-md-12">
+									<div class="form-group row">
+										<label class="col-lg-6 col-form-label">3. Upload AAdhaar Card <span class="text-danger">&nbsp;*</span></label>
+										<div class="col-lg-3 d-flex">
+				<input type="file" class="form-control"> 
+</div>
+<div class="col-md-3">
+    <button type="button" class="btn btn-rounded btn-dark w-50">Upload</button>
+</div>
+									</div>
+								</div>
+ 
+
+							</div>
+                        <div class="col-md-12 d-flex" id="padding">
+								<div class="col-md-12">
+									<div class="form-group row">
+										<label class="col-lg-6 col-form-label">&nbsp;</label>
+										<div class="col-lg-3 d-flex">
+				&nbsp;
+</div>
+<div class="col-md-3">
+    <button type="button" class="btn btn-rounded btn-primary w-50">Add More</button>
+</div>
+									</div>
+								</div>
+ 
+
+							</div>
+       <div class="col-md-10 text-right">
+    <%--<asp:Button Text="Previous" runat="server" ID="aa" class="btn btn-rounded btn-info btn-lg" Width="150px" />--%>
+    <asp:Button ID="ss" runat="server" Text="Submit" class="btn btn-rounded btn-success btn-lg" padding-right="60px" Width="150px" />
+    <%--<asp:Button ID="ww" Text="Next" runat="server" class="btn btn-rounded btn-info btn-lg" Width="150px" />--%>
+
+</div>
+        
+    </div>
+</div>
             <div class="card">
                 <div class="card-header d-flex justify-content-between">
                     <h3 class="card-title mt-1"><b>Your Tax Filing Status</b></h3>

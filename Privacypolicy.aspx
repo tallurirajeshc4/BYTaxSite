@@ -174,7 +174,7 @@
                                                                             <nav>
     <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
         
-        <button class="nav-link fw-semi-bold active" id="nav-mission-tab" data-bs-toggle="tab" data-bs-target="#nav-mission" type="button" role="tab" aria-controls="nav-mission" aria-selected="true"><h5 style="color:#fff;">6. Data Retention</h5> </button>
+        <button class="nav-link fw-semi-bold active" id="nav-mission-tab" data-bs-toggle="tab" data-bs-target="#nav-mission" type="button" role="tab" aria-controls="nav-mission" aria-selected="true"><h5 style="color:#fff;">6. Data Security</h5> </button>
        
     </div>
 
@@ -191,7 +191,7 @@
                                                                             <nav>
     <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
         
-        <button class="nav-link fw-semi-bold active" id="nav-mission-tab" data-bs-toggle="tab" data-bs-target="#nav-mission" type="button" role="tab" aria-controls="nav-mission" aria-selected="true"><h5 style="color:#fff;">7. Data Retention</h5> </button>
+        <button class="nav-link fw-semi-bold active" id="nav-mission-tab" data-bs-toggle="tab" data-bs-target="#nav-mission" type="button" role="tab" aria-controls="nav-mission" aria-selected="true"><h5 style="color:#fff;">7. Children’s Privacy</h5> </button>
        
     </div>
 
@@ -208,7 +208,7 @@
                                                                             <nav>
     <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
         
-        <button class="nav-link fw-semi-bold active" id="nav-mission-tab" data-bs-toggle="tab" data-bs-target="#nav-mission" type="button" role="tab" aria-controls="nav-mission" aria-selected="true"><h5 style="color:#fff;">8. Data Retention</h5> </button>
+        <button class="nav-link fw-semi-bold active" id="nav-mission-tab" data-bs-toggle="tab" data-bs-target="#nav-mission" type="button" role="tab" aria-controls="nav-mission" aria-selected="true"><h5 style="color:#fff;">8. Third-Party Links</h5> </button>
        
     </div>
 
@@ -224,7 +224,7 @@
                                                                             <nav>
     <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
         
-        <button class="nav-link fw-semi-bold active" id="nav-mission-tab" data-bs-toggle="tab" data-bs-target="#nav-mission" type="button" role="tab" aria-controls="nav-mission" aria-selected="true"><h5 style="color:#fff;">9. Data Retention</h5> </button>
+        <button class="nav-link fw-semi-bold active" id="nav-mission-tab" data-bs-toggle="tab" data-bs-target="#nav-mission" type="button" role="tab" aria-controls="nav-mission" aria-selected="true"><h5 style="color:#fff;">9. Changes to This Policy</h5> </button>
        
     </div>
 

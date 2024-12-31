@@ -71,7 +71,7 @@
             <a href="Home.aspx" class="navbar-brand ms-4 ms-lg-0">
                <%-- <h1 class="display-5 text-primary m-0">Brigade Tax</h1>--%>
                 <img src="assets/img/logonew.png" alt="Brigade Tax Consultant – Your Trusted Tax Filing Partner" style="
-    width: 50%;
+    width: 60%;
 ">
             </a>
             <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
@@ -80,15 +80,15 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto rounded p-4 p-lg-0">
-                    <a href="Home.aspx" class="nav-item nav-link active"><i class="fi fi-tr-house-chimney"></i> Home</a>
+                    <a href="Home.aspx" class="nav-item nav-link"><i class="fi fi-tr-house-chimney"></i> Home</a>
                     <a href="About.aspx" class="nav-item nav-link"><i class="fi fi-tr-book-user"></i> About Us</a>
-                    <a href="Pricing.aspx" class="nav-item nav-link"><i class="fi fi-tr-tags"></i> Pricing</a>
+                    <%--<a href="Pricing.aspx" class="nav-item nav-link"><i class="fi fi-tr-tags"></i> Pricing</a>--%>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fi fi-tr-supplier-alt"></i> Services</a>
+                        <a href="Services.aspx" class="nav-link dropdown-toggle"><i class="fi fi-tr-supplier-alt"></i> Services</a>
                         <div class="dropdown-menu border-light m-0">
-                            <a href="ITF.aspx" class="dropdown-item"><i class="fi fi-tr-tax"></i> Individual Tax Filing</a>
-                            <a href="BTS.aspx" class="dropdown-item"><i class="fi fi-tr-tax"></i> Business Tax Solutions</a>
-                            <a href="IndianTF.aspx" class="dropdown-item"><i class="fi fi-tr-tax"></i> Indian Tax filing</a>
+                            <a href="ITF.aspx" class="dropdown-item"> Individual Tax Filing</a>
+                            <a href="BTS.aspx" class="dropdown-item"> Business Tax Solutions</a>
+                            <a href="IndianTF.aspx" class="dropdown-item"> Indian Tax filing</a>
                            
                         </div>
                     </div>

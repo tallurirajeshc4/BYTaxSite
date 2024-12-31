@@ -1080,3 +1080,12 @@ img#serviceing {
     
     width: 180% !important;
 }
+a.navbar-brand.ms-4.ms-lg-0 {
+    width: 23% !important;
+}
+.dropdown-item:hover, .dropdown-item:focus {
+    color: #ffffff !important;
+    background-color: #00133f !important;
+    font-weight: 600 !important;
+    font-family: 'Jost' !important;
+}

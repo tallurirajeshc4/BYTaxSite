@@ -225,7 +225,7 @@ h5 {
     text-shadow: 1px 2px 9px #ffffff6b;
 }
 .login-wrapper {
-    background-color: #fff;
+    background: url(assets/img/regbg.jpg);
     border-radius: 6px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -234,6 +234,7 @@ h5 {
     min-height: 400px;
     width: 100%;
     padding: 10px 0px;
+    background-size: cover;
 }
 footer.main-footer.style-two.style-four.home-5 {
     margin-top: 40px;
@@ -273,8 +274,8 @@ body.boxed_wrapper {
                     <div class="login-wrapper">
                         <div class="container">
                             <div class="col-md-12 mb-4">
-                                <h1>Register</h1>
-                                            <p style="color: #164976;">Access to our dashboard</p>
+                                <h1 class="text-dark">Register</h1>
+                                            <p style="color: #164976;" class="text-dark">Access to our dashboard</p>
                             </div>
 
                             <div class="row" align="Center">

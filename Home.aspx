@@ -9,7 +9,7 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
+    <asp:ScriptManager ID="ScriptManager1" runat="server" />
     <!-- Carousel Start -->
     <div class="container-fluid p-0 wow fadeIn" data-wow-delay="0.1s">
         <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -21,11 +21,11 @@
                             <div class="row justify-content-start">
                                 <div class="col-lg-8">
                                     <p
-                                        class="d-inline-block border border-white rounded text-primary fw-semi-bold py-1 px-3 animated slideInDown">
+                                        class="d-inline-block text-dark fw-semi-bold py-1 animated slideInDown">
                                         Welcome to <b>Brigade Tax</b></p>
                                     <h1 class="display-1 mb-4 animated slideInDown">Your! Trusted Tax Filing Partner
                                     </h1>
-                                    <a href="ITF.aspx" class="btn btn-primary py-3 px-5 animated slideInDown">Explore More</a>
+                                    <a href="Services.aspx" class="btn btn-primary py-3 px-5 animated slideInDown">Explore More</a>
                                 </div>
                             </div>
                         </div>
@@ -38,10 +38,10 @@
                             <div class="row justify-content-start">
                                 <div class="col-lg-9">
                                     <p
-                                        class="d-inline-block border border-white rounded text-primary fw-semi-bold py-1 px-3 animated slideInDown">
+                                        class="d-inline-block text-dark fw-semi-bold py-1 animated slideInDown">
                                         Welcome to <b>Brigade Tax</b></p>
                                     <h1 class="display-1 mb-4 animated slideInDown">Simplify Your Taxes,<br /> One Return at a Time</h1>
-                                    <a href="ITF.aspx" class="btn btn-primary py-3 px-5 animated slideInDown">Explore More</a>
+                                    <a href="Services.aspx" class="btn btn-primary py-3 px-5 animated slideInDown">Explore More</a>
                                 </div>
                             </div>
                         </div>
@@ -78,9 +78,9 @@
                 </div>
                 
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <p class="d-inline-block text-primary fw-semi-bold py-1 px-3">About Us</p>
+                    <p class="d-inline-block text-primary fw-semi-bold py-1" style="font-weight: 600 !important;color: #0a1c5c;font-family: 'Jost';font-size: 22px;">About Us</p>
                     
-                    <p class="mb-4 fw-semi-bold" style="font-weight: 600 !important;color: #0a1c5c;font-family: 'Jost';font-size: 18px;">At Brigade Tax, we believe that tax filing shouldn’t be a hassle. Whether you’re an individual taxpayer, a small business owner, or a freelancer, our team of experienced professionals is dedicated to making the process smooth and stress-free. With our expert guidance and personalized service, you can focus on what matters most while we handle your tax needs.
+                    <p class="mb-4 fw-semi-bold">At Brigade Tax, we believe that tax filing shouldn’t be a hassle. Whether you’re an individual taxpayer, a small business owner, or a freelancer, our team of experienced professionals is dedicated to making the process smooth and stress-free. With our expert guidance and personalized service, you can focus on what matters most while we handle your tax needs.
                     </p>
                     <div class="border rounded p-4">
                         <nav>
@@ -161,7 +161,7 @@
     <div class="container-xxl py-5" style="background: linear-gradient(rgb(232 237 255 / 97%), rgb(53 94 252 / 69%)), url(assets/img/1.png);background-position: center;">
         <div class="container">
             <div class="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 1200px; visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
-                <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Why Choosing Us!</p>
+                <p class="d-inline-block text-primary fw-semi-bold py-1 px-3">Why Choose Us!</p>
                     <h1 class="display-5 mb-4">Few Reasons Why People Choosing Us!</h1>
             </div>
             <div class="row gy-5 gx-4">
@@ -430,31 +430,42 @@
         <div class="container pt-5">
             <div class="row justify-content-center">
                 <div class="col-lg-7">
-                    <div class="bg-white border rounded p-4 p-sm-5 wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible;animation-delay: 0.5s;animation-name: fadeInUp;background: url(https://agileforgrowth.com/wp-content/uploads/2014/06/AFG-background.jpg);
-background-size: cover;background-position: center;border: none !important;;margin-bottom: 30px;">
+                    <div class="bg-white border rounded p-4 p-sm-5 wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible;animation-delay: 0.5s;animation-name: fadeInUp;background: linear-gradient(45deg, #3f51b58a, #00bcd438);
+border: none !important;margin-bottom: 30px;">
                     <%--<div class="bg-white border rounded p-4 p-sm-5 wow fadeInUp" data-wow-delay="0.5s">--%>
                         <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                            <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Get In Touch
-                            </p>
+                            <p class="d-inline-block text-dark fw-semi-bold py-1">Get In Touch</p>
                             <h1 class="display-5 mb-5">Request A Call-Back</h1>
 <p class="text-dark">Experience our user-friendly tax filing platform. Want to simplify tax season? Reach out to us for a free consultation or start your process online today.</p>
                         </div>
                         <div class="row g-3">
                             <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <%--<input type="text" class="form-control" id="name" placeholder="Your Name">--%>
+                                    <asp:TextBox runat="server" ID="txtName" class="form-control"  placeholder="Your Name"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="rfvtxtName" runat="server" class="form-control" ControlToValidate="txtName"
+                                                    Display="None" ErrorMessage="Please enter Name" ForeColor="Red"
+                                                    ValidationGroup="Submit" SetFocusOnError="True"></asp:RequiredFieldValidator>
                                     <label for="name">Your Name</label>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <input type="email" class="form-control" id="mail" placeholder="Your Email">
+                                    <%--<input type="email" class="form-control" id="mail" placeholder="Your Email">--%>
+                                    <asp:TextBox runat="server" ID="txtEmail" class="form-control"  placeholder="Your Email"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="rfvtxtEmail" runat="server" ControlToValidate="txtEmail"
+                                                    Display="None" ErrorMessage="Please enter Email" ForeColor="Red"
+                                                    ValidationGroup="Submit" SetFocusOnError="True"></asp:RequiredFieldValidator>
                                     <label for="mail">Your Email</label>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="mobile" placeholder="Your Mobile">
+                                    <%--<input type="text" class="form-control" id="mobile" placeholder="Your Mobile">--%>
+                                    <asp:TextBox runat="server" ID="txtMobileNo" class="form-control"  placeholder="Your Mobile"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="rfvtxtMobileNo" runat="server" ControlToValidate="txtMobileNo"
+                                                    Display="None" ErrorMessage="Please enter Mobile" ForeColor="Red"
+                                                    ValidationGroup="Submit" SetFocusOnError="True"></asp:RequiredFieldValidator>
                                     <label for="mobile">Your Mobile</label>
                                 </div>
                             </div>
@@ -466,15 +477,35 @@ background-size: cover;background-position: center;border: none !important;;marg
                             </div> -->
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a message here" id="message"
-                                        style="height: 100px"></textarea>
+                                    <%--<textarea class="form-control" placeholder="Leave a message here" id="message"
+                                        style="height: 100px"></textarea>--%>
+                                    <asp:TextBox runat="server" ID="txtMessage" class="form-control"  placeholder="Leave a message here" TextMode="MultiLine"
+                                        style="height: 100px"></asp:TextBox>
                                     <label for="message">Message</label>
                                 </div>
                             </div>
                             <div class="col-12 text-center">
-                                <button class="btn btn-primary w-100 py-3" type="submit">Submit Now</button>
+                                <%--<button class="btn btn-primary w-100 py-3" type="submit">Submit Now</button>--%>
+                                <asp:Button runat="server" ID="btnSubmit" ValidationGroup="Submit" OnClick="btnSubmit_Click" Text="Submit Now" class="btn btn-primary w-100 py-3" />
                             </div>
                         </div>
+
+                        <table style="width: 100%">
+                            <tr>
+                                <td>
+                                    <div id="success" runat="server" visible="false" class="alert alert-success m-0" align="Center">
+                                        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a> <strong>Success!</strong>
+                                        <asp:Label ID="lblmsg" runat="server"></asp:Label>
+
+                                    </div>
+                                    <div id="Failure" runat="server" visible="false" class="alert alert-danger m-0" align="Center">
+                                        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a> <strong>Warning!</strong>
+                                        <asp:Label ID="lblmsg0" runat="server"></asp:Label>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+
                     </div>
                 </div>
             </div>

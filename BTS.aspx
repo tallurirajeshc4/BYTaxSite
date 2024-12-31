@@ -88,7 +88,7 @@
                 <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="h-100">
                         <h1 class="display-6 mb-5">We're Here To Assist You With Exploring Protection</h1>
-                        <p class="fs-5 text-primary mb-4">Individual tax filing is the process by which a person reports their income, expenses, deductions, and tax credits to the government, typically for the previous calendar year. In the U.S., individual tax returns are filed with the Internal Revenue Service (IRS) using forms like the 1040. Here's an overview of the individual tax filing process:</p>
+                        <p class="fs-5 text-dark0 mb-4">Individual tax filing is the process by which a person reports their income, expenses, deductions, and tax credits to the government, typically for the previous calendar year. In the U.S., individual tax returns are filed with the Internal Revenue Service (IRS) using forms like the 1040. Here's an overview of the individual tax filing process:</p>
                         <%--<b>Filing Deadline:</b>
                         <ul>
                             
@@ -107,8 +107,8 @@
                 </div>
 
                 <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="position-relative overflow-hidden rounded ps-5 pt-5 h-150" style="min-height: 200px;">
-                        <!-- <img class="position-absolute w-100 h-100" src="img/TFI.jpg" alt="" style="object-fit: cover;"> -->
+                    <div class="position-relative overflow-hidden rounded ps-5 pt-5 h-150" style="min-height: 300px;">
+                         <img class="position-absolute w-100 h-100" src="assets/img/service-1.jpg" alt="" style="object-fit: cover;"> 
                         <div class="position-absolute top-0 start-0 bg-white rounded pe-3 pb-3" style="width: 200px; height: 200px;">
                             <div class="d-flex flex-column justify-content-center text-center bg-primary rounded h-100 p-3">
                                 <h1 class="text-white mb-0">10+</h1>

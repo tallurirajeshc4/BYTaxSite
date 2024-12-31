@@ -34,8 +34,8 @@
      <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                    <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Contact</p>
+                <div class="col-lg-6 wow fadeIn rounded p-4" data-wow-delay="0.1s" style="background: linear-gradient(45deg, #3f51b58a, #00bcd438);">
+                    <p class="d-inline-block text-dark fw-semi-bold py-1">Contact</p>
                     <h1 class="display-5 mb-4">If You Have Any Query, Please Contact Us</h1>
                     <%--<p class="mb-4">The contact form is currently inactive. Get a functional and working contact form
                         with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're
@@ -44,33 +44,64 @@
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <%--<input type="text" class="form-control" id="name" placeholder="Your Name">--%>
+                                    <asp:TextBox runat="server" ID="txtName" class="form-control"  placeholder="Your Name"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="rfvtxtName" runat="server" class="form-control" ControlToValidate="txtName"
+                                                    Display="None" ErrorMessage="Please enter Name" ForeColor="Red"
+                                                    ValidationGroup="Submit" SetFocusOnError="True"></asp:RequiredFieldValidator>
                                     <label for="name">Your Name</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                    <%--<input type="email" class="form-control" id="email" placeholder="Your Email">--%>
+                                    <asp:TextBox runat="server" ID="txtEmail" class="form-control"  placeholder="Your Email"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="rfvtxtEmail" runat="server" ControlToValidate="txtEmail"
+                                                    Display="None" ErrorMessage="Please enter Email" ForeColor="Red"
+                                                    ValidationGroup="Submit" SetFocusOnError="True"></asp:RequiredFieldValidator>
                                     <label for="email">Your Email</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    <%--<input type="text" class="form-control" id="subject" placeholder="Subject">--%>
+                                    <asp:TextBox runat="server" ID="txtMobileNo" class="form-control"  placeholder="Your Mobile"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="rfvtxtMobileNo" runat="server" ControlToValidate="txtMobileNo"
+                                                    Display="None" ErrorMessage="Please enter Mobile" ForeColor="Red"
+                                                    ValidationGroup="Submit" SetFocusOnError="True"></asp:RequiredFieldValidator>
                                     <label for="subject">Mobile Number</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a message here" id="message"
-                                        style="height: 100px"></textarea>
+                                    <%--<textarea class="form-control" placeholder="Leave a message here" id="message"
+                                        style="height: 100px"></textarea>--%>
+                                     <asp:TextBox runat="server" ID="txtMessage" class="form-control"  placeholder="Leave a message here" TextMode="MultiLine"
+                                        style="height: 100px"></asp:TextBox>
                                     <label for="message">Message</label>
                                 </div>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-primary py-3 px-5" type="submit">Send Message</button>
-                            </div>
+                                <%--<button class="btn btn-primary w-100 py-3" type="submit">Submit Now</button>--%>
+                                <asp:Button runat="server" ID="btnSubmit" ValidationGroup="Submit" OnClick="btnSubmit_Click" Text="Submit Now" class="btn btn-primary w-100 py-3" />
+                             </div>
                         </div>
+
+                        <table style="width: 100%">
+                            <tr>
+                                <td>
+                                    <div id="success" runat="server" visible="false" class="alert alert-success m-0" align="Center">
+                                        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a> <strong>Success!</strong>
+                                        <asp:Label ID="lblmsg" runat="server"></asp:Label>
+
+                                    </div>
+                                    <div id="Failure" runat="server" visible="false" class="alert alert-danger m-0" align="Center">
+                                        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a> <strong>Warning!</strong>
+                                        <asp:Label ID="lblmsg0" runat="server"></asp:Label>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
                     </form>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s" style="min-height: 450px;">
