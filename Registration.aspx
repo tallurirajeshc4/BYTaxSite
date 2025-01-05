@@ -271,6 +271,25 @@ body.boxed_wrapper {
         <div class="container">
             <div class="row g-5">
                 <div class="main-wrapper login-body">
+                    <div class="row" align="Center">
+                        <div class="col-md-12 ">
+                            <div id="success" runat="server" visible="false" class="alert alert-success alert-dismissible fade show" align="Center">
+                                <strong>Success!</strong><asp:Label ID="lblmsg" runat="server"></asp:Label>
+                                <asp:Label ID="Label1" runat="server"></asp:Label>
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">×</span></button>
+                            </div>
+                        </div>
+                        <div class="col-md-12 ">
+                            <div id="Failure" runat="server" visible="false" class="alert alert-danger alert-dismissible fade show" align="Center">
+                                <strong>Warning!</strong>
+                                <asp:Label ID="lblmsg0" runat="server"></asp:Label>
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">×</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                     <div class="login-wrapper">
                         <div class="container">
                             <div class="col-md-12 mb-4">
@@ -278,25 +297,7 @@ body.boxed_wrapper {
                                             <p style="color: #164976;" class="text-dark">Access to our dashboard</p>
                             </div>
 
-                            <div class="row" align="Center">
-                                <div class="col-md-12 ">
-                                    <div id="success" runat="server" visible="false" class="alert alert-success alert-dismissible fade show" align="Center">
-                                        <strong>Success!</strong><asp:Label ID="lblmsg" runat="server"></asp:Label>
-                                        <asp:Label ID="Label1" runat="server"></asp:Label>
-                                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                                            <span aria-hidden="true">×</span></button>
-                                    </div>
-                                </div>
-                                <div class="col-md-12 ">
-                                    <div id="Failure" runat="server" visible="false" class="alert alert-danger alert-dismissible fade show" align="Center">
-                                        <strong>Warning!</strong>
-                                        <asp:Label ID="lblmsg0" runat="server"></asp:Label>
-                                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                                            <span aria-hidden="true">×</span>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
+                            
 
                             <div class="row">
                                 
