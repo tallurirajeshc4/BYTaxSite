@@ -180,7 +180,7 @@
                    
                 </div>
             </div>--%>
-            <div class="card">
+            <div class="card" runat="server" id="divFirstLogin" visible="false">
                 <div class="card-header d-flex justify-content-between">
                     <h3 class="card-title mt-1"><b>Please provide all required details which are applicable to you</b></h3>
                     <h4 class="card-title mt-1">
@@ -189,11 +189,21 @@
                     </h4>
                 </div>
                 <div class="card-body">
-
+                    <p>Your registration is complete. We are awaiting any required documents to begin preparing your U.S. tax returns. Once we have everything, we’ll ensure a smooth process. Please feel free to contact us if you have any questions or need further support.</p>
                     <div class="d-flex justify-content-between" style="background: #e0e4fd; padding: 10px 8px 2px; border-radius: 4px; margin-bottom: 10px;">
 
-                        <h4 style="display: flex; align-items: center;">Kalyan Babu, Interested in Starting a &nbsp;<b>Fill Tax Organizer</b>? Get Started</h4>
-                        <h4><a href="../assets/img/Tax_Organizer_2024.docx" download><span class="badge rounded-pill bg-dark text-sm p-2" style="font-size: 16px; color: #fff; background: #033260 !important; display: flex; align-items: center;"><i class="fi fi-tr-bullseye-arrow"></i>&nbsp; Download</span></a></h4>
+                        <h4 style="display: flex; align-items: center;"><asp:Label ID="lblFullName" runat="server"></asp:Label>, Interested in Starting a &nbsp;<b>Fill Tax Organizer</b>? Get Started</h4>
+                        <h4>
+                            <asp:LinkButton 
+                                ID="btnDownload" 
+                                runat="server" 
+                                CssClass="badge rounded-pill bg-dark text-sm p-2" 
+                                OnClick="btnDownload_Click" 
+                                CommandArgument='<%# Eval("LoginUserId") %>' 
+                                style="font-size: 16px; color: #fff; background: #033260 !important; display: flex; align-items: center;">
+                                <i class="fi fi-tr-bullseye-arrow"></i>&nbsp; Download
+                            </asp:LinkButton>
+                        </h4>
 
                     </div>
                     <%--<div class="card item1" style="width: 13rem;">
@@ -207,7 +217,7 @@
                     </div>--%>
                 </div>
             </div>
-            <div class="card">
+            <div class="card" id="divFileUload" runat="server" visible="false">
     <div class="card-header d-flex justify-content-between">
         <h3 class="card-title mt-1"><b>Please upload the applicable details</b></h3>
         <h4 class="card-title mt-1">
@@ -285,7 +295,7 @@
         
     </div>
 </div>
-            <div class="card">
+            <div class="card" id="divTaxFileingStatus" runat="server" visible="false">
                 <div class="card-header d-flex justify-content-between">
                     <h3 class="card-title mt-1"><b>Your Tax Filing Status</b></h3>
                     <h4 class="card-title mt-1">
@@ -293,10 +303,12 @@
 
                     </h4>
                 </div>
-                <div class="card-body align-content-center" style="text-align: center; padding-top: 80px;">
+
+                <div class="card-body align-content-center" style="text-align: center; padding-top: 30px;">
+                    <p>We’ve got your documents! Our team has begun preparing your tax return and is working to ensure everything is accurate and complete. Sit back, relax, and we’ll reach out when your draft is ready for review.</p>
                     <%--<i class="fi fi-ts-notes"></i>--%>
                     <img src="../../assets/admin/img/search.gif" style="width: 10%;" />
-                    <p class="align-content-between">You haven't uploaded any document yet.</p>
+                    <%--<p class="align-content-between">You haven't uploaded any document yet.</p>--%>
                     <%--<asp:Button runat="server" ID="btnlistcler" Text="List of Units" OnClick="btnlistcler_Click" CssClass="mr-3 btn btn-rounded btn-sm btn-approved" Width="120px" />
 
 
