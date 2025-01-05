@@ -37,7 +37,7 @@
                         <h1 class="display-6 mb-5">Audit Support</h1>
                         <p class="fs-5 mb-4">If the IRS comes knocking, we’ll be there to guide you through the process and help you prepare the necessary documentation.</p>
                         <div class="row g-4 mb-4">
-                            <h5>Contact us today for expert ITIN support!</h5>
+                            <h5>Contact us today for expert Audit support!</h5>
                         </div>
                         
                         <div class="border-top mt-4 pt-4">

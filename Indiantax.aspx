@@ -35,15 +35,17 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="h-100">
                         <h1 class="display-6 mb-5">Indian Tax Planning Services</h1>
-                        <p class="fs-5 mb-4">Plan smarter and save more with our Indian tax planning services. At Brigade tax, we specialize in crafting customized tax strategies for individuals and businesses, ensuring compliance with Indian tax regulations while maximizing savings. Whether you need guidance on investments, deductions, or long-term financial planning, our experts are here to help you achieve your financial goals. Contact us today to create a tailored tax plan that works for you.</p>
+                        <p class="fs-5 mb-4">Plan smarter and save more with our Indian tax planning services. At Brigade tax, we specialize in crafting customized tax strategies for individuals and businesses, ensuring compliance with Indian tax regulations while maximizing savings. Whether you need guidance on investments, deductions, or long-term financial planning, our experts are here to help you achieve your financial goals.</p>
                         <div class="row g-4 mb-4">
                             
                         </div>
-                        
+                                                                                                 <div class="row g-4 mb-4">
+    <h5> Contact us today to create a tailored tax plan that works for you.</h5>
+</div>
                         <div class="border-top mt-4 pt-4">
                             <div class="d-flex align-items-center">
                                 <img class="flex-shrink-0 rounded-circle me-3" src="img/profile.jpg" alt="" >
-                                <h5 class="mb-0">Call Us: +1 (302)-231-5550</h5>
+                                <h5 class="mb-0">Call Us: +91 7893835721</h5>
                             </div>
                         </div>
                     </div>

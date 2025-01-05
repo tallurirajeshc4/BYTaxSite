@@ -1,8 +1,8 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Outer.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="BYTAX.Login" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Outer.Master" AutoEventWireup="true" CodeBehind="Forgotpassword.aspx.cs" Inherits="BYTAX.Forgotpassword" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-   <style>
+       <style>
        .container-fluid.fixed-top.px-0.wow.fadeIn {
     background: #fff;
     height: 120px;
@@ -82,8 +82,8 @@
     
     .login-body {
         /* *display: table; */
-        height: 85vh;
-        min-height: 85vh;
+        height: 65vh;
+        min-height: 65vh;
     }
     .login-wrapper {
         width: 100%;
@@ -98,7 +98,7 @@
         display: flex;
         margin: 1.875rem auto;
         max-width: 800px;
-        min-height: 500px;
+        min-height: 350px;
         width: 100%;
     }
     .login-wrapper .loginbox .login-left {
@@ -117,6 +117,8 @@
         justify-content: center;
         padding: 25px;
         width: 400px;
+        border: 1.5px solid #1e84b4;
+    border-radius: 0px 6px 6px 0px;
     }
     .login-wrapper .loginbox .login-right .login-right-wrap {
         max-width: 100%;
@@ -230,82 +232,65 @@
     border-radius: 8px;
 }
     </style>
-     <!-- Contact Start -->
      <div class="container-xxl py-5 mt-5" style="margin-top: 8% !important;">
-        <div class="container">
-            <table style="width: 100%">
-                <tr>
-                    <td>
-                        <div id="success" runat="server" visible="false" class="alert alert-success m-0" align="Center">
-                            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a> <strong>Success!</strong>
-                            <asp:Label ID="lblmsg" runat="server"></asp:Label>
+    <div class="container">
+        <table style="width: 100%">
+            <tr>
+                <td>
+                    <div id="success" runat="server" visible="false" class="alert alert-success m-0" align="Center">
+                        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a> <strong>Success!</strong>
+                        <asp:Label ID="lblmsg" runat="server"></asp:Label>
 
-                        </div>
-                        <div id="Failure" runat="server" visible="false" class="alert alert-danger m-0" align="Center">
-                            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a> <strong>Warning!</strong>
-                            <asp:Label ID="lblmsg0" runat="server"></asp:Label>
-                        </div>
-                    </td>
-                </tr>
-            </table>
-            <div class="row g-5">
-                <div class="main-wrapper login-body">
-                    <div class="login-wrapper">
-                        <div class="container">
-                            <div class="loginbox">
-                                <div class="login-left">
-                                    <h2>Welcome Back!</h2>
-                                    <p>To keep connected with</p>
-                                    <h5>Brigade Tax</h5>
-                                    <%--<p>with your personal info</p>--%>
-                                </div>
-                                <div class="login-right">
-                                    <div class="login-right-wrap">
-                                        <h1>Login</h1>
-                                        <p class="account-subtitle">Access to our dashboard</p>
-                                        
-                                        <!-- Form -->
-                                        
-                                            <div class="form-floating">
-                                                <%--<input type="text" class="form-control" id="name" placeholder="Username">--%>
-                                                <asp:TextBox runat="server" ID="txtUsername" class="form-control"  placeholder="Username"></asp:TextBox>
-                                                <label for="name">Username</label>
-                                            </div>
-                                            <div class="form-floating mt-2 mb-2">
-                                               <%-- <input type="password" class="form-control" id="name" placeholder="Password">--%>
-                                                <asp:TextBox runat="server" ID="txtPswrd" TextMode="Password" class="form-control"  placeholder="Password"></asp:TextBox>
-                                                <label for="name">Password</label>
-                                            </div>
-                                            <!-- <div class="form-group">
-                                                <label>Select Role:</label>
-                                                <select class="form-control" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
-                                                    <option value="">Select...</option>
-                                                    <option value="admin/IndustryRegistration_tabs.html">User Dashboard</option>
-                                                    <option value="admin/Dept/Open_dashboard.html">Nodel Office Dashboard</option>
-                                                   
-                                                    <option value="admin/Dept/Jd_Dashboard.html">J.D. Dashboard</option>
-                                                    <option value="admin/Dept/Dept_Dashboard.html">Department Dashboard</option>
-                                                    <option value="admin/Dept/Committe_Dashboard.html">Committe Dashboard</option>
-                                                  </select>
-                                            </div> -->
-                                            <div class="form-group text-center mb-2">
-                                                <%--<a href="User/PreReg/IndustryRegistration.aspx" target="_blank" class="btn btn-primary" type="submit" style="width: 100%;">Login</a>--%>
-                                                <asp:Button runat="server" ID="btnLogint" OnClick="btnLogint_Click" Text="Login" class="btn btn-primary"  style="width: 100%;" />
-                                            </div>
-                                        
-                                        
-                                        <!-- /Form -->
-                                        
-                                        <div class="text-center forgotpass"><a href="Forgotpassword.aspx">Forgot Password?</a></div>
-                                        <div class="login-or">
-                                            <span class="or-line"></span>
-                                            <span class="span-or">or</span>
+                    </div>
+                    <div id="Failure" runat="server" visible="false" class="alert alert-danger m-0" align="Center">
+                        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a> <strong>Warning!</strong>
+                        <asp:Label ID="lblmsg0" runat="server"></asp:Label>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div class="row g-5">
+            <div class="main-wrapper login-body">
+                <div class="login-wrapper">
+                    <div class="container">
+                        <div class="loginbox">
+                            <div class="login-left">
+                                <h2>Welcome Back!</h2>
+                                <p>To keep connected with</p>
+                                <h5>Brigade Tax</h5>
+                                <%--<p>with your personal info</p>--%>
+                            </div>
+                            <div class="login-right">
+                                <div class="login-right-wrap">
+                                    <h1>Forgot your password</h1>
+                                    <p style="color:darkblue;font-weight:500;opacity:1;text-align:center;">Please enter the email address you'd like your password reset information sent to</p>
+                                    
+                                    <!-- Form -->
+                                    
+                                        <div class="form-floating">
+                                            <%--<input type="text" class="form-control" id="name" placeholder="Username">--%>
+                                            <asp:TextBox runat="server" ID="txtUsername" class="form-control"  placeholder="Enter email address"></asp:TextBox>
+                                            <label for="name">Enter email address</label>
                                         </div>
-                                          
                                         
                                         
-                                        <div class="text-center dont-have">Don’t have an account? <a href="Registration.aspx">Register</a></div>
+                                        <div class="form-group text-center mb-2 mt-4">
+                                            <%--<a href="User/PreReg/IndustryRegistration.aspx" target="_blank" class="btn btn-primary" type="submit" style="width: 100%;">Login</a>--%>
+                                            <asp:Button runat="server" Text="Send Code" class="btn btn-primary"  style="width: 100%;" />
+                                        </div>
+                                    
+                                    
+                                    <!-- /Form -->
+                                    
+                                    <div class="text-center forgotpass"><a href="forgot-password.aspx">&nbsp;</a></div>
+                                    <div class="login-or">
+                                        <span class="or-line"></span>
+                                        <span class="span-or">or</span>
                                     </div>
+                                      
+                                    
+                                    
+                                    <div class="text-center dont-have">Back to <a href="Login.aspx">Login</a></div>
                                 </div>
                             </div>
                         </div>
@@ -313,6 +298,57 @@
                 </div>
             </div>
         </div>
+
+
+        <div class="row g-5">
+    <div class="main-wrapper login-body">
+        <div class="login-wrapper">
+            <div class="container">
+                <div class="loginbox">
+                    <div class="login-left">
+                        <h2>Welcome Back!</h2>
+                        <p>To keep connected with</p>
+                        <h5>Brigade Tax</h5>
+                        <%--<p>with your personal info</p>--%>
+                    </div>
+                    <div class="login-right">
+                        <div class="login-right-wrap">
+                            <h1>Change your password</h1>
+                            <p style="color:darkblue;font-weight:500;opacity:1;text-align:center;">Access to our dashboard</p>
+                            
+                            <!-- Form -->
+                            
+                                <div class="form-floating mb-2">
+                                    <asp:TextBox runat="server" ID="TextBox1" class="form-control"  placeholder="Received Code"></asp:TextBox>
+                                    <label for="name">Received Code</label>
+                                </div>
+                            <div class="form-floating mb-2">
+    <asp:TextBox runat="server" ID="TextBox2" class="form-control"  placeholder="New Password"></asp:TextBox>
+    <label for="name">New Password</label>
+</div>
+                                                        <div class="form-floating">
+    <asp:TextBox runat="server" ID="TextBox3" class="form-control"  placeholder="Confirm Password"></asp:TextBox>
+    <label for="name">Confirm Password</label>
+</div>
+                                
+                                
+                                <div class="form-group text-center mb-2 mt-4">
+                                    <%--<a href="User/PreReg/IndustryRegistration.aspx" target="_blank" class="btn btn-primary" type="submit" style="width: 100%;">Login</a>--%>
+                                    <asp:Button runat="server" Text="Submit" class="btn btn-primary"  style="width: 100%;" />
+                                    
+                                </div>
+                            <sup class="mt-1">If your not recevied the Code, <b>Click Here?</b></sup>
+                            
+                            <!-- /Form -->
+                            
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <!-- Contact End -->
+</div>
+    </div>
+</div>
 </asp:Content>

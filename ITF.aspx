@@ -88,7 +88,7 @@
                 <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="h-100">
                         <h1 class="display-6 mb-5">We're Here To Assist You With Exploring Protection</h1>
-                        <p class="fs-5 text-dark mb-4">Individual tax filing is the process by which a person reports their income, expenses, deductions, and tax credits to the government, typically for the previous calendar year. In the U.S., individual tax returns are filed with the Internal Revenue Service (IRS) using forms like the 1040. Here's an overview of the individual tax filing process:</p>
+                        <p class="fs-5 text-dark mb-4">Filing individual taxes in the U.S. can feel overwhelming, but with our expert tax services, you can file confidently and maximize your tax benefits. We specialize in providing tailored solutions for individuals, families, self-employed professionals, and freelancers, ensuring accuracy, compliance, and peace of mind.</p>
 
 
 
@@ -160,8 +160,8 @@
                         </div>
                         <a href="">
                             <div class="p-3">
-                                <h5 class="">US individual income tax returns</h5>
-                                <span>Launching your business is an exciting journey, and we’re here to simplify the process...</span>
+                                <h5 class="mb-3">US individual income tax returns</h5>
+                                <span>Filing your U.S. individual income tax return doesn’t have to be stressful. Our expert tax professionals are here to make the process seamless and accurate...</span>
                             </div>
                         </a>
                         <br />
@@ -179,7 +179,7 @@
                         <a href="">
                             <div class="p-3">
                                 <h5 class="mb-3">City/Local Returns</h5>
-                                <span>Ensure compliance with the U.S. Department of Treasury’s Beneficial Ownership Information (BOI)  ...</span>
+                                <span>Need help filing your city or local tax returns? Our experts ensure your municipal tax obligations are met accurately and on time...</span>
                             </div>
                             <br />
                         </a>
@@ -199,7 +199,7 @@
                         <a href="">
                             <div class="p-3">
                                 <h5 class="mb-3">FBAR/FATCA</h5>
-                                <span>Stay compliant and stress-free with our comprehensive business tax return filing services...</span>
+                                <span>If you hold foreign financial accounts, understanding FBAR (Foreign Bank Account Reporting) and FATCA (Foreign Account Tax Compliance Act)...</span>
                             </div>
                             <br />
                         </a>
@@ -219,7 +219,7 @@
                         <a href="">
                             <div class="p-3">
                                 <h5 class="mb-3">Extension Filing</h5>
-                                <span>Facing an IRS audit can be daunting, but you don’t have to handle it alone...</span>
+                                <span>Not ready to file your taxes yet? No problem! Our extension filing service...</span>
                             </div>
                             <br />
                         </a>
@@ -239,7 +239,7 @@
                         <a href="">
                             <div class="p-3">
                                 <h5 class="mb-3">Audit Support</h5>
-                                <span>Optimize your financial outcomes with expert tax planning services from Brigade Tax...</span>
+                                <span>If the IRS comes knocking, we’ll be there to guide you through the process...</span>
                             </div>
                             <br />
                         </a>
@@ -259,7 +259,7 @@
                         <a href="">
                             <div class="p-3">
                                 <h5 class="mb-3">Tax planning & Advisory</h5>
-                                <span>Optimize your financial outcomes with expert tax planning services from Brigade Tax...</span>
+                                <span>Maximize your tax savings and minimize your tax liabilities with our expert Tax Planning...</span>
                             </div>
                             <br />
                         </a>
@@ -281,7 +281,7 @@
                         <a href="">
                             <div class="p-3">
                                 <h5 class="mb-3">Expat Tax Return</h5>
-                                <span>Facing an IRS audit can be daunting, but you don’t have to handle it alone...</span>
+                                <span>Living abroad? Our expert Expat Tax Return services ensure you stay compliant with...</span>
                             </div>
                             <br />
                         </a>
@@ -301,7 +301,7 @@
                         <a href="">
                             <div class="p-3">
                                 <h5 class="mb-3">Amendment</h5>
-                                <span>Optimize your financial outcomes with expert tax planning services from Brigade Tax...</span>
+                                <span>Made a mistake on your tax return? Don’t worry—our Amendment...</span>
                             </div>
                             <br />
                         </a>
@@ -320,8 +320,8 @@
                         </div>
                         <a href="">
                             <div class="p-3">
-                                <h5 class="mb-3">ITIN Processing</h5>
-                                <span>Optimize your financial outcomes with expert tax planning services from Brigade Tax...</span>
+                                <h5 class="mb-3">ITIN Assistance</h5>
+                                <span>Need an Individual Taxpayer Identification Number (ITIN)? We’re here to help!...</span>
                             </div>
                             <br />
                         </a>

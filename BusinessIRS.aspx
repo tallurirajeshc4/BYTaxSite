@@ -35,11 +35,13 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="h-100">
                         <h1 class="display-6 mb-5">Business IRS Audit Representation</h1>
-                        <p class="fs-5 mb-4">Facing an IRS audit can be daunting, but you don’t have to handle it alone. At Brigade Tax, we provide expert IRS audit representation for businesses of all sizes. Our experienced professionals act as your advocate, communicating directly with the IRS, reviewing your records, and ensuring your rights are protected throughout the process. We aim to resolve audits efficiently and minimize any potential liabilities. Contact us today for reliable support and peace of mind during an IRS audit.</p>
+                        <p class="fs-5 mb-4">Facing an IRS audit can be daunting, but you don’t have to handle it alone. At Brigade Tax, we provide expert IRS audit representation for businesses of all sizes. Our experienced professionals act as your advocate, communicating directly with the IRS, reviewing your records, and ensuring your rights are protected throughout the process. We aim to resolve audits efficiently and minimize any potential liabilities.</p>
                         <div class="row g-4 mb-4">
                             
                         </div>
-                        
+                         <div class="row g-4 mb-4">
+    <h5>Contact us today for reliable support and peace of mind during an IRS audit.</h5>
+</div>
                         <div class="border-top mt-4 pt-4">
                             <div class="d-flex align-items-center">
                                 <img class="flex-shrink-0 rounded-circle me-3" src="img/profile.jpg" alt="" >

@@ -35,11 +35,13 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="h-100">
                         <h1 class="display-6 mb-5">BOI Reporting Services</h1>
-                        <p class="fs-5 mb-4">Ensure compliance with the U.S. Department of Treasury’s Beneficial Ownership Information (BOI) reporting requirements with our expert assistance. At Brigade Tax, we help businesses accurately prepare and file BOI reports, ensuring timely submission and avoiding penalties. Whether you’re a small business or a corporation, we guide you through the process, safeguarding your compliance with federal regulations. Contact us to simplify your BOI reporting today!</p>
+                        <p class="fs-5 mb-4">Ensure compliance with the U.S. Department of Treasury’s Beneficial Ownership Information (BOI) reporting requirements with our expert assistance. At Brigade Tax, we help businesses accurately prepare and file BOI reports, ensuring timely submission and avoiding penalties. Whether you’re a small business or a corporation, we guide you through the process, safeguarding your compliance with federal regulations.</p>
                         <div class="row g-4 mb-4">
                             
                         </div>
-                        
+                                                                        <div class="row g-4 mb-4">
+    <h5> Contact us to simplify your BOI reporting today!</h5>
+</div>
                         <div class="border-top mt-4 pt-4">
                             <div class="d-flex align-items-center">
                                 <img class="flex-shrink-0 rounded-circle me-3" src="img/profile.jpg" alt="" >

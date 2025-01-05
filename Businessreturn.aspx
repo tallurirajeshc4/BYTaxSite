@@ -35,11 +35,13 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="h-100">
                         <h1 class="display-6 mb-5">Business Return Filing Services</h1>
-                        <p class="fs-5 mb-4">Stay compliant and stress-free with our comprehensive business tax return filing services. At Brigade Tax, we specialize in preparing and filing federal, state, and local tax returns for businesses of all sizes, including LLCs, Corporations, and Partnerships. Our experts ensure accuracy, maximize deductions, and help you meet deadlines to avoid penalties. With personalized support and a deep understanding of tax regulations, we make tax season worry-free. Contact us today to streamline your business tax filing! </p>
+                        <p class="fs-5 mb-4">Stay compliant and stress-free with our comprehensive business tax return filing services. At Brigade Tax, we specialize in preparing and filing federal, state, and local tax returns for businesses of all sizes, including LLCs, Corporations, and Partnerships. Our experts ensure accuracy, maximize deductions, and help you meet deadlines to avoid penalties. With personalized support and a deep understanding of tax regulations, we make tax season worry-free.</p>
                         <div class="row g-4 mb-4">
                             
                         </div>
-                        
+                                                <div class="row g-4 mb-4">
+    <h5> Contact us today to streamline your business tax filing!</h5>
+</div>
                         <div class="border-top mt-4 pt-4">
                             <div class="d-flex align-items-center">
                                 <img class="flex-shrink-0 rounded-circle me-3" src="img/profile.jpg" alt="" >

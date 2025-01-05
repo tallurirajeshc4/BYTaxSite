@@ -88,7 +88,7 @@
                 <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="">
                         <h1 class="display-6">We're Here To Assist You With Exploring Protection</h1>
-                        <p class="fs-5 text-dark">Individual tax filing is the process by which a person reports their income, expenses, deductions, and tax credits to the government, typically for the previous calendar year. In the U.S., individual tax returns are filed with the Internal Revenue Service (IRS) using forms like the 1040. Here's an overview of the individual tax filing process:</p>
+                        <p class="fs-5 text-dark">Navigating the complexities of the Indian tax system can be challenging, but our comprehensive tax filing services make the process seamless and hassle-free. We offer expert assistance for individuals, businesses, and Non-Resident Indians (NRIs) to ensure timely, accurate, and fully compliant tax filings.</p>
 
 
 

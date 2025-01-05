@@ -35,11 +35,13 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="h-100">
                         <h1 class="display-6 mb-5">Tax Planning Services</h1>
-                        <p class="fs-5 mb-4">Optimize your financial outcomes with expert tax planning services from Brigade Tax. Our tailored strategies help businesses and individuals minimize tax liabilities, maximize deductions, and plan for future growth. From identifying tax-saving opportunities to ensuring compliance with the latest tax laws, our proactive approach keeps you ahead. Contact us today to develop a personalized tax plan that aligns with your financial goals.</p>
+                        <p class="fs-5 mb-4">Optimize your financial outcomes with expert tax planning services from Brigade Tax. Our tailored strategies help businesses and individuals minimize tax liabilities, maximize deductions, and plan for future growth. From identifying tax-saving opportunities to ensuring compliance with the latest tax laws, our proactive approach keeps you ahead.</p>
                         <div class="row g-4 mb-4">
                             
                         </div>
-                        
+                                                 <div class="row g-4 mb-4">
+    <h5> Contact us today to develop a personalized tax plan that aligns with your financial goals.</h5>
+</div>
                         <div class="border-top mt-4 pt-4">
                             <div class="d-flex align-items-center">
                                 <img class="flex-shrink-0 rounded-circle me-3" src="img/profile.jpg" alt="" >

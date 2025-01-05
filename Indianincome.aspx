@@ -35,15 +35,17 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="h-100">
                         <h1 class="display-6 mb-5">Indian Income Tax Filing Services</h1>
-                        <p class="fs-5 mb-4">Filing income tax returns in India can be complex, especially for individuals and businesses with diverse financial portfolios. At Brigade Tax, we provide end-to-end assistance for Indian income tax filing, ensuring accuracy and compliance with the latest regulations. Whether you are an NRI, salaried individual, or business owner, our team simplifies the process, helping you maximize deductions and avoid penalties. Contact us to make your Indian income tax filing seamless and hassle-free.</p>
+                        <p class="fs-5 mb-4">Filing income tax returns in India can be complex, especially for individuals and businesses with diverse financial portfolios. At Brigade Tax, we provide end-to-end assistance for Indian income tax filing, ensuring accuracy and compliance with the latest regulations. Whether you are an NRI, salaried individual, or business owner, our team simplifies the process, helping you maximize deductions and avoid penalties. </p>
                         <div class="row g-4 mb-4">
                             
                         </div>
-                        
+                                                                         <div class="row g-4 mb-4">
+    <h5>Contact us to make your Indian income tax filing seamless and hassle-free.</h5>
+</div>
                         <div class="border-top mt-4 pt-4">
                             <div class="d-flex align-items-center">
                                 <img class="flex-shrink-0 rounded-circle me-3" src="img/profile.jpg" alt="" >
-                                <h5 class="mb-0">Call Us: +1 (302)-231-5550</h5>
+                                <h5 class="mb-0">Call Us: +91 7893835721</h5>
                             </div>
                         </div>
                     </div>

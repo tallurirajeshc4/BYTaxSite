@@ -443,7 +443,7 @@ border: none !important;margin-bottom: 30px;">
                                 <div class="form-floating">
                                     <%--<input type="text" class="form-control" id="name" placeholder="Your Name">--%>
                                     <asp:TextBox runat="server" ID="txtName" class="form-control"  placeholder="Your Name"></asp:TextBox>
-                                    <asp:RequiredFieldValidator ID="rfvtxtName" runat="server" class="form-control" ControlToValidate="txtName"
+                                    <asp:RequiredFieldValidator ID="rfvtxtName" runat="server" ControlToValidate="txtName"
                                                     Display="None" ErrorMessage="Please enter Name" ForeColor="Red"
                                                     ValidationGroup="Submit" SetFocusOnError="True"></asp:RequiredFieldValidator>
                                     <label for="name">Your Name</label>

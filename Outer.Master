@@ -87,8 +87,8 @@
                         <a href="Services.aspx" class="nav-link dropdown-toggle"><i class="fi fi-tr-supplier-alt"></i> Services</a>
                         <div class="dropdown-menu border-light m-0">
                             <a href="ITF.aspx" class="dropdown-item"> Individual Tax Filing</a>
-                            <a href="BTS.aspx" class="dropdown-item"> Business Tax Solutions</a>
-                            <a href="IndianTF.aspx" class="dropdown-item"> Indian Tax filing</a>
+                            <a href="BTS.aspx" class="dropdown-item"> Business Tax Filing</a>
+                            <a href="IndianTF.aspx" class="dropdown-item"> Indian Tax Filing</a>
                            
                         </div>
                     </div>
@@ -143,16 +143,14 @@
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-4">Services</h4>
                     <a class="btn btn-link" href="ITF.aspx">Individual Tax Filing</a>
-                    <a class="btn btn-link" href="BTS.aspx">Business Tax Solutions</a>
-                    
-                    <a class="btn btn-link" href="ITF.aspx">Indian Tax filing</a>
-                    
-                </div>
+                    <a class="btn btn-link" href="BTS.aspx">Business Tax Filing</a>
+                    <a class="btn btn-link" href="IndianTF.aspx">Indian Tax Filing</a>
+                    </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-4">Quick Links</h4>
                     <a class="btn btn-link" href="About.aspx">About Us</a>
                     <a class="btn btn-link" href="Contact.aspx">Contact Us</a>
-                    <a class="btn btn-link" href="ITF.aspx">Our Services</a>
+                    <a class="btn btn-link" href="Services.aspx">Our Services</a>
                     <a class="btn btn-link" href="Termsconditions.aspx">Terms & Condition</a>
                     <a class="btn btn-link" href="Privacypolicy.aspx">Privacy Policy</a>
                 </div>

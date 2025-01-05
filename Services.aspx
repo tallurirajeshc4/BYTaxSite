@@ -83,7 +83,7 @@
 
           <div class="post-content d-flex flex-column">
 
-            <h3 class="post-title">Business Tax Solutions</h3>
+            <h3 class="post-title">Business Tax Filing</h3>
               <p>From sole proprietorships to corporations, we offer...</p>
             <%--<div class="meta d-flex align-items-center">
               <div class="d-flex align-items-center">
@@ -115,7 +115,7 @@
 
           <div class="post-content d-flex flex-column">
 
-            <h3 class="post-title">Indian Tax filing</h3>
+            <h3 class="post-title">Indian Tax Filing</h3>
               <p>Our expert Indian tax team will help Indian citizens with the seamless...</p>
             <%--<div class="meta d-flex align-items-center">
               <div class="d-flex align-items-center">

@@ -343,7 +343,7 @@ body.boxed_wrapper {
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <%--<input class="form-control" type="text" placeholder="Conform Password">--%>
-                                            <asp:TextBox runat="server" class="form-control" ID="txtCnfPwd" TextMode="Password"  placeholder="Conform Password" MinLength="8" MaxLength="12"
+                                            <asp:TextBox runat="server" class="form-control" ID="txtCnfPwd" TextMode="Password"  placeholder="Confirm Password" MinLength="8" MaxLength="12"
                                                         AutoComplete="off" AutoCompleteType="None" ToolTip="Password must have minimum 8 length, atleast one upper case letter, one lower case letter, one numer and one special character"></asp:TextBox>
                                         </div>
                                     </div>
@@ -367,13 +367,7 @@ body.boxed_wrapper {
                                     <option value="6">Other Than USA&India</option>
                                               </select>--%>
                                             <asp:DropDownList ID="ddlTimeZone" runat="server" CssClass="form-select">
-                                                <asp:ListItem Text="Open this select menu" Value="" Selected="True" />
-                                                <asp:ListItem Text="PST" Value="1" />
-                                                <asp:ListItem Text="MST" Value="2" />
-                                                <asp:ListItem Text="CST" Value="3" />
-                                                <asp:ListItem Text="EST" Value="4" />
-                                                <asp:ListItem Text="IST" Value="5" />
-                                                <asp:ListItem Text="Other Than USA&India" Value="6" />
+                                                
                                             </asp:DropDownList>
 
                                         </div>
@@ -384,7 +378,7 @@ body.boxed_wrapper {
                             <div class="row">
                                 <div class="col-md-12 d-flex mt-2">
                                 <div class="form-group col-sm-6 col-6">
-                                    <a class="btn btn-danger px-4" href="index.aspx">Home</a>
+                                    <a class="btn btn-danger px-4" href="home.aspx">Home</a>
                                 </div>
                                 <div class="form-group col-sm-6 col-6 text-end">
                                     <%--<a href="login.aspx"><input type="button" value="Submit" class="px-4 btn btn-primary btn-custom" id="Register" autocomplete="off"></a>--%>
