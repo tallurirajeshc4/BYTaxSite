@@ -256,7 +256,7 @@ font-style: italic;font-weight: bold;">"State Single<br /> Window System for<br 
         <!-- /Main Wrapper -->
 
         <!-- jQuery -->
-        <script src="../../assets/admin/js/jquery-3.2.1.min.js"></script>
+        <script src="../../assets/admin/js/jquery-3.2.1.min.js" defer></script>
 
         <!-- Bootstrap Core JS -->
         <script src="../../assets/admin/js/popper.min.js"></script>
@@ -329,7 +329,7 @@ font-style: italic;font-weight: bold;">"State Single<br /> Window System for<br 
                 }
             }
         </script>
-
+        <script src="../assets/js/UserMainDashboard.js" defer></script>
     </form>
 </body>
 </html>

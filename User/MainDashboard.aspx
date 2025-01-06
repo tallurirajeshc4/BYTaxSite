@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/User/user.Master" AutoEventWireup="true" CodeBehind="MainDashboard.aspx.cs" Inherits="ByTaxSite.User.MainDashboard" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    
     <style>
         i.fi.fi-br-file-download {
             vertical-align: middle;
@@ -125,6 +126,7 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    
     <link href="../assets/admin/css/user.css" rel="stylesheet" />
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb d-flex justify-content-between">
@@ -164,24 +166,23 @@
                 </div>
             </div>
 
-            <%--<div class="card" id="divFileUload" runat="server" visible="false">
+            <%--Commented Code--%>
+
+            <div class="card" id="divFileUpload" runat="server">
                 <div class="card-header d-flex justify-content-between">
                     <h3 class="card-title mt-1"><b>Please upload the applicable details</b></h3>
                     <h4 class="card-title mt-1">
                         <label id="Label1" runat="server"></label>
-
                     </h4>
                 </div>
                 <div class="card-body">
+                    <!-- Static File Uploads -->
                     <div class="col-md-12 d-flex" id="padding">
                         <div class="col-md-12">
                             <div class="form-group row">
                                 <label class="col-lg-6 col-form-label">1. Upload Filled Tax Organizer <span class="text-danger">&nbsp;*</span> </label>
                                 <div class="col-lg-3 d-flex">
-                                    <input type="file" class="form-control">
-                                </div>
-                                <div class="col-md-3">
-                                    <button type="button" class="btn btn-rounded btn-dark w-50">Upload</button>
+                                    <asp:FileUpload ID="fuTaxOrganizer" runat="server" CssClass="form-control" />
                                 </div>
                             </div>
                         </div>
@@ -192,40 +193,41 @@
                             <div class="form-group row">
                                 <label class="col-lg-6 col-form-label">2. W2 Copy <span class="text-danger">&nbsp;*</span></label>
                                 <div class="col-lg-3 d-flex">
-                                    <input type="file" class="form-control">
-                                </div>
-                                <div class="col-md-3">
-                                    <button type="button" class="btn btn-rounded btn-dark w-50">Upload</button>
+                                    <asp:FileUpload ID="fuW2Copy" runat="server" CssClass="form-control" />
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
+
+                    <!-- Dynamic File Uploads -->
+                    <div id="dynamicFileUploads" runat="server"></div>
+
+                    <!-- Add More Button -->
                     <div class="col-md-12 d-flex" id="padding">
                         <div class="col-md-12">
                             <div class="form-group row">
-                                <label class="col-lg-6 col-form-label">&nbsp;</label>
-                                <div class="col-lg-3 d-flex">
-                                    &nbsp;
-                                </div>
                                 <div class="col-md-3">
-                                    <button type="button" class="btn btn-rounded btn-primary w-50">Add More</button>
+                                    <button type="button" id="btnAddMore" class="btn btn-rounded btn-primary w-50">Add More</button>
                                 </div>
                             </div>
                         </div>
                     </div>
 
+                    <!-- Submit Button -->
                     <div class="col-md-10 text-right">
-                        <asp:Button ID="btnSubmitUpload" runat="server" Text="Submit" class="btn btn-rounded btn-success btn-lg" padding-right="60px" Width="150px" />
+                        <asp:Button ID="btnSubmitUpload" runat="server" Text="Submit" CssClass="btn btn-rounded btn-success btn-lg" Width="150px" OnClick="btnSubmitUpload_Click" />
                     </div>
                 </div>
-            </div>--%>
+            </div>
 
-            <div class="card" id="divFileUpload" runat="server">
+
+            <%--Commented Code--%>
+
+            <%--<div class="card" id="divFileUpload" runat="server">
                 <div class="card-header d-flex justify-content-between">
                     <h3 class="card-title mt-1"><b>Please upload the applicable details</b></h3>
                     <h4 class="card-title mt-1">
-                        <label id="Label1" runat="server"></label>
+                        <label id="Label11" runat="server"></label>
                     </h4>
                 </div>
                 <div class="card-body">
@@ -245,7 +247,7 @@
                         <asp:Button ID="btnSubmitUpload" runat="server" Text="Submit" CssClass="btn btn-rounded btn-success btn-lg" OnClick="btnSubmitUpload_Click" />
                     </div>
                 </div>
-            </div>
+            </div>--%>
 
 
             <div class="card" id="divTaxFileingStatus" runat="server" visible="false">
