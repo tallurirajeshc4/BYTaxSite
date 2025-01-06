@@ -62,7 +62,7 @@
           </div>
             <div class="col-lg-4 px-5 text-end">
                 <small><a href="Login.aspx" class="btn btn-primary1 py-3 px-5 animated slideInDown"><i class="fi fi-tr-sign-in-alt"></i> Login</a></small>
-                <small class="ms-4"><a href="Registration.aspx" class="btn btn-primary1 py-3 px-5 animated slideInDown"><i class="fi fi-tr-clipboard-user"></i> Register</a></small>
+                <small class=""><a href="Registration.aspx" class="btn btn-primary1 py-3 px-5 animated slideInDown"><i class="fi fi-tr-clipboard-user"></i> Register</a></small>
                
             </div>
         </div>

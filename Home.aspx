@@ -329,7 +329,7 @@
             <div class="post-content d-flex flex-column">
 
               <h3 class="post-title">Individual Tax Filing</h3>
-                <p>Get assistance with your personal tax returns, maximizing your refund...</p>
+                <p>Filing individual taxes in the U.S. can feel overwhelming, but with our...</p>
              <%-- <div class="meta d-flex align-items-center">
                 <div class="d-flex align-items-center">
                   <i class="bi bi-person"></i> <span class="ps-2">Julia Parker</span>
@@ -360,8 +360,8 @@
 
             <div class="post-content d-flex flex-column">
 
-              <h3 class="post-title">Business Tax Solutions</h3>
-                <p>From sole proprietorships to corporations, we offer...</p>
+              <h3 class="post-title">Business Tax Filing</h3>
+                <p>Managing business taxes in the U.S. can be complex, but with our...</p>
               <%--<div class="meta d-flex align-items-center">
                 <div class="d-flex align-items-center">
                   <i class="bi bi-person"></i> <span class="ps-2">Mario Douglas</span>
@@ -392,8 +392,8 @@
 
             <div class="post-content d-flex flex-column">
 
-              <h3 class="post-title">Indian Tax filing</h3>
-                <p>Our expert Indian tax team will help Indian citizens with the seamless...</p>
+              <h3 class="post-title">Indian Tax Filing</h3>
+                <p>Navigating the complexities of the Indian tax system...</p>
               <%--<div class="meta d-flex align-items-center">
                 <div class="d-flex align-items-center">
                   <i class="bi bi-person"></i> <span class="ps-2">Lisa Hunter</span>

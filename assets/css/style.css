@@ -1089,3 +1089,23 @@ a.navbar-brand.ms-4.ms-lg-0 {
     font-weight: 600 !important;
     font-family: 'Jost' !important;
 }
+@media only screen and (max-width: 600px) {
+    .col-lg-4.px-5.text-end {
+        margin-right: -38px;
+    }
+    .header-opening-time.text-lg-right.text-center {
+        margin-left: 95%;
+        width: 38%;
+        display: flow;
+        font-size: 12px;
+    }
+    .container-fluid.fixed-top.px-0.wow.fadeIn a {
+        font-size: 12px;
+    }
+    h1.display-1.mb-4.slideInDown {
+        font-size: 38px;
+    }
+    .login-left {
+        display: none !important;
+    }
+}

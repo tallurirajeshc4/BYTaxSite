@@ -135,51 +135,6 @@
     </nav>
     <div class="page-wrapper griddesignmulticount">
         <div class="content container-fluid">
-           <%--<div class="card">
-                <div class="card-header d-flex justify-content-between">
-                    <h3 class="card-title mt-1"><b>Your Tax Filing Status</b></h3>
-                    <h4 class="card-title mt-1">
-                        <label id="Label1" runat="server"></label>
-
-                    </h4>
-                </div>
-                <div class="card-body align-content-center" style="text-align: center;">
-                   
-                    <div class="progress-container">
-                        <ul id="progressbar">
-                            <li class="active"
-                                id="step1">
-                                <strong>Registered</strong>
-                            </li>
-                            <li id="step2">
-                                <strong>Documents <br />Uploaded</strong>
-                            </li>
-                            <li id="step3">
-                                <strong>Walked Out</strong>
-                            </li>
-                            <li id="step4">
-                                <strong>Tax Return Preparation</strong>
-                            </li>
-                            <li id="step5">
-                                <strong>Draft Uploaded/Awaiting Payment</strong>
-                            </li>
-                            <li id="step6">
-                                <strong>Paid</strong>
-                            </li>
-                            <li id="step7">
-                                <strong>Under Filing <br />Process</strong>
-                            </li>
-                            <li id="step8">
-                                <strong>Completed</strong>
-                            </li>
-                        </ul>
-                        <div class="progress">
-                            <div class="progress-bar"></div>
-                        </div>
-                    </div>
-                   
-                </div>
-            </div>--%>
             <div class="card" runat="server" id="divFirstLogin" visible="false">
                 <div class="card-header d-flex justify-content-between">
                     <h3 class="card-title mt-1"><b>Please provide all required details which are applicable to you</b></h3>
@@ -206,95 +161,93 @@
                         </h4>
 
                     </div>
-                    <%--<div class="card item1" style="width: 13rem;">
-                        <div class="card-body item">
-                            <h5 class="card-title text-black"><a href="#" style="color: #000;">Future</a></h5>
-                            <h6 class="card-subtitle mb-2 text-muted">UNIT ID : 17546577</h6>
-                            <p class="card-subtitle mb-2 text-muted">Jun 5, 2024 11:51:15 AM</p>
-                            <a href="#" class="card-link" style="color: darkblue">Draft</a>
-
-                        </div>
-                    </div>--%>
                 </div>
             </div>
-            <div class="card" id="divFileUload" runat="server" visible="false">
-    <div class="card-header d-flex justify-content-between">
-        <h3 class="card-title mt-1"><b>Please upload the applicable details</b></h3>
-        <h4 class="card-title mt-1">
-            <label id="Label1" runat="server"></label>
 
-        </h4>
-    </div>
-    <div class="card-body">
-        <div class="col-md-12 d-flex" id="padding">
-										<div class="col-md-12">
-											<div class="form-group row">
-												<label class="col-lg-6 col-form-label">1. Upload Fill Tax Organizer <span class="text-danger">&nbsp;*</span> </label>
-												<div class="col-lg-3 d-flex">
-													<input type="file" class="form-control"> 
-												</div>
-                                                <div class="col-md-3">
-                                                    <button type="button" class="btn btn-rounded btn-dark w-50">Upload</button>
-                                                </div>
-											</div>
-										</div>
-         
+            <%--<div class="card" id="divFileUload" runat="server" visible="false">
+                <div class="card-header d-flex justify-content-between">
+                    <h3 class="card-title mt-1"><b>Please upload the applicable details</b></h3>
+                    <h4 class="card-title mt-1">
+                        <label id="Label1" runat="server"></label>
 
-									</div>
-        <div class="col-md-12 d-flex" id="padding">
-								<div class="col-md-12">
-									<div class="form-group row">
-										<label class="col-lg-6 col-form-label">2. Upload Pan Card <span class="text-danger">&nbsp;*</span></label>
-										<div class="col-lg-3 d-flex">
-				<input type="file" class="form-control"> 
-</div>
-<div class="col-md-3">
-    <button type="button" class="btn btn-rounded btn-dark w-50">Upload</button>
-</div>
-									</div>
-								</div>
- 
+                    </h4>
+                </div>
+                <div class="card-body">
+                    <div class="col-md-12 d-flex" id="padding">
+                        <div class="col-md-12">
+                            <div class="form-group row">
+                                <label class="col-lg-6 col-form-label">1. Upload Filled Tax Organizer <span class="text-danger">&nbsp;*</span> </label>
+                                <div class="col-lg-3 d-flex">
+                                    <input type="file" class="form-control">
+                                </div>
+                                <div class="col-md-3">
+                                    <button type="button" class="btn btn-rounded btn-dark w-50">Upload</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-							</div>
-                <div class="col-md-12 d-flex" id="padding">
-								<div class="col-md-12">
-									<div class="form-group row">
-										<label class="col-lg-6 col-form-label">3. Upload AAdhaar Card <span class="text-danger">&nbsp;*</span></label>
-										<div class="col-lg-3 d-flex">
-				<input type="file" class="form-control"> 
-</div>
-<div class="col-md-3">
-    <button type="button" class="btn btn-rounded btn-dark w-50">Upload</button>
-</div>
-									</div>
-								</div>
- 
+                    <div class="col-md-12 d-flex" id="padding">
+                        <div class="col-md-12">
+                            <div class="form-group row">
+                                <label class="col-lg-6 col-form-label">2. W2 Copy <span class="text-danger">&nbsp;*</span></label>
+                                <div class="col-lg-3 d-flex">
+                                    <input type="file" class="form-control">
+                                </div>
+                                <div class="col-md-3">
+                                    <button type="button" class="btn btn-rounded btn-dark w-50">Upload</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-12 d-flex" id="padding">
+                        <div class="col-md-12">
+                            <div class="form-group row">
+                                <label class="col-lg-6 col-form-label">&nbsp;</label>
+                                <div class="col-lg-3 d-flex">
+                                    &nbsp;
+                                </div>
+                                <div class="col-md-3">
+                                    <button type="button" class="btn btn-rounded btn-primary w-50">Add More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-							</div>
-                        <div class="col-md-12 d-flex" id="padding">
-								<div class="col-md-12">
-									<div class="form-group row">
-										<label class="col-lg-6 col-form-label">&nbsp;</label>
-										<div class="col-lg-3 d-flex">
-				&nbsp;
-</div>
-<div class="col-md-3">
-    <button type="button" class="btn btn-rounded btn-primary w-50">Add More</button>
-</div>
-									</div>
-								</div>
- 
+                    <div class="col-md-10 text-right">
+                        <asp:Button ID="btnSubmitUpload" runat="server" Text="Submit" class="btn btn-rounded btn-success btn-lg" padding-right="60px" Width="150px" />
+                    </div>
+                </div>
+            </div>--%>
 
-							</div>
-       <div class="col-md-10 text-right">
-    <%--<asp:Button Text="Previous" runat="server" ID="aa" class="btn btn-rounded btn-info btn-lg" Width="150px" />--%>
-    <asp:Button ID="ss" runat="server" Text="Submit" class="btn btn-rounded btn-success btn-lg" padding-right="60px" Width="150px" />
-    <%--<asp:Button ID="ww" Text="Next" runat="server" class="btn btn-rounded btn-info btn-lg" Width="150px" />--%>
+            <div class="card" id="divFileUpload" runat="server">
+                <div class="card-header d-flex justify-content-between">
+                    <h3 class="card-title mt-1"><b>Please upload the applicable details</b></h3>
+                    <h4 class="card-title mt-1">
+                        <label id="Label1" runat="server"></label>
+                    </h4>
+                </div>
+                <div class="card-body">
+                    <asp:PlaceHolder ID="phFileUploads" runat="server"></asp:PlaceHolder>
+                    <div class="col-md-12 d-flex" id="padding">
+                        <div class="col-md-12">
+                            <div class="form-group row">
+                                <label class="col-lg-6 col-form-label">&nbsp;</label>
+                                <div class="col-lg-3 d-flex">&nbsp;</div>
+                                <div class="col-md-3">
+                                    <asp:Button ID="btnAddMore" runat="server" Text="Add More" CssClass="btn btn-rounded btn-primary w-50" OnClick="btnAddMore_Click" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-10 text-right">
+                        <asp:Button ID="btnSubmitUpload" runat="server" Text="Submit" CssClass="btn btn-rounded btn-success btn-lg" OnClick="btnSubmitUpload_Click" />
+                    </div>
+                </div>
+            </div>
 
-</div>
-        
-    </div>
-</div>
+
             <div class="card" id="divTaxFileingStatus" runat="server" visible="false">
                 <div class="card-header d-flex justify-content-between">
                     <h3 class="card-title mt-1"><b>Your Tax Filing Status</b></h3>

@@ -58,7 +58,7 @@
                                     <label for="email">Your Email</label>
                                 </div>
                             </div>
-                            <div class="col-4">
+                            <div class="col-md-4">
                                 <div class="form-floating">
                                     <input type="text" class="form-control" id="subject" placeholder="Subject">
                                     <label for="subject">Mobile Number</label>
@@ -76,7 +76,7 @@
                                     <label for="email">Referral Email</label>
                                 </div>
                             </div>
-                            <div class="col-4">
+                            <div class="col-md-4">
                                 <div class="form-floating">
                                     <input type="text" class="form-control" id="subject" placeholder="Subject">
                                     <label for="subject">Referral Mobile Number</label>
