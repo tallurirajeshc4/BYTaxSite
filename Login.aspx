@@ -225,7 +225,7 @@
         background-position: middle;
     }
     nav.navbar.navbar-expand-lg.navbar-light.py-lg-0.px-lg-5.wow.fadeIn {
-    padding: 14px 50px !important;
+    
     border-bottom: 1px solid #dbdbdb;
     border-radius: 8px;
 }

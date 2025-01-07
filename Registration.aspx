@@ -9,7 +9,7 @@
     border-bottom: 0px solid #011a41;
 }
         nav.navbar.navbar-expand-lg.navbar-light.py-lg-0.px-lg-5.wow.fadeIn {
-    padding: 14px 50px !important;
+    
     *border-bottom: 1px solid #dbdbdb;
     border-radius: 8px;
 }
@@ -85,11 +85,11 @@ section.about-style-four .single-item.wow.fadeInLeft.animated, section.about-sty
 }
 /* login css */
 
-.login-body {
-    /* *display: table; */
+/*.login-body {
+    
     height: 55vh;
     min-height: 55vh;
-}
+}*/
 .login-wrapper {
 	width: 100%;
 	height: 100%;
@@ -231,7 +231,8 @@ h5 {
     display: flex;
     margin: 0.175rem auto;
     max-width: 800px;
-    min-height: 400px;
+    *min-height: 400px;
+    height:100%;
     width: 100%;
     padding: 10px 0px;
     background-size: cover;
@@ -263,6 +264,9 @@ body.boxed_wrapper {
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     margin: 8px 0px;
 }
+div#ContentPlaceHolder1_Failure {
+    display: none;
+}
     </style>
 
     <!-- Contact Start -->
@@ -272,7 +276,7 @@ body.boxed_wrapper {
             <div class="row g-5">
                 <div class="main-wrapper login-body">
                     <div class="row" align="Center">
-                        <div class="col-md-12 ">
+                        <div class="col-md-12">
                             <div id="success" runat="server" visible="false" class="alert alert-success alert-dismissible fade show" align="Center">
                                 <strong>Success!</strong><asp:Label ID="lblmsg" runat="server"></asp:Label>
                                 <asp:Label ID="Label1" runat="server"></asp:Label>
@@ -280,7 +284,7 @@ body.boxed_wrapper {
                                     <span aria-hidden="true">×</span></button>
                             </div>
                         </div>
-                        <div class="col-md-12 ">
+                        <div class="col-md-12">
                             <div id="Failure" runat="server" visible="false" class="alert alert-danger alert-dismissible fade show" align="Center">
                                 <strong>Warning!</strong>
                                 <asp:Label ID="lblmsg0" runat="server"></asp:Label>
@@ -301,7 +305,7 @@ body.boxed_wrapper {
 
                             <div class="row">
                                 
-                            <div class="col-md-12" style="display: flex;">
+                            
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <%--<input class="form-control" type="text" placeholder="First Name">--%>
@@ -314,10 +318,10 @@ body.boxed_wrapper {
                                         <asp:TextBox runat="server" class="form-control" ID="txtLastName"  placeholder="Last Name" onkeypress="return Names(this)"></asp:TextBox>
                                     </div>
                                 </div>
-                            </div>
+                            
                             </div>
                             <div class="row">
-                                <div class="col-md-12" style="display: flex;">
+                                
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <%--<input class="form-control" type="text" placeholder="Mobile No">--%>
@@ -330,10 +334,10 @@ body.boxed_wrapper {
                                         <asp:TextBox runat="server" class="form-control" ID="txtEmail" TextMode="Email"  placeholder="Email Id" AutoCompleteType="None" AutoComplete="Off" onkeypress="return validateEmailInput(event)" Onblur="validateEmail(this);"></asp:TextBox>
                                     </div>
                                 </div>
-                                </div>
+                                
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-12" style="display: flex;">
+                                    
                                     <div class="col-md-6">
                                         <div class="form-group">
                                            <%-- <input class="form-control" type="text" placeholder="Create Password">--%>
@@ -348,13 +352,13 @@ body.boxed_wrapper {
                                                         AutoComplete="off" AutoCompleteType="None" ToolTip="Password must have minimum 8 length, atleast one upper case letter, one lower case letter, one numer and one special character"></asp:TextBox>
                                         </div>
                                     </div>
-                                    </div>
+                                    
                                     </div>
                                     <div class="row">
-                                        <div class="col-md-12" style="display: flex;">
+                                        
                                     
                                        
-                                        <div class="col-md-3">
+                                        <div class="col-md-3 col-sm-12">
                                             <label>Select Time Zone *</label>
                                         </div>
                                         <div class="col-md-4">
@@ -373,7 +377,7 @@ body.boxed_wrapper {
 
                                         </div>
                               
-                                </div>
+                                
                                 </div>
                                 
                             <div class="row">

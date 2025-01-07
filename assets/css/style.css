@@ -1091,7 +1091,7 @@ a.navbar-brand.ms-4.ms-lg-0 {
 }
 @media only screen and (max-width: 600px) {
     .col-lg-4.px-5.text-end {
-        margin-right: -38px;
+        margin-right: -42px;
     }
     .header-opening-time.text-lg-right.text-center {
         margin-left: 95%;
@@ -1108,4 +1108,26 @@ a.navbar-brand.ms-4.ms-lg-0 {
     .login-left {
         display: none !important;
     }
+    .main-wrapper.login-body {
+        margin-top: 93px;
+    }
+    a.btn.btn-primary1.py-3.px-5.slideInDown {
+        padding: 4px 8px 4px 8px !important;
+    }
+    .container-fluid.fixed-top.px-0.wow.fadeIn {
+        height: 100px !important;
+    }
+    nav.navbar.navbar-expand-lg.navbar-light.py-lg-0.px-lg-5.wow.fadeIn {
+        padding: 0px 8px !important;
+    }
+    a.navbar-brand.ms-4.ms-lg-0 img {
+        width: 115% !important;
+    }
+    .container-fluid.page-header.mb-5.wow.fadeIn {
+        display: none;
+    }
+    div#refers {
+        margin-top: 120px;
+    }
 }
+

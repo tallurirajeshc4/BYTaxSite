@@ -91,6 +91,76 @@
         i.fi.fi-br-lock {
             margin-right: 10px;
         }
+
+
+       /* Basic Reset */
+
+.mobile-menu {
+  position: relative;
+}
+
+.menu-toggle {
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.menu {
+  display: none; /* Hidden by default */
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background-color: #fff;
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  transform: translateY(-10px);
+  opacity: 0;
+  z-index: 1000;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid #ddd;
+}
+
+.menu a {
+  display: block;
+  padding: 4px 0px !important;
+    color: #333 !important;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color: #f5f5f5;
+}
+
+.menu.open {
+  display: block;
+  transform: translateY(0);
+  opacity: 1;
+}
+
+@media (min-width: 768px) {
+  .menu {
+    display: block; /* Desktop view */
+    position: static;
+    transform: none;
+    box-shadow: none;
+    opacity: 1;
+  }
+  .menu-toggle {
+    display: none; /* Hide toggle on desktop */
+  }
+}
+
     </style>
 </head>
 <body>
@@ -109,7 +179,7 @@
                 </div>
                 <%--<img src="../../assets/admin/img/NIS.png" style="width:10%;margin-left: 8%;" class="mt-1" />
                 <img src="../../assets/admin/img/ss.gif" style="width:10%;margin-left: 8%;" class="mt-1" />--%>
-               <p style="line-height: 30px;color: #190966;font-style: normal;font-weight: bold;position: fixed;left: 54% !important;background: #fff;height: 33px;margin: 10px 0px;padding: 2px 13px;border-radius: 29px;box-shadow: 1px 4px 0px #ccc;"><a class="text-black" href="../refer.aspx" target="_blank">"Refer &amp; Earn"</a></p>
+               <p style="line-height: 30px;color: #190966;font-style: normal;font-weight: bold;position: fixed;left: 44% !important;background: #fff;height: 33px;margin: 10px 0px;padding: 2px 13px;border-radius: 29px;box-shadow: 1px 4px 0px #ccc;"><a class="text-black" href="../refer.aspx" target="_blank">"Refer &amp; Earn"</a></p>
                 <!-- /Logo -->
                 <!-- Mobile Menu Toggle -->
                 <a class="mobile_btn" id="mobile_btn">
@@ -247,6 +317,24 @@ font-style: italic;font-weight: bold;">"State Single<br /> Window System for<br 
                     </nav>
                 </div>
             </div>
+
+
+            <div class="mobile-menu">
+  <button class="menu-toggle" aria-expanded="false" aria-label="Toggle navigation" type="button">☰</button>
+  <nav class="menu" aria-hidden="true">
+    <ul>
+      <li><asp:LinkButton ID="LinkButton2" runat="server" OnClick="linkuserdshbrd_Click" class="nav-link"><i class="fi fi-br-dashboard"></i> Dashboard <span class="sr-only">(current)</span></asp:LinkButton></li>
+      <li><asp:LinkButton ID="LinkButton3" runat="server" OnClick="linkIndReg_Click" class="nav-link"><i class="fi fi-br-file-edit"></i> Documents <span class="sr-only">(current)</span></asp:LinkButton></li>
+      <li>  <asp:LinkButton ID="LinkButton5" runat="server" OnClick="linkCFEDashbrd_Click" class="nav-link"><i class="fi fi-br-form"></i> Tax Returns </asp:LinkButton></li>
+      <li><asp:LinkButton ID="LinkButton4" runat="server" OnClick="LinkCFODashBoard_Click" class="nav-link"><i class="fi fi-br-operation"></i> Tax Invoice </asp:LinkButton></li>
+      <li><a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fi fi-br-person-circle-question"></i> My Referrals
+</a></li>
+    </ul>
+  </nav>
+</div>
+
+
+
             <div>
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 </asp:ContentPlaceHolder>
@@ -256,7 +344,7 @@ font-style: italic;font-weight: bold;">"State Single<br /> Window System for<br 
         <!-- /Main Wrapper -->
 
         <!-- jQuery -->
-        <script src="../../assets/admin/js/jquery-3.2.1.min.js" defer></script>
+        <script src="../../assets/admin/js/jquery-3.2.1.min.js"></script>
 
         <!-- Bootstrap Core JS -->
         <script src="../../assets/admin/js/popper.min.js"></script>
@@ -328,6 +416,25 @@ font-style: italic;font-weight: bold;">"State Single<br /> Window System for<br 
                     event.preventDefault();
                 }
             }
+        </script>
+        <script>
+            const menuToggle = document.querySelector('.menu-toggle');
+            const menu = document.querySelector('.menu');
+
+            menuToggle.addEventListener('click', (event) => {
+                event.preventDefault(); // Prevent any default behavior
+
+                const isOpen = menu.classList.contains('open');
+
+                // Toggle menu visibility
+                menu.classList.toggle('open', !isOpen);
+
+                // Update accessibility attributes
+                menuToggle.setAttribute('aria-expanded', !isOpen);
+                menu.setAttribute('aria-hidden', isOpen);
+            });
+
+
         </script>
         <script src="../assets/js/UserMainDashboard.js" defer></script>
     </form>

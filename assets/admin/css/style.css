@@ -6122,4 +6122,44 @@ table#ContentPlaceHolder1_gvPreRegApproved input[type=submit]:disabled, table#Co
 	border: none;
 }
 
+.mobile-menu {
+	display: none;
+}
 
+@media only screen and (max-width: 600px) {
+
+	.mobile-menu {
+		margin-top: 15px;
+		display: block !important;
+		position: fixed !important;
+		top: -13px;
+		z-index: 9999;
+		left: 0;
+	}
+
+	.mainmenu {
+		display: none;
+	}
+	ol.breadcrumb.d-flex.justify-content-between {
+		margin-top: 60px;
+	}
+	ul.nav.user-menu {
+		display: none;
+	}
+	a#mobile_btn {
+		display: none;
+	}
+	.header .header-left .logo {
+		display: flex !important;
+		width: 29%;
+		top:7px;
+		position: fixed !important;
+		margin-left:40px;
+	}
+	nav.menu.open {
+		width: 254%;
+		top: 57px;
+		left: 0px;
+		border-radius: 0px 0px 30px 30px;
+	}
+}

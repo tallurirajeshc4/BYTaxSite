@@ -249,7 +249,8 @@
                 </td>
             </tr>
         </table>
-        <div class="row g-5">
+
+        <div class="row g-5" runat="server" id="divSendCode">
             <div class="main-wrapper login-body">
                 <div class="login-wrapper">
                     <div class="container">
@@ -299,8 +300,7 @@
             </div>
         </div>
 
-
-        <div class="row g-5">
+        <div class="row g-5"  runat="server" id="divUpdatePassword" visible="false">
     <div class="main-wrapper login-body">
         <div class="login-wrapper">
             <div class="container">
