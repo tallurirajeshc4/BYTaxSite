@@ -6162,4 +6162,7 @@ table#ContentPlaceHolder1_gvPreRegApproved input[type=submit]:disabled, table#Co
 		left: 0px;
 		border-radius: 0px 0px 30px 30px;
 	}
+	#mobileTax {
+		display: none !important;
+	}
 }

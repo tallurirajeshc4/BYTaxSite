@@ -149,7 +149,7 @@
                     <p>Your registration is complete. We are awaiting any required documents to begin preparing your U.S. tax returns. Once we have everything, we’ll ensure a smooth process. Please feel free to contact us if you have any questions or need further support.</p>
                     <div class="d-flex justify-content-between" style="background: #e0e4fd; padding: 10px 8px 2px; border-radius: 4px; margin-bottom: 10px;">
 
-                        <h4 style="display: flex; align-items: center;"><asp:Label ID="lblFullName" runat="server"></asp:Label>, Interested in Starting a &nbsp;<b>Fill Tax Organizer</b>? Get Started</h4>
+                        <h4 id="mobileTax" style="display: flex; align-items: center;"><asp:Label ID="lblFullName" runat="server"></asp:Label>, Interested in Starting a &nbsp;<b>Fill Tax Organizer</b>? Get Started</h4>
                         <h4>
                             <asp:LinkButton 
                                 ID="btnDownload" 
