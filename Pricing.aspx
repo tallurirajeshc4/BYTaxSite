@@ -88,7 +88,7 @@
     </div>
     <!-- Page Header End -->
     <div class="container-xxl" style="background: url(assets/img/pricingbg.jpg);background-size: contain;padding: 45px 0px;">
-        <div class="container">
+        <div class="container" id="mobiletopview">
     <div class="row">
         
                 <header class="pricing-table-header">

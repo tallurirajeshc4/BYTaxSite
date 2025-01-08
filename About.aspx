@@ -31,7 +31,7 @@
     <!-- Page Header End -->
      <!-- About Start -->
     <div style="background: url(assets/img/aboutbg.jpg);background-size: contain;">
-     <div class="container-xxl py-5">
+     <div class="container-xxl py-5" id="mobiletopview">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -113,7 +113,70 @@
             </div>
             <h4>Our Core Values:</h4>
 
-            <div class="row">
+
+            <div class="container-xxl py-5" style="background: url(assets/img/bgwhite.jpg);">
+    <div class="container">
+        
+        <div class="border rounded p-3 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="row g-4">
+                <div class="col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="h-100">
+                        <div class="d-flex">
+                            
+                            <div class="">
+                                <h4><i class="fi fi-tr-puzzle-piece-integration"></i> Integrity</h4>
+                                <span>We uphold the highest ethical standards in our work, ensuring our clients can trust us to act in their best interests.</span>
+                            </div>
+                            <div class="border-end d-none d-lg-block"></div>
+                        </div>
+                        <div class="border-bottom mt-4 d-block d-lg-none"></div>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="h-100">
+                        <div class="d-flex">
+                           
+                            <div class="">
+                                <h4><i class="fi fi-tr-bulb"></i> Innovation</h4>
+                                 <span>We embrace technology and creative solutions to enhance the tax filing experience, constantly looking for ways to improve and streamline our services.</span>
+                            </div>
+                            <div class="border-end d-none d-lg-block"></div>
+                        </div>
+                        <div class="border-bottom mt-4 d-block d-lg-none"></div>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="h-100">
+                        <div class="d-flex">
+                           
+                            <div class="">
+                                 <h4><i class="fi fi-tr-user-skill-gear"></i> Adaptability</h4>
+                                <span>We stay agile and responsive to the ever-changing tax landscape, ensuring our services remain relevant and effective for our clients.</span>
+                            </div>
+                             <div class="border-end d-none d-lg-block"></div>
+                        </div>
+                        <div class="border-bottom mt-4 d-block d-lg-none"></div>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+    <div class="h-100">
+        <div class="d-flex">
+            
+            <div class="">
+                 <h4><i class="fi fi-tr-process"></i> Empowerment</h4>
+                <span>We educate our clients about tax matters, ensuring they are well-informed and confident in their financial choices.</span>
+            </div>
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+            <div class="row" style="visibility:hidden;display:none;">
                 <div class="col-md-12 d-flex">
                     <div class="col-md-3 wow fadeIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
                         <div class="boxitem">

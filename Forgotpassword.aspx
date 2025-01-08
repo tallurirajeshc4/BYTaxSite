@@ -227,7 +227,7 @@
         background-position: middle;
     }
     nav.navbar.navbar-expand-lg.navbar-light.py-lg-0.px-lg-5.wow.fadeIn {
-    padding: 14px 50px !important;
+    
     border-bottom: 1px solid #dbdbdb;
     border-radius: 8px;
 }
@@ -250,8 +250,8 @@
             </tr>
         </table>
 
-        <div class="row g-5" runat="server" id="divSendCode">
-            <div class="main-wrapper login-body">
+        <div class="row" runat="server" id="divSendCode">
+            <div class="main-wrapper login-body" id="mobileviewlogin">
                 <div class="login-wrapper">
                     <div class="container">
                         <div class="loginbox">

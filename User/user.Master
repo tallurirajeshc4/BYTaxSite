@@ -287,7 +287,7 @@ font-style: italic;font-weight: bold;">"State Single<br /> Window System for<br 
                                 
                                
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fi fi-br-person-circle-question"></i> My Referrals
+                                    <a class="nav-link" href="Myreferals.aspx" id="myrefer" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fi fi-br-person-circle-question"></i> My Referrals
                                     </a>
                                     <%--<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 
@@ -323,11 +323,11 @@ font-style: italic;font-weight: bold;">"State Single<br /> Window System for<br 
   <button class="menu-toggle" aria-expanded="false" aria-label="Toggle navigation" type="button">☰</button>
   <nav class="menu" aria-hidden="true">
     <ul>
-      <li><asp:LinkButton ID="LinkButton2" runat="server" OnClick="linkuserdshbrd_Click" class="nav-link"><i class="fi fi-br-dashboard"></i> Dashboard <span class="sr-only">(current)</span></asp:LinkButton></li>
-      <li><asp:LinkButton ID="LinkButton3" runat="server" OnClick="linkIndReg_Click" class="nav-link"><i class="fi fi-br-file-edit"></i> Documents <span class="sr-only">(current)</span></asp:LinkButton></li>
-      <li>  <asp:LinkButton ID="LinkButton5" runat="server" OnClick="linkCFEDashbrd_Click" class="nav-link"><i class="fi fi-br-form"></i> Tax Returns </asp:LinkButton></li>
-      <li><asp:LinkButton ID="LinkButton4" runat="server" OnClick="LinkCFODashBoard_Click" class="nav-link"><i class="fi fi-br-operation"></i> Tax Invoice </asp:LinkButton></li>
-      <li><a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fi fi-br-person-circle-question"></i> My Referrals
+      <li><asp:LinkButton ID="linkland" runat="server" OnClick="linkland_Click" class="nav-link"><i class="fi fi-br-dashboard"></i> Dashboard <span class="sr-only">(current)</span></asp:LinkButton></li>
+      <li><asp:LinkButton ID="lnkCentralrepository" runat="server" OnClick="lnkCentralrepository_Click" class="nav-link"><i class="fi fi-br-file-edit"></i> Documents <span class="sr-only">(current)</span></asp:LinkButton></li>
+      <li>  <asp:LinkButton ID="lnkCentralRep" runat="server" OnClick="lnkCentralRep_Click" class="nav-link"><i class="fi fi-br-form"></i> Tax Returns </asp:LinkButton></li>
+      <li><asp:LinkButton ID="LinkRENDashBoard" runat="server" OnClick="LinkRENDashBoard_Click" class="nav-link"><i class="fi fi-br-operation"></i> Tax Invoice </asp:LinkButton></li>
+      <li><a class="nav-link" href="Myreferals.aspx" id="myrefer" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fi fi-br-person-circle-question"></i> My Referrals
 </a></li>
         <li><a class="dropdown-item" href="../Home.aspx" id="a1" runat="server"><i class="fi fi-br-sign-out-alt"></i>Logout</a></li>
     </ul>

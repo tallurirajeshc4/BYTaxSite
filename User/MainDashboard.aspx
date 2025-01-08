@@ -161,14 +161,24 @@
                                 <i class="fi fi-tr-bullseye-arrow"></i>&nbsp; Download
                             </asp:LinkButton>
                         </h4>
-
+                        <div class="mobileatx">
+                            <h4><b>Fill Tax Organizer</b>? Get Started <asp:LinkButton 
+    ID="LinkButton1" 
+    runat="server" 
+    CssClass="badge rounded-pill bg-dark text-sm p-2" 
+    OnClick="btnDownload_Click" 
+    CommandArgument='<%# Eval("LoginUserId") %>' 
+    style="font-size: 16px; color: #fff; background: #033260 !important; display: flex; align-items: center;">
+    <i class="fi fi-tr-bullseye-arrow"></i>&nbsp; Download
+</asp:LinkButton></h4>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <%--Commented Code--%>
 
-            <div class="card" id="divFileUpload" runat="server">
+            <div class="card" id="divFileUpload" runat="server" visible="false">
                 <div class="card-header d-flex justify-content-between">
                     <h3 class="card-title mt-1"><b>Please upload the applicable details</b></h3>
                     <h4 class="card-title mt-1">
@@ -262,12 +272,33 @@
                 <div class="card-body align-content-center" style="text-align: center; padding-top: 30px;">
                     <p>We’ve got your documents! Our team has begun preparing your tax return and is working to ensure everything is accurate and complete. Sit back, relax, and we’ll reach out when your draft is ready for review.</p>
                     <%--<i class="fi fi-ts-notes"></i>--%>
-                    <img src="../../assets/admin/img/search.gif" style="width: 10%;" />
+                    <%--<img src="../../assets/admin/img/search.gif" style="width: 10%;" />--%>
                     <%--<p class="align-content-between">You haven't uploaded any document yet.</p>--%>
                     <%--<asp:Button runat="server" ID="btnlistcler" Text="List of Units" OnClick="btnlistcler_Click" CssClass="mr-3 btn btn-rounded btn-sm btn-approved" Width="120px" />
 
 
                 <asp:Button runat="server" ID="Button1" Text="Status of Application" OnClick="Button1_Click" CssClass="btn btn-rounded btn-sm btn-approved" Width="150px" />--%>
+                
+                    <asp:GridView ID="gvFileDetails" runat="server" AutoGenerateColumns="False" 
+                  CssClass="table table-striped" Width="100%" 
+                  OnRowDataBound="gvFileDetails_RowDataBound">
+                        <Columns>
+                            <asp:BoundField DataField="FileDetailName" HeaderText="File Name" SortExpression="FileDetailName" />
+                            <asp:BoundField DataField="FileName" HeaderText="Original File Name" SortExpression="FileName" />
+                            <asp:BoundField DataField="FileExtension" HeaderText="File Extension" SortExpression="FileExtension" />
+                            <asp:BoundField DataField="FileSize" HeaderText="File Size" SortExpression="FileSize" 
+                                            DataFormatString="{0:N0}" />
+                            <asp:BoundField DataField="CreatedDate" HeaderText="Created Date" SortExpression="CreatedDate" 
+                                            DataFormatString="{0:yyyy-MM-dd}" />
+                            <asp:TemplateField HeaderText="Download">
+                                <ItemTemplate>
+                                    <asp:Button ID="btnDownload" runat="server" Text="&#x1F4BE;" CssClass="btn btn-link"
+                                                OnClick="DownloadFile" CommandArgument='<%# Eval("FilePath") %>' />
+                                </ItemTemplate>
+                            </asp:TemplateField>
+                        </Columns>
+                    </asp:GridView>
+
                 </div>
 
             </div>

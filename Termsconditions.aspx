@@ -34,7 +34,7 @@
     <!-- About End -->
 
 
-    <div class="container-xxl">
+    <div class="container-xxl" id="mobiletopview">
         <div class="container-fluid">
             <div class="row g-4 align-items-end mb-4">
                 <h3>Terms and Conditions</h3>

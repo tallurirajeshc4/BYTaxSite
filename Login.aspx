@@ -248,8 +248,8 @@
                     </td>
                 </tr>
             </table>
-            <div class="row g-5">
-                <div class="main-wrapper login-body">
+            <div class="row">
+                <div class="main-wrapper login-body" id="mobileviewlogin">
                     <div class="login-wrapper">
                         <div class="container">
                             <div class="loginbox">
