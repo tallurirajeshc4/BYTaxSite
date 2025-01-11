@@ -284,15 +284,15 @@
                   OnRowDataBound="gvFileDetails_RowDataBound">
                         <Columns>
                             <asp:BoundField DataField="FileDetailName" HeaderText="File Name" SortExpression="FileDetailName" />
-                            <asp:BoundField DataField="FileName" HeaderText="Original File Name" SortExpression="FileName" />
-                            <asp:BoundField DataField="FileExtension" HeaderText="File Extension" SortExpression="FileExtension" />
+                            <asp:BoundField DataField="FileName" HeaderText="Original File Name" SortExpression="FileName" Visible="false" />
+                            <asp:BoundField DataField="FileExtension" HeaderText="File Extension" SortExpression="FileExtension" Visible="false" />
                             <asp:BoundField DataField="FileSize" HeaderText="File Size" SortExpression="FileSize" 
-                                            DataFormatString="{0:N0}" />
+                                            DataFormatString="{0:N0}" Visible="false"/>
                             <asp:BoundField DataField="CreatedDate" HeaderText="Created Date" SortExpression="CreatedDate" 
-                                            DataFormatString="{0:yyyy-MM-dd}" />
+                                            DataFormatString="{0:yyyy-MM-dd}" Visible="false" />
                             <asp:TemplateField HeaderText="Download">
                                 <ItemTemplate>
-                                    <asp:Button ID="btnDownload" runat="server" Text="&#x1F4BE;" CssClass="btn btn-link"
+                                    <asp:Button ID="btnDownload" runat="server" Text="&#x1F4E5;" CssClass="btn btn-link"
                                                 OnClick="DownloadFile" CommandArgument='<%# Eval("FilePath") %>' />
                                 </ItemTemplate>
                             </asp:TemplateField>

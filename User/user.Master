@@ -234,7 +234,7 @@ font-style: italic;font-weight: bold;">"State Single<br /> Window System for<br 
                                 </div>
                             </div>
                            
-                            <a class="dropdown-item" href="../../login.aspx"><i class="fi fi-br-lock"></i>Change Password</a>
+                            <%--<a class="dropdown-item" href="../../login.aspx"><i class="fi fi-br-lock"></i>Change Password</a>--%>
                             <%--<a class="dropdown-item" href="#">Settings</a>--%>
                             <a class="dropdown-item" href="../Home.aspx" id="aLogout" runat="server"><i class="fi fi-br-sign-out-alt"></i>Logout</a>
                         </div>
@@ -284,11 +284,14 @@ font-style: italic;font-weight: bold;">"State Single<br /> Window System for<br 
                                 </li>--%>
                                
                                
-                                
-                               
-                                <li class="nav-item dropdown">
+                                <li class="nav-item">
+                                    <asp:LinkButton ID="linkMyreferals" runat="server" OnClick="lnkMyreferals_Click" class="nav-link"><i class="fi fi-br-person-circle-question"></i> My Referrals </asp:LinkButton>
+
+                                </li>
+
+                                <%--<li class="nav-item dropdown">
                                     <a class="nav-link" href="Myreferals.aspx" id="myrefer" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fi fi-br-person-circle-question"></i> My Referrals
-                                    </a>
+                                    </a>--%>
                                     <%--<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 
                                         <asp:LinkButton ID="lnkGrievance" runat="server" OnClick="lnkGrievance_Click" class="dropdown-item">Pricing<span class="sr-only">(current)</span></asp:LinkButton>

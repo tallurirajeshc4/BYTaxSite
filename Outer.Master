@@ -127,7 +127,7 @@
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-4">Our Office</h4>
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>81 thorn lane Apt 7 Newark DE 19711, USA</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+1 (302)-722-0356</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+1 (302)-231-5550</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>contact@brigadetax.com</p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i
@@ -211,6 +211,7 @@
 
     <!-- Template Javascript -->
     <script src="assets/js/main.js"></script>
+        <script src="assets/js/Referrals.js"></script>
     <%--<script type="text/javascript">
         $(window).on('load',function(){
          var delayMs = 1500; 

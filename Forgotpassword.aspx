@@ -277,7 +277,7 @@
                                         
                                         <div class="form-group text-center mb-2 mt-4">
                                             <%--<a href="User/PreReg/IndustryRegistration.aspx" target="_blank" class="btn btn-primary" type="submit" style="width: 100%;">Login</a>--%>
-                                            <asp:Button runat="server" Text="Send Code" class="btn btn-primary"  style="width: 100%;" />
+                                            <asp:Button runat="server" Text="Send Code" class="btn btn-primary" OnClick="btnSendCode_Click"  style="width: 100%;" />
                                         </div>
                                     
                                     
