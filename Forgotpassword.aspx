@@ -337,7 +337,7 @@
                                     <asp:Button runat="server" Text="Submit" class="btn btn-primary"  style="width: 100%;" />
                                     
                                 </div>
-                            <sup class="mt-1">If your not recevied the Code, <b>Click Here?</b></sup>
+                            <sup class="mt-1">If your not recevied the Code, <b><asp:Button runat="server" Text="Click Here." CssClass="btn btn-link text-primary p-0 m-0" OnClick="btnReSendCode_Click" /></b></sup>
                             
                             <!-- /Form -->
                             

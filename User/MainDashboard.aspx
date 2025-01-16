@@ -269,6 +269,24 @@
                     </h4>
                 </div>
 
+                <!-- Dynamic File Uploads -->
+                    <div id="extraDynamicFileUploads" runat="server"></div>
+                
+                <!-- Add More Button -->
+                <div class="col-md-12 d-flex" id="padding">
+                    <div class="col-md-12">
+                        <div class="form-group row">
+                            <div class="col-md-3">
+                                <button type="button" id="btnextraAddMore" class="btn btn-rounded btn-primary w-50">Add More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-10 text-right">
+                    <asp:Button ID="btnExtraFileUpload" runat="server" Text="Submit" CssClass="btn btn-rounded btn-success btn-lg" Width="150px" OnClick="btnExtraFileUpload_Click" />
+                </div>
+
                 <div class="card-body align-content-center" style="text-align: center; padding-top: 30px;">
                     <p>We’ve got your documents! Our team has begun preparing your tax return and is working to ensure everything is accurate and complete. Sit back, relax, and we’ll reach out when your draft is ready for review.</p>
                     <%--<i class="fi fi-ts-notes"></i>--%>

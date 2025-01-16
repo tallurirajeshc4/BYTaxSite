@@ -164,7 +164,7 @@
     </style>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form1" runat="server" enctype="multipart/form-data">
         <div class="main-wrapper">
             <!-- Header -->
             <div class="header">
@@ -332,7 +332,7 @@ font-style: italic;font-weight: bold;">"State Single<br /> Window System for<br 
       <li><asp:LinkButton ID="LinkRENDashBoard" runat="server" OnClick="LinkRENDashBoard_Click" class="nav-link"><i class="fi fi-br-operation"></i> Tax Invoice </asp:LinkButton></li>
       <li><a class="nav-link" href="Myreferals.aspx" id="myrefer" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fi fi-br-person-circle-question"></i> My Referrals
 </a></li>
-        <li><a class="dropdown-item" href="../Home.aspx" id="a1" runat="server"><i class="fi fi-br-sign-out-alt"></i>Logout</a></li>
+        <li><a class="dropdown-item" style="margin-left: 25px;" href="../Home.aspx" id="a1" runat="server"><i class="fi fi-br-sign-out-alt"></i>Logout</a></li>
     </ul>
   </nav>
 </div>

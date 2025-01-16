@@ -6165,4 +6165,10 @@ table#ContentPlaceHolder1_gvPreRegApproved input[type=submit]:disabled, table#Co
 	#mobileTax {
 		display: none !important;
 	}
+	table.table.table-bordered.table-striped {
+		display: block;
+		width: 100%;
+		overflow-x: auto;
+		border-radius: 12px;
+	}
 }

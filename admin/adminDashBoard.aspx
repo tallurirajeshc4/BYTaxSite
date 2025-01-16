@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/User/user.Master" AutoEventWireup="true" CodeBehind="adminDashBoard.aspx.cs" Inherits="BYTAX.admin.adminDashBoard" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/admin/admin.Master" AutoEventWireup="true" CodeBehind="adminDashBoard.aspx.cs" Inherits="BYTAX.admin.adminDashBoard" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -106,6 +106,12 @@
             <div class="card tickets">
                 <h2><asp:Label ID="lblTotalTickets" runat="server" Text="0"></asp:Label></h2>
                 <p>Support <br />Tickets</p>
+            </div>
+        </a>
+        <a href="javascript:void(0);" onclick="redirectToPage('Tickets');">
+            <div class="card tickets">
+                <h2><asp:Label ID="Label1" runat="server" Text="0"></asp:Label></h2>
+                <p>User <br />Referals</p>
             </div>
         </a>
     </div>
