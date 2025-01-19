@@ -2,8 +2,59 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style>
-       .btn.btn-info.btn-sm {
-    width: 45%;
+        .btn.btn-info.btn-sm {
+            width: 45%;
+        }
+        .card-body i.fi, i.fi.fi-tr-browser {
+    vertical-align: sub;
+}
+        
+        .card {
+    border: 1px solid #0026ff4d !important;
+    margin-bottom: 12px;
+    box-shadow: 1px 2px 4px 4px #e9ecef !important;
+}
+        h3.card-counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 15px;
+    border-radius: 12px;
+    color: #fff;
+    background-color: #0b3654;
+}
+        h3.card-title.mt-1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+        .card-counter {
+    margin: 0px !important;
+}
+        .card .card-header, .card {
+    background-color: #f5ffff !important;
+    border-bottom: 1px solid #1b689b85;
+    border-radius: 12px !important;
+}
+        .page-wrapper>.content {
+    
+    border-radius: 12px !important;
+}
+        .card-body {
+    padding: 12px 24px !important;
+    background: #fff;
+    border-radius: 12px;
+}
+        .card-body tr td {
+    padding: 10px 35px !important;
+}
+        .card-body .table th {
+    padding: 8px 1rem !important;
+    text-align: center !important;
 }
     </style>
 </asp:Content>
@@ -21,7 +72,7 @@
 
 
 
-            <div class="col-md-12" style="display: flex;">
+            <%-- <div class="col-md-12" style="display: flex;">
                 <div class="col-md-6">
                     <div class="top-nav-search" style="float: none; margin-bottom: 5px; display: flex; flex-direction: row; flex-wrap: nowrap; align-content: center; justify-content: flex-start; align-items: baseline; margin-left: 0; margin-top: 0;">
                         <p class="mr-3" style="width: 18%;">Search With</p>
@@ -36,17 +87,18 @@
                     <p>
                         <input type="date" value="" class="form-control ml-3"></p>
                 </div>
-            </div>
+            </div>--%>
 
 
 
-            <div class="card">
+            <div class="card mb-5">
                 <div class="card-header d-flex justify-content-between">
-                    <h3 class="card-title mt-1"><b>Client Tax Filing Registration Applications</b></h3>
-                    <h4 class="card-title mt-1">
+                    <h3 class="card-title mt-1"><b><i class="fi fi-tr-browser"></i> Registered Applications</b></h3>
+                    <h3 class="card-counter">02</h3>
+                    <%--<h4 class="card-title mt-1">
                         <label id="unitname" runat="server"></label>
 
-                    </h4>
+                    </h4>--%>
                 </div>
                 <div class="card-body">
 
@@ -55,87 +107,443 @@
                             <tr>
                                 <th scope="col">Application Number</th>
                                 <th scope="col">Applicant Name</th>
-                                
-                                <th scope="col">Mobile Number</th>
-                                <th scope="col">Status</th>
+
+                                <th scope="col">Filing Tax</th>
+                                <th scope="col">W2 Copy</th>
+                                <th scope="col">Action</th>
                             </tr>
                             <tr>
                                 <td><a id="ContentPlaceHolder1_grdFilledForm_lnkSprId_0" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$grdFilledForm$ctl02$lnkSprId','')">AMCSPR000004</a>
                                 </td>
-                                <td>ramaraju</td>
-                                
-                                <td>09701104754</td>
-                                
-                                <td><a class="btn btn-info btn-sm" href="Applicationstatus.aspx">View</a></td>
+                                <td>Rama Raju</td>
+
+                                <td><a class="btn btn-info btn-sm" href="Applicationstatus.aspx">View <i class="fi fi-tr-overview"></i></a>
+                                    <a class="btn btn-success w-50 btn-sm" href="Applicationstatus.aspx">Download <i class="fi fi-tr-message-arrow-down"></i></a></td>
+                                <td><a class="btn btn-info btn-sm" href="Applicationstatus.aspx">View <i class="fi fi-tr-overview"></i></a>
+                                    <a class="btn btn-success btn-sm w-50" href="Applicationstatus.aspx">Download <i class="fi fi-tr-message-arrow-down"></i></a></td>
+                                <td>
+                                    <select class="form-control" aria-label="Default select example">
+                                        <option selected>Move To</option>
+                                        <option value="1">Ready to review documents</option>
+                                        
+                                        
+                                    </select>
+
+                                </td>
                             </tr>
                             <tr>
-                                <td>
-                                    <a id="ContentPlaceHolder1_grdFilledForm_lnkSprId_1" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$grdFilledForm$ctl03$lnkSprId','')">AMCSPR000005</a>
-                                </td>
-                                <td>kalyan</td>
-                                
-                                <td>09701104754</td>
-                                <td><a class="btn btn-info btn-sm" href="Applicationreview.aspx">Process</a></td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <a id="ContentPlaceHolder1_grdFilledForm_lnkSprId_2" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$grdFilledForm$ctl04$lnkSprId','')">AMCSPR000006</a>
-                                </td>
-                                <td>kumar</td>
-                                
-                                <td>09701104754</td>
-                                <td>
-                                    <button class="btn btn-info btn-sm">view</button></td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <a id="ContentPlaceHolder1_grdFilledForm_lnkSprId_3" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$grdFilledForm$ctl05$lnkSprId','')">AMCSPR000007</a>
-                                </td>
-                                <td>ram</td>
-                                
-                                <td>09701104754</td>
-                                <td>
-                                    <button class="btn btn-info btn-sm">view</button></td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <a id="ContentPlaceHolder1_grdFilledForm_lnkSprId_4" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$grdFilledForm$ctl06$lnkSprId','')">AMCSPR000009</a>
-                                </td>
-                                <td>aqwsedr</td>
-                                
-                                <td>09701104754</td>
-                                <td>
-                                    <button class="btn btn-info btn-sm">view</button></td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <a id="ContentPlaceHolder1_grdFilledForm_lnkSprId_5" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$grdFilledForm$ctl07$lnkSprId','')">AMCSPR000010</a>
-                                </td>
-                                <td>qwqwqwqwqwq</td>
-                               
-                                <td>09701104754</td>
-                                <td>
-                                    <button class="btn btn-info btn-sm">view</button></td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <a id="ContentPlaceHolder1_grdFilledForm_lnkSprId_6" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$grdFilledForm$ctl08$lnkSprId','')">AMCSPR000011</a>
-                                </td>
-                                <td>qwqwqwqwqwq</td>
-                               
-                                <td>09701104754</td>
-                                <td>
-                                    <button class="btn btn-info btn-sm">view</button></td>
-                            </tr>
+    <td><a id="ContentPlaceHolder1_grdFilledForm_lnkSprId_0" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$grdFilledForm$ctl02$lnkSprId','')">AMCSPR000004</a>
+    </td>
+    <td>Kalyanbabu</td>
+
+    <td><a class="btn btn-info btn-sm" href="Applicationstatus.aspx">View <i class="fi fi-tr-overview"></i></a>
+        <a class="btn btn-success w-50 btn-sm" href="Applicationstatus.aspx">Download <i class="fi fi-tr-message-arrow-down"></i></a></td>
+    <td><a class="btn btn-info btn-sm" href="Applicationstatus.aspx">View <i class="fi fi-tr-overview"></i></a>
+        <a class="btn btn-success btn-sm w-50" href="Applicationstatus.aspx">Download <i class="fi fi-tr-message-arrow-down"></i></a></td>
+    <td>
+        <select class="form-control" aria-label="Default select example">
+            <option selected>Move To</option>
+            <option value="1">Ready to review documents</option>
+            
+            
+        </select>
+
+    </td>
+</tr>
+                           
                         </tbody>
                     </table>
                 </div>
             </div>
 
 
+           <div class="card mb-5">
+                <div class="card-header d-flex justify-content-between">
+                    <h3 class="card-title mt-1"><b><i class="fi fi-tr-browser"></i> Ready to Review Documents Applications</b></h3>
+                    <h3 class="card-counter">09</h3>
+                    <%--<h4 class="card-title mt-1">
+                        <label id="unitname" runat="server"></label>
+
+                    </h4>--%>
+                </div>
+                <div class="card-body">
+
+                    <table class="table table-bordered table-response table-striped" cellspacing="0" rules="all" border="1" id="ContentPlaceHolder1_grdFilledForm" style="border-collapse: collapse;">
+                        <tbody>
+                            <tr>
+                                <th scope="col">Application Number</th>
+                                <th scope="col">Applicant Name</th>
+
+                                <th scope="col">Filing Tax</th>
+                                <th scope="col">W2 Copy</th>
+                                <th scope="col">Action</th>
+                            </tr>
+                            <tr>
+                                <td><a id="ContentPlaceHolder1_grdFilledForm_lnkSprId_0" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$grdFilledForm$ctl02$lnkSprId','')">AMCSPR000004</a>
+                                </td>
+                                <td>Rama Raju</td>
+
+                                <td><a class="btn btn-info btn-sm" href="Applicationstatus.aspx">View <i class="fi fi-tr-overview"></i></a>
+                                    <a class="btn btn-success w-50 btn-sm" href="Applicationstatus.aspx">Download <i class="fi fi-tr-message-arrow-down"></i></a></td>
+                                <td><a class="btn btn-info btn-sm" href="Applicationstatus.aspx">View <i class="fi fi-tr-overview"></i></a>
+                                    <a class="btn btn-success btn-sm w-50" href="Applicationstatus.aspx">Download <i class="fi fi-tr-message-arrow-down"></i></a></td>
+                                <td>
+                                    <select class="form-control" aria-label="Default select example">
+                                        <option selected>Move To</option>
+                                        <option value="1">Tax Prepare</option>
+                                        
+                                    </select>
+
+                                </td>
+                            </tr>
+                            <tr>
+    <td><a id="ContentPlaceHolder1_grdFilledForm_lnkSprId_0" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$grdFilledForm$ctl02$lnkSprId','')">AMCSPR000004</a>
+    </td>
+    <td>Kalyanbabu</td>
+
+    <td><a class="btn btn-info btn-sm" href="Applicationstatus.aspx">View <i class="fi fi-tr-overview"></i></a>
+        <a class="btn btn-success w-50 btn-sm" href="Applicationstatus.aspx">Download <i class="fi fi-tr-message-arrow-down"></i></a></td>
+    <td><a class="btn btn-info btn-sm" href="Applicationstatus.aspx">View <i class="fi fi-tr-overview"></i></a>
+        <a class="btn btn-success btn-sm w-50" href="Applicationstatus.aspx">Download <i class="fi fi-tr-message-arrow-down"></i></a></td>
+    <td>
+        <select class="form-control" aria-label="Default select example">
+            <option selected>Move To</option>
+            <option value="1">Tax Prepare</option>
+            
+        </select>
+
+    </td>
+</tr>
+                           
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+           <div class="card mb-5">
+                <div class="card-header d-flex justify-content-between">
+                    <h3 class="card-title mt-1"><b><i class="fi fi-tr-browser"></i> Tax Prepare Applications</b></h3>
+                    <h3 class="card-counter">01</h3>
+                    <%--<h4 class="card-title mt-1">
+                        <label id="unitname" runat="server"></label>
+
+                    </h4>--%>
+                </div>
+                <div class="card-body">
+
+                    <table class="table table-bordered table-response table-striped" cellspacing="0" rules="all" border="1" id="ContentPlaceHolder1_grdFilledForm" style="border-collapse: collapse;">
+                        <tbody>
+                            <tr>
+                                <th scope="col">Application Number</th>
+                                <th scope="col">Applicant Name</th>
+
+                                <th scope="col">Filing Tax</th>
+                                <th scope="col">W2 Copy</th>
+                                <th scope="col">Action</th>
+                            </tr>
+                            <tr>
+                                <td><a id="ContentPlaceHolder1_grdFilledForm_lnkSprId_0" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$grdFilledForm$ctl02$lnkSprId','')">AMCSPR000004</a>
+                                </td>
+                                <td>Rama Raju</td>
+
+                                <td><a class="btn btn-info btn-sm" href="Applicationstatus.aspx">View <i class="fi fi-tr-overview"></i></a>
+                                    <a class="btn btn-success w-50 btn-sm" href="Applicationstatus.aspx">Download <i class="fi fi-tr-message-arrow-down"></i></a></td>
+                                <td><a class="btn btn-info btn-sm" href="Applicationstatus.aspx">View <i class="fi fi-tr-overview"></i></a>
+                                    <a class="btn btn-success btn-sm w-50" href="Applicationstatus.aspx">Download <i class="fi fi-tr-message-arrow-down"></i></a></td>
+                                <td>
+                                    <select class="form-control" aria-label="Default select example">
+                                        <option selected>Move To</option>
+                                        <option value="1">Awaiting Payment</option>
+                                        
+                                        
+                                    </select>
+
+                                </td>
+                            </tr>
+                            <tr>
+    <td><a id="ContentPlaceHolder1_grdFilledForm_lnkSprId_0" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$grdFilledForm$ctl02$lnkSprId','')">AMCSPR000004</a>
+    </td>
+    <td>Kalyanbabu</td>
+
+    <td><a class="btn btn-info btn-sm" href="Applicationstatus.aspx">View <i class="fi fi-tr-overview"></i></a>
+        <a class="btn btn-success w-50 btn-sm" href="Applicationstatus.aspx">Download <i class="fi fi-tr-message-arrow-down"></i></a></td>
+    <td><a class="btn btn-info btn-sm" href="Applicationstatus.aspx">View <i class="fi fi-tr-overview"></i></a>
+        <a class="btn btn-success btn-sm w-50" href="Applicationstatus.aspx">Download <i class="fi fi-tr-message-arrow-down"></i></a></td>
+    <td>
+        <select class="form-control" aria-label="Default select example">
+            <option selected>Move To</option>
+            <option value="1">Awaiting Payment</option>
+            
+            
+        </select>
+
+    </td>
+</tr>
+                           
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+                       <div class="card mb-5">
+                <div class="card-header d-flex justify-content-between">
+                    <h3 class="card-title mt-1"><b><i class="fi fi-tr-browser"></i> Awaiting Payment Applications</b></h3>
+                    <h3 class="card-counter">04</h3>
+                    <%--<h4 class="card-title mt-1">
+                        <label id="unitname" runat="server"></label>
+
+                    </h4>--%>
+                </div>
+                <div class="card-body">
+
+                    <table class="table table-bordered table-response table-striped" cellspacing="0" rules="all" border="1" id="ContentPlaceHolder1_grdFilledForm" style="border-collapse: collapse;">
+                        <tbody>
+                            <tr>
+                                <th scope="col">Application Number</th>
+                                <th scope="col">Applicant Name</th>
+
+                                <th scope="col">Filing Tax</th>
+                                <th scope="col">W2 Copy</th>
+                                <th scope="col">Action</th>
+                            </tr>
+                            <tr>
+                                <td><a id="ContentPlaceHolder1_grdFilledForm_lnkSprId_0" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$grdFilledForm$ctl02$lnkSprId','')">AMCSPR000004</a>
+                                </td>
+                                <td>Rama Raju</td>
+
+                                <td><a class="btn btn-info btn-sm" href="Applicationstatus.aspx">View <i class="fi fi-tr-overview"></i></a>
+                                    <a class="btn btn-success w-50 btn-sm" href="Applicationstatus.aspx">Download <i class="fi fi-tr-message-arrow-down"></i></a></td>
+                                <td><a class="btn btn-info btn-sm" href="Applicationstatus.aspx">View <i class="fi fi-tr-overview"></i></a>
+                                    <a class="btn btn-success btn-sm w-50" href="Applicationstatus.aspx">Download <i class="fi fi-tr-message-arrow-down"></i></a></td>
+                                <td>
+                                    <select class="form-control" aria-label="Default select example">
+                                        <option selected>Move To</option>
+                                        <option value="1">Ready to E-File</option>
+                                        
+                                        
+                                    </select>
+
+                                </td>
+                            </tr>
+                            <tr>
+    <td><a id="ContentPlaceHolder1_grdFilledForm_lnkSprId_0" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$grdFilledForm$ctl02$lnkSprId','')">AMCSPR000004</a>
+    </td>
+    <td>Kalyanbabu</td>
+
+    <td><a class="btn btn-info btn-sm" href="Applicationstatus.aspx">View <i class="fi fi-tr-overview"></i></a>
+        <a class="btn btn-success w-50 btn-sm" href="Applicationstatus.aspx">Download <i class="fi fi-tr-message-arrow-down"></i></a></td>
+    <td><a class="btn btn-info btn-sm" href="Applicationstatus.aspx">View <i class="fi fi-tr-overview"></i></a>
+        <a class="btn btn-success btn-sm w-50" href="Applicationstatus.aspx">Download <i class="fi fi-tr-message-arrow-down"></i></a></td>
+    <td>
+        <select class="form-control" aria-label="Default select example">
+            <option selected>Move To</option>
+            <option value="1">Ready to E-File</option>
+            
+        </select>
+
+    </td>
+</tr>
+                           
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+                                   <div class="card mb-5">
+                <div class="card-header d-flex justify-content-between">
+                    <h3 class="card-title mt-1"><b><i class="fi fi-tr-browser"></i> Ready to E-File Applications</b></h3>
+                    <h3 class="card-counter">01</h3>
+                    <%--<h4 class="card-title mt-1">
+                        <label id="unitname" runat="server"></label>
+
+                    </h4>--%>
+                </div>
+                <div class="card-body">
+
+                    <table class="table table-bordered table-response table-striped" cellspacing="0" rules="all" border="1" id="ContentPlaceHolder1_grdFilledForm" style="border-collapse: collapse;">
+                        <tbody>
+                            <tr>
+                                <th scope="col">Application Number</th>
+                                <th scope="col">Applicant Name</th>
+
+                                <th scope="col">Filing Tax</th>
+                                <th scope="col">W2 Copy</th>
+                                <th scope="col">Action</th>
+                            </tr>
+                            <tr>
+                                <td><a id="ContentPlaceHolder1_grdFilledForm_lnkSprId_0" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$grdFilledForm$ctl02$lnkSprId','')">AMCSPR000004</a>
+                                </td>
+                                <td>Rama Raju</td>
+
+                                <td><a class="btn btn-info btn-sm" href="Applicationstatus.aspx">View <i class="fi fi-tr-overview"></i></a>
+                                    <a class="btn btn-success w-50 btn-sm" href="Applicationstatus.aspx">Download <i class="fi fi-tr-message-arrow-down"></i></a></td>
+                                <td><a class="btn btn-info btn-sm" href="Applicationstatus.aspx">View <i class="fi fi-tr-overview"></i></a>
+                                    <a class="btn btn-success btn-sm w-50" href="Applicationstatus.aspx">Download <i class="fi fi-tr-message-arrow-down"></i></a></td>
+                                <td>
+                                    <select class="form-control" aria-label="Default select example">
+                                        <option selected>Move To</option>
+                                        <option value="1">Completed</option>
+                                       
+                                        
+                                    </select>
+
+                                </td>
+                            </tr>
+                            <tr>
+    <td><a id="ContentPlaceHolder1_grdFilledForm_lnkSprId_0" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$grdFilledForm$ctl02$lnkSprId','')">AMCSPR000004</a>
+    </td>
+    <td>Kalyanbabu</td>
+
+    <td><a class="btn btn-info btn-sm" href="Applicationstatus.aspx">View <i class="fi fi-tr-overview"></i></a>
+        <a class="btn btn-success w-50 btn-sm" href="Applicationstatus.aspx">Download <i class="fi fi-tr-message-arrow-down"></i></a></td>
+    <td><a class="btn btn-info btn-sm" href="Applicationstatus.aspx">View <i class="fi fi-tr-overview"></i></a>
+        <a class="btn btn-success btn-sm w-50" href="Applicationstatus.aspx">Download <i class="fi fi-tr-message-arrow-down"></i></a></td>
+    <td>
+        <select class="form-control" aria-label="Default select example">
+            <option selected>Move To</option>
+            <option value="1">Completed</option>
+           
+            
+        </select>
+
+    </td>
+</tr>
+                           
+                        </tbody>
+                    </table>
+                </div>
+            </div>
 
 
+                                   <div class="card mb-5">
+                <div class="card-header d-flex justify-content-between">
+                    <h3 class="card-title mt-1"><b><i class="fi fi-tr-browser"></i> Completed  Applications</b></h3>
+                    <h3 class="card-counter">01</h3>
+                    <%--<h4 class="card-title mt-1">
+                        <label id="unitname" runat="server"></label>
 
+                    </h4>--%>
+                </div>
+                <div class="card-body">
+
+                    <table class="table table-bordered table-response table-striped" cellspacing="0" rules="all" border="1" id="ContentPlaceHolder1_grdFilledForm" style="border-collapse: collapse;">
+                        <tbody>
+                            <tr>
+                                <th scope="col">Application Number</th>
+                                <th scope="col">Applicant Name</th>
+
+                                <th scope="col">Filing Tax</th>
+                                <th scope="col">W2 Copy</th>
+                                <th scope="col">Action</th>
+                            </tr>
+                            <tr>
+                                <td><a id="ContentPlaceHolder1_grdFilledForm_lnkSprId_0" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$grdFilledForm$ctl02$lnkSprId','')">AMCSPR000004</a>
+                                </td>
+                                <td>Rama Raju</td>
+
+                                <td><a class="btn btn-info btn-sm" href="Applicationstatus.aspx">View <i class="fi fi-tr-overview"></i></a>
+                                    <a class="btn btn-success w-50 btn-sm" href="Applicationstatus.aspx">Download <i class="fi fi-tr-message-arrow-down"></i></a></td>
+                                <td><a class="btn btn-info btn-sm" href="Applicationstatus.aspx">View <i class="fi fi-tr-overview"></i></a>
+                                    <a class="btn btn-success btn-sm w-50" href="Applicationstatus.aspx">Download <i class="fi fi-tr-message-arrow-down"></i></a></td>
+                                <td>
+                                    <select class="form-control" aria-label="Default select example">
+                                        <option selected>Move To</option>
+                                        <option value="1">Disengaged</option>
+                                        
+                                        
+                                    </select>
+
+                                </td>
+                            </tr>
+                            <tr>
+    <td><a id="ContentPlaceHolder1_grdFilledForm_lnkSprId_0" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$grdFilledForm$ctl02$lnkSprId','')">AMCSPR000004</a>
+    </td>
+    <td>Kalyanbabu</td>
+
+    <td><a class="btn btn-info btn-sm" href="Applicationstatus.aspx">View <i class="fi fi-tr-overview"></i></a>
+        <a class="btn btn-success w-50 btn-sm" href="Applicationstatus.aspx">Download <i class="fi fi-tr-message-arrow-down"></i></a></td>
+    <td><a class="btn btn-info btn-sm" href="Applicationstatus.aspx">View <i class="fi fi-tr-overview"></i></a>
+        <a class="btn btn-success btn-sm w-50" href="Applicationstatus.aspx">Download <i class="fi fi-tr-message-arrow-down"></i></a></td>
+    <td>
+        <select class="form-control" aria-label="Default select example">
+            <option selected>Move To</option>
+            <option value="1">Disengaged</option>
+           
+            
+        </select>
+
+    </td>
+</tr>
+                           
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+                                   <div class="card mb-5">
+                <div class="card-header d-flex justify-content-between">
+                    <h3 class="card-title mt-1"><b><i class="fi fi-tr-browser"></i> Disengaged Applications</b></h3>
+                    <h3 class="card-counter">05</h3>
+                    <%--<h4 class="card-title mt-1">
+                        <label id="unitname" runat="server"></label>
+
+                    </h4>--%>
+                </div>
+                <div class="card-body">
+
+                    <table class="table table-bordered table-response table-striped" cellspacing="0" rules="all" border="1" id="ContentPlaceHolder1_grdFilledForm" style="border-collapse: collapse;">
+                        <tbody>
+                            <tr>
+                                <th scope="col">Application Number</th>
+                                <th scope="col">Applicant Name</th>
+
+                                <th scope="col">Filing Tax</th>
+                                <th scope="col">W2 Copy</th>
+                                <th scope="col">Action</th>
+                            </tr>
+                            <tr>
+                                <td><a id="ContentPlaceHolder1_grdFilledForm_lnkSprId_0" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$grdFilledForm$ctl02$lnkSprId','')">AMCSPR000004</a>
+                                </td>
+                                <td>Rama Raju</td>
+
+                                <td><a class="btn btn-info btn-sm" href="Applicationstatus.aspx">View <i class="fi fi-tr-overview"></i></a>
+                                    <a class="btn btn-success w-50 btn-sm" href="Applicationstatus.aspx">Download <i class="fi fi-tr-message-arrow-down"></i></a></td>
+                                <td><a class="btn btn-info btn-sm" href="Applicationstatus.aspx">View <i class="fi fi-tr-overview"></i></a>
+                                    <a class="btn btn-success btn-sm w-50" href="Applicationstatus.aspx">Download <i class="fi fi-tr-message-arrow-down"></i></a></td>
+                                <td>
+                                    <select class="form-control" aria-label="Default select example">
+                                        <option selected>Move To</option>
+                                        <option value="1">Ready to review documents</option>
+                                        <option value="2">Tax Prepare</option>
+                                        
+                                    </select>
+
+                                </td>
+                            </tr>
+                            <tr>
+    <td><a id="ContentPlaceHolder1_grdFilledForm_lnkSprId_0" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$grdFilledForm$ctl02$lnkSprId','')">AMCSPR000004</a>
+    </td>
+    <td>Kalyanbabu</td>
+
+    <td><a class="btn btn-info btn-sm" href="Applicationstatus.aspx">View <i class="fi fi-tr-overview"></i></a>
+        <a class="btn btn-success w-50 btn-sm" href="Applicationstatus.aspx">Download <i class="fi fi-tr-message-arrow-down"></i></a></td>
+    <td><a class="btn btn-info btn-sm" href="Applicationstatus.aspx">View <i class="fi fi-tr-overview"></i></a>
+        <a class="btn btn-success btn-sm w-50" href="Applicationstatus.aspx">Download <i class="fi fi-tr-message-arrow-down"></i></a></td>
+    <td>
+        <select class="form-control" aria-label="Default select example">
+            <option selected>Move To</option>
+            <option value="1">Ready to review documents</option>
+            <option value="2">Tax Prepare</option>
+            
+        </select>
+
+    </td>
+</tr>
+                           
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
     </div>
 </asp:Content>

@@ -234,7 +234,7 @@ font-style: italic;font-weight: bold;">"State Single<br /> Window System for<br 
                                 </div>
                             </div>
                            
-                            <%--<a class="dropdown-item" href="../../login.aspx"><i class="fi fi-br-lock"></i>Change Password</a>--%>
+                            <a class="dropdown-item" href="Changepassword.aspx"><i class="fi fi-br-lock"></i>Change Password</a>
                             <%--<a class="dropdown-item" href="#">Settings</a>--%>
                             <a class="dropdown-item" href="../Home.aspx" id="aLogout" runat="server"><i class="fi fi-br-sign-out-alt"></i>Logout</a>
                         </div>
