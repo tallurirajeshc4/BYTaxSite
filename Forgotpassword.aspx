@@ -232,66 +232,119 @@
     border-radius: 8px;
 }
     </style>
-     <div class="container-xxl py-5 mt-5" style="margin-top: 8% !important;">
-    <div class="container">
-        <table style="width: 100%">
-            <tr>
-                <td>
-                    <div id="success" runat="server" visible="false" class="alert alert-success m-0" align="Center">
-                        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a> <strong>Success!</strong>
-                        <asp:Label ID="lblmsg" runat="server"></asp:Label>
+    <div class="container-xxl py-5 mt-5" style="margin-top: 8% !important;">
+        <div class="container">
+            <table style="width: 100%">
+                <tr>
+                    <td>
+                        <div id="success" runat="server" visible="false" class="alert alert-success m-0" align="Center">
+                            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a> <strong>Success!</strong>
+                            <asp:Label ID="lblmsg" runat="server"></asp:Label>
 
-                    </div>
-                    <div id="Failure" runat="server" visible="false" class="alert alert-danger m-0" align="Center">
-                        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a> <strong>Warning!</strong>
-                        <asp:Label ID="lblmsg0" runat="server"></asp:Label>
-                    </div>
-                </td>
-            </tr>
-        </table>
+                        </div>
+                        <div id="Failure" runat="server" visible="false" class="alert alert-danger m-0" align="Center">
+                            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a> <strong>Warning!</strong>
+                            <asp:Label ID="lblmsg0" runat="server"></asp:Label>
+                        </div>
+                    </td>
+                </tr>
+            </table>
 
-        <div class="row" runat="server" id="divSendCode">
-            <div class="main-wrapper login-body" id="mobileviewlogin">
-                <div class="login-wrapper">
-                    <div class="container">
-                        <div class="loginbox">
-                            <div class="login-left">
-                                <h2>Welcome Back!</h2>
-                                <p>To keep connected with</p>
-                                <h5>Brigade Tax</h5>
-                                <%--<p>with your personal info</p>--%>
-                            </div>
-                            <div class="login-right">
-                                <div class="login-right-wrap">
-                                    <h1>Forgot your password</h1>
-                                    <p style="color:darkblue;font-weight:500;opacity:1;text-align:center;">Please enter the email address you'd like your password reset information sent to</p>
-                                    
-                                    <!-- Form -->
-                                    
+            <div class="row" runat="server" id="divSendCode">
+                <div class="main-wrapper login-body" id="mobileviewlogin">
+                    <div class="login-wrapper">
+                        <div class="container">
+                            <div class="loginbox">
+                                <div class="login-left">
+                                    <h2>Welcome Back!</h2>
+                                    <p>To keep connected with</p>
+                                    <h5>Brigade Tax</h5>
+                                    <%--<p>with your personal info</p>--%>
+                                </div>
+                                <div class="login-right">
+                                    <div class="login-right-wrap">
+                                        <h1>Forgot your password</h1>
+                                        <p style="color: darkblue; font-weight: 500; opacity: 1; text-align: center;">Please enter the email address you'd like your password reset information sent to</p>
+
+                                        <!-- Form -->
+
                                         <div class="form-floating">
                                             <%--<input type="text" class="form-control" id="name" placeholder="Username">--%>
-                                            <asp:TextBox runat="server" ID="txtUsername" class="form-control"  placeholder="Enter email address"></asp:TextBox>
+                                            <asp:TextBox runat="server" ID="txtUsername" class="form-control" placeholder="Enter email address"></asp:TextBox>
                                             <label for="name">Enter email address</label>
                                         </div>
-                                        
-                                        
+
+
                                         <div class="form-group text-center mb-2 mt-4">
                                             <%--<a href="User/PreReg/IndustryRegistration.aspx" target="_blank" class="btn btn-primary" type="submit" style="width: 100%;">Login</a>--%>
-                                            <asp:Button runat="server" Text="Send Code" class="btn btn-primary" OnClick="btnSendCode_Click"  style="width: 100%;" />
+                                            <asp:Button runat="server" Text="Send Code" class="btn btn-primary" OnClick="btnSendCode_Click" Style="width: 100%;" />
                                         </div>
-                                    
-                                    
-                                    <!-- /Form -->
-                                    
-                                    <div class="text-center forgotpass"><a href="forgot-password.aspx">&nbsp;</a></div>
-                                    <div class="login-or">
-                                        <span class="or-line"></span>
-                                        <span class="span-or">or</span>
+
+
+                                        <!-- /Form -->
+
+                                        <div class="text-center forgotpass"><a href="forgot-password.aspx">&nbsp;</a></div>
+                                        <div class="login-or">
+                                            <span class="or-line"></span>
+                                            <span class="span-or">or</span>
+                                        </div>
+
+
+
+                                        <div class="text-center dont-have">Back to <a href="Login.aspx">Login</a></div>
                                     </div>
-                                      
-                                    
-                                    
-                                    <div class="text-center dont-have">Back to <a href="Login.aspx">Login</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-5" runat="server" id="divUpdatePassword" visible="false">
+                <div class="main-wrapper login-body">
+                    <div class="login-wrapper">
+                        <div class="container">
+                            <div class="loginbox">
+                                <div class="login-left">
+                                    <h2>Welcome Back!</h2>
+                                    <p>To keep connected with</p>
+                                    <h5>Brigade Tax</h5>
+                                    <%--<p>with your personal info</p>--%>
+                                </div>
+                                <div class="login-right">
+                                    <div class="login-right-wrap">
+                                        <h1>Change your password</h1>
+                                        <p style="color: darkblue; font-weight: 500; opacity: 1; text-align: center;">Access to our dashboard</p>
+
+                                        <!-- Form -->
+                                        <asp:ScriptManager runat="server" ID="ScriptManager1" />
+
+                                            <div class="form-floating mb-2">
+                                                <asp:TextBox runat="server" ID="txtReceivedCode" class="form-control" placeholder="Received Code" />
+                                                <label for="name">Received Code</label>
+                                            </div>
+                                            <div class="form-floating mb-2">
+                                                <asp:TextBox runat="server" ID="txNewPassword" class="form-control" placeholder="New Password" TextMode="Password" />
+                                                <label for="name">New Password</label>
+                                                <asp:RequiredFieldValidator runat="server" ID="rfvPassword" ControlToValidate="txNewPassword" ErrorMessage="Password is required." ForeColor="Red" />
+                                                <asp:RegularExpressionValidator runat="server" ID="revPassword" ControlToValidate="txNewPassword" ValidationExpression="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d@$!%*?&]{8,}$" ErrorMessage="Password must be at least 8 characters, contain one letter and one number." ForeColor="Red" />
+                                            </div>
+                                            <div class="form-floating">
+                                                <asp:TextBox runat="server" ID="txtConfirmPassword" class="form-control" placeholder="Confirm Password" TextMode="Password" />
+                                                <label for="name">Confirm Password</label>
+                                                <asp:RequiredFieldValidator runat="server" ID="rfvConfirmPassword" ControlToValidate="txtConfirmPassword" ErrorMessage="Confirm Password is required." ForeColor="Red" />
+                                                <asp:CompareValidator runat="server" ID="cvPassword" ControlToValidate="txtConfirmPassword" ControlToCompare="txNewPassword" ErrorMessage="Passwords do not match." ForeColor="Red" />
+                                            </div>
+
+                                            <div class="form-group text-center mb-2 mt-4">
+                                                <asp:Button runat="server" Text="Submit" class="btn btn-primary" Style="width: 100%;" OnClick="btnSubmit_Click" />
+                                            </div>
+
+                                            <sup class="mt-1">If you haven't received the code, <b>
+                                                <asp:Button runat="server" Text="Click Here." CssClass="btn btn-link text-primary p-0 m-0" OnClick="btnReSendCode_Click" />
+                                            </b></sup>
+                                        <!-- /Form -->
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -299,56 +352,5 @@
                 </div>
             </div>
         </div>
-
-        <div class="row g-5"  runat="server" id="divUpdatePassword" visible="false">
-    <div class="main-wrapper login-body">
-        <div class="login-wrapper">
-            <div class="container">
-                <div class="loginbox">
-                    <div class="login-left">
-                        <h2>Welcome Back!</h2>
-                        <p>To keep connected with</p>
-                        <h5>Brigade Tax</h5>
-                        <%--<p>with your personal info</p>--%>
-                    </div>
-                    <div class="login-right">
-                        <div class="login-right-wrap">
-                            <h1>Change your password</h1>
-                            <p style="color:darkblue;font-weight:500;opacity:1;text-align:center;">Access to our dashboard</p>
-                            
-                            <!-- Form -->
-                            
-                                <div class="form-floating mb-2">
-                                    <asp:TextBox runat="server" ID="TextBox1" class="form-control"  placeholder="Received Code"></asp:TextBox>
-                                    <label for="name">Received Code</label>
-                                </div>
-                            <div class="form-floating mb-2">
-    <asp:TextBox runat="server" ID="TextBox2" class="form-control"  placeholder="New Password"></asp:TextBox>
-    <label for="name">New Password</label>
-</div>
-                                                        <div class="form-floating">
-    <asp:TextBox runat="server" ID="TextBox3" class="form-control"  placeholder="Confirm Password"></asp:TextBox>
-    <label for="name">Confirm Password</label>
-</div>
-                                
-                                
-                                <div class="form-group text-center mb-2 mt-4">
-                                    <%--<a href="User/PreReg/IndustryRegistration.aspx" target="_blank" class="btn btn-primary" type="submit" style="width: 100%;">Login</a>--%>
-                                    <asp:Button runat="server" Text="Submit" class="btn btn-primary"  style="width: 100%;" />
-                                    
-                                </div>
-                            <sup class="mt-1">If your not recevied the Code, <b><asp:Button runat="server" Text="Click Here." CssClass="btn btn-link text-primary p-0 m-0" OnClick="btnReSendCode_Click" /></b></sup>
-                            
-                            <!-- /Form -->
-                            
-                           
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
-</div>
-    </div>
-</div>
 </asp:Content>

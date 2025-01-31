@@ -102,57 +102,49 @@
                 </div>
                 <div class="card-body">
 
-                    <table class="table table-bordered table-response table-striped" cellspacing="0" rules="all" border="1" id="ContentPlaceHolder1_grdFilledForm" style="border-collapse: collapse;">
-                        <tbody>
-                            <tr>
-                                <th scope="col">Application Number</th>
-                                <th scope="col">Applicant Name</th>
+                    <asp:GridView ID="grdFilledForm" runat="server" AutoGenerateColumns="False" CssClass="table table-bordered table-striped"
+                        OnRowCommand="grdFilledForm_RowCommand">
+                        <Columns>
+                            <asp:BoundField DataField="FileUploadId" HeaderText="Application Number" />
+                            <asp:BoundField DataField="UserName" HeaderText="Applicant Name" />
 
-                                <th scope="col">Filing Tax</th>
-                                <th scope="col">W2 Copy</th>
-                                <th scope="col">Action</th>
-                            </tr>
-                            <tr>
-                                <td><a id="ContentPlaceHolder1_grdFilledForm_lnkSprId_0" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$grdFilledForm$ctl02$lnkSprId','')">AMCSPR000004</a>
-                                </td>
-                                <td>Rama Raju</td>
+                            <asp:TemplateField HeaderText="Filing Tax">
+                                <ItemTemplate>
+                                    <asp:LinkButton ID="LinkButton1" runat="server" CssClass="btn btn-info btn-sm" Text="View"
+                                        CommandName="ViewW2" CommandArgument='<%# Eval("FilePath") %>'>
+                                        View <i class="fi fi-tr-overview"></i>
+                                    </asp:LinkButton>
+                                    <asp:HyperLink ID="btnDownloadTax" runat="server" CssClass="btn btn-success w-50 btn-sm"
+                                        NavigateUrl='<%# Eval("FilePath") %>' Text="Download" Target="_blank">
+                                        Download <i class="fi fi-tr-message-arrow-down"></i>
+                                    </asp:HyperLink>
+                                </ItemTemplate>
+                            </asp:TemplateField>
 
-                                <td><a class="btn btn-info btn-sm" href="Applicationstatus.aspx">View <i class="fi fi-tr-overview"></i></a>
-                                    <a class="btn btn-success w-50 btn-sm" href="Applicationstatus.aspx">Download <i class="fi fi-tr-message-arrow-down"></i></a></td>
-                                <td><a class="btn btn-info btn-sm" href="Applicationstatus.aspx">View <i class="fi fi-tr-overview"></i></a>
-                                    <a class="btn btn-success btn-sm w-50" href="Applicationstatus.aspx">Download <i class="fi fi-tr-message-arrow-down"></i></a></td>
-                                <td>
-                                    <select class="form-control" aria-label="Default select example">
-                                        <option selected>Move To</option>
-                                        <option value="1">Ready to review documents</option>
-                                        
-                                        
-                                    </select>
+                            <asp:TemplateField HeaderText="W2 Copy">
+                                <ItemTemplate>
+                                    <asp:LinkButton ID="LinkButton2" runat="server" CssClass="btn btn-info btn-sm" Text="View"
+                                        CommandName="ViewW2" CommandArgument='<%# Eval("FilePath") %>'>
+                                        View <i class="fi fi-tr-overview"></i>
+                                    </asp:LinkButton>
+                                    <asp:HyperLink ID="btnDownloadW2" runat="server" CssClass="btn btn-success w-50 btn-sm"
+                                        NavigateUrl='<%# Eval("FilePath") %>' Text="Download" Target="_blank">
+                                        Download <i class="fi fi-tr-message-arrow-down"></i>
+                                    </asp:HyperLink>
+                                </ItemTemplate>
+                            </asp:TemplateField>
 
-                                </td>
-                            </tr>
-                            <tr>
-    <td><a id="ContentPlaceHolder1_grdFilledForm_lnkSprId_0" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$grdFilledForm$ctl02$lnkSprId','')">AMCSPR000004</a>
-    </td>
-    <td>Kalyanbabu</td>
+                            <asp:TemplateField HeaderText="Action">
+                                <ItemTemplate>
+                                    <asp:DropDownList ID="ddlMoveTo" runat="server" CssClass="form-control">
+                                        <asp:ListItem Selected="True">Move To</asp:ListItem>
+                                        <asp:ListItem Value="1">Ready to review documents</asp:ListItem>
+                                    </asp:DropDownList>
+                                </ItemTemplate>
+                            </asp:TemplateField>
+                        </Columns>
+                    </asp:GridView>
 
-    <td><a class="btn btn-info btn-sm" href="Applicationstatus.aspx">View <i class="fi fi-tr-overview"></i></a>
-        <a class="btn btn-success w-50 btn-sm" href="Applicationstatus.aspx">Download <i class="fi fi-tr-message-arrow-down"></i></a></td>
-    <td><a class="btn btn-info btn-sm" href="Applicationstatus.aspx">View <i class="fi fi-tr-overview"></i></a>
-        <a class="btn btn-success btn-sm w-50" href="Applicationstatus.aspx">Download <i class="fi fi-tr-message-arrow-down"></i></a></td>
-    <td>
-        <select class="form-control" aria-label="Default select example">
-            <option selected>Move To</option>
-            <option value="1">Ready to review documents</option>
-            
-            
-        </select>
-
-    </td>
-</tr>
-                           
-                        </tbody>
-                    </table>
                 </div>
             </div>
 
@@ -546,4 +538,27 @@
             </div>
         </div>
     </div>
+
+    <!-- Modal Popup for Viewing Documents -->
+    <div id="documentModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">View Document</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <iframe id="docViewer" width="100%" height="500px"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openModal(filePath) {
+            document.getElementById("docViewer").src = filePath;
+            $('#documentModal').modal('show');
+        }
+    </script>
+
 </asp:Content>
