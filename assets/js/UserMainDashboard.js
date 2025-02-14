@@ -13,7 +13,7 @@
                         <input type="text" name="extraDescription-${extraFileCounter}" class="form-control extraDescription" placeholder="Description (optional)" />
                     </div>
                     <div class="col-lg-3 d-flex">
-                        <input type="file" name="extraDynamicFiles" class="form-control dynamic-file" id="file-${extraFileCounter}" />
+                        <input type="file" name="extraDynamicFiles-${extraFileCounter}" class="form-control dynamic-file" id="file-${extraFileCounter}" />
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@
                             <input type="text" name="extraDescription-${extraFileCounter}" class="form-control extraDescription" placeholder="Description (optional)" />
                         </div>
                         <div class="col-lg-3 d-flex">
-                            <input type="file" name="extraDynamicFiles" class="form-control dynamic-file" id="file-${extraFileCounter}" />
+                            <input type="file" name="extraDynamicFiles-${extraFileCounter}" class="form-control dynamic-file" id="file-${extraFileCounter}" />
                         </div>
                     </div>
                 </div>
