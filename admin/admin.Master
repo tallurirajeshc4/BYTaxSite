@@ -167,7 +167,7 @@
                     <div class="header">
                 <!-- Logo -->
                 <div class="header-left">
-                    <a href="adminDashBoard.aspx" class="logo">
+                    <a href="Applicationview.aspx" class="logo">
 
                        <asp:ImageButton runat="server" ID="imgLogo" ImageUrl="~/assets/img/Logonew.png"  />
                     </a>

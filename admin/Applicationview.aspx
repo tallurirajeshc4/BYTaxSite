@@ -91,7 +91,7 @@
                                 <ItemTemplate>
                                     <asp:LinkButton ID="lnkApplicationNumber" runat="server" CssClass="btn btn-link"
                                         CommandName="Redirect" CommandArgument='<%# Eval("FileUploadId") %>'>
-                                        <%# Eval("FileUploadId") %>
+                                        <%# Eval("ApplicationNumber") %>
                                     </asp:LinkButton>
                                 </ItemTemplate>
                             </asp:TemplateField>
@@ -125,7 +125,7 @@
                 </div>
                 <div class="card-body">
 
-                    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CssClass="table table-bordered table-striped"
+                    <asp:GridView ID="grdReadytoReview" runat="server" AutoGenerateColumns="False" CssClass="table table-bordered table-striped"
                         OnRowCommand="grdFilledForm_RowCommand">
                         <Columns>
                             <%--Application Number as a LinkButton--%>
@@ -133,7 +133,7 @@
                                 <ItemTemplate>
                                     <asp:LinkButton ID="lnkApplicationNumber" runat="server" CssClass="btn btn-link"
                                         CommandName="Redirect" CommandArgument='<%# Eval("FileUploadId") %>'>
-                                        <%# Eval("FileUploadId") %>
+                                        <%# Eval("ApplicationNumber") %>
                                     </asp:LinkButton>
                                 </ItemTemplate>
                             </asp:TemplateField>
@@ -157,14 +157,14 @@
             <div class="card mb-5">
                 <div class="card-header d-flex justify-content-between">
                     <h3 class="card-title mt-1"><b><i class="fi fi-tr-browser"></i>Tax Prepare Applications</b></h3>
-                    <h3 class="card-counter">0</h3>
+                    <h3 class="card-counter"><asp:Label ID="lblTaxPrepareCount" runat="server"></asp:Label></h3>
                     <%--<h4 class="card-title mt-1">
                         <label id="unitname" runat="server"></label>
 
                     </h4>--%>
                 </div>
                 <div class="card-body">
-                    <asp:GridView ID="GridView2" runat="server" AutoGenerateColumns="False" CssClass="table table-bordered table-striped"
+                    <asp:GridView ID="grdTaxPrepare" runat="server" AutoGenerateColumns="False" CssClass="table table-bordered table-striped"
                         OnRowCommand="grdFilledForm_RowCommand">
                         <Columns>
                             <%--Application Number as a LinkButton--%>
@@ -172,7 +172,7 @@
                                 <ItemTemplate>
                                     <asp:LinkButton ID="lnkApplicationNumber" runat="server" CssClass="btn btn-link"
                                         CommandName="Redirect" CommandArgument='<%# Eval("FileUploadId") %>'>
-                                        <%# Eval("FileUploadId") %>
+                                        <%# Eval("ApplicationNumber") %>
                                     </asp:LinkButton>
                                 </ItemTemplate>
                             </asp:TemplateField>
@@ -196,14 +196,14 @@
             <div class="card mb-5">
                 <div class="card-header d-flex justify-content-between">
                     <h3 class="card-title mt-1"><b><i class="fi fi-tr-browser"></i>Awaiting Payment Applications</b></h3>
-                    <h3 class="card-counter">0</h3>
+                    <h3 class="card-counter"><asp:Label ID="lblAwaitingPaymentCount" runat="server"></asp:Label></h3>
                     <%--<h4 class="card-title mt-1">
                         <label id="unitname" runat="server"></label>
 
                     </h4>--%>
                 </div>
                 <div class="card-body">
-                    <asp:GridView ID="GridView3" runat="server" AutoGenerateColumns="False" CssClass="table table-bordered table-striped"
+                    <asp:GridView ID="grdAwaitingPayment" runat="server" AutoGenerateColumns="False" CssClass="table table-bordered table-striped"
                         OnRowCommand="grdFilledForm_RowCommand">
                         <Columns>
                             <%--Application Number as a LinkButton--%>
@@ -211,7 +211,7 @@
                                 <ItemTemplate>
                                     <asp:LinkButton ID="lnkApplicationNumber" runat="server" CssClass="btn btn-link"
                                         CommandName="Redirect" CommandArgument='<%# Eval("FileUploadId") %>'>
-                                        <%# Eval("FileUploadId") %>
+                                        <%# Eval("ApplicationNumber") %>
                                     </asp:LinkButton>
                                 </ItemTemplate>
                             </asp:TemplateField>
@@ -235,14 +235,14 @@
             <div class="card mb-5">
                 <div class="card-header d-flex justify-content-between">
                     <h3 class="card-title mt-1"><b><i class="fi fi-tr-browser"></i>Ready to E-File Applications</b></h3>
-                    <h3 class="card-counter">0</h3>
+                    <h3 class="card-counter"><asp:Label ID="lblReadytoEfileCount" runat="server"></asp:Label></h3>
                     <%--<h4 class="card-title mt-1">
                         <label id="unitname" runat="server"></label>
 
                     </h4>--%>
                 </div>
                 <div class="card-body">
-                    <asp:GridView ID="GridView4" runat="server" AutoGenerateColumns="False" CssClass="table table-bordered table-striped"
+                    <asp:GridView ID="grdReadytoEfile" runat="server" AutoGenerateColumns="False" CssClass="table table-bordered table-striped"
                         OnRowCommand="grdFilledForm_RowCommand">
                         <Columns>
                             <%--Application Number as a LinkButton--%>
@@ -250,7 +250,7 @@
                                 <ItemTemplate>
                                     <asp:LinkButton ID="lnkApplicationNumber" runat="server" CssClass="btn btn-link"
                                         CommandName="Redirect" CommandArgument='<%# Eval("FileUploadId") %>'>
-                                        <%# Eval("FileUploadId") %>
+                                        <%# Eval("ApplicationNumber") %>
                                     </asp:LinkButton>
                                 </ItemTemplate>
                             </asp:TemplateField>
@@ -275,14 +275,14 @@
             <div class="card mb-5">
                 <div class="card-header d-flex justify-content-between">
                     <h3 class="card-title mt-1"><b><i class="fi fi-tr-browser"></i>Completed  Applications</b></h3>
-                    <h3 class="card-counter">0</h3>
+                    <h3 class="card-counter"><asp:Label ID="lblCompletedAppCount" runat="server"></asp:Label></h3>
                     <%--<h4 class="card-title mt-1">
                         <label id="unitname" runat="server"></label>
 
                     </h4>--%>
                 </div>
                 <div class="card-body">
-                    <asp:GridView ID="GridView5" runat="server" AutoGenerateColumns="False" CssClass="table table-bordered table-striped"
+                    <asp:GridView ID="grdCompletedApp" runat="server" AutoGenerateColumns="False" CssClass="table table-bordered table-striped"
                         OnRowCommand="grdFilledForm_RowCommand">
                         <Columns>
                             <%--Application Number as a LinkButton--%>
@@ -290,7 +290,7 @@
                                 <ItemTemplate>
                                     <asp:LinkButton ID="lnkApplicationNumber" runat="server" CssClass="btn btn-link"
                                         CommandName="Redirect" CommandArgument='<%# Eval("FileUploadId") %>'>
-                                        <%# Eval("FileUploadId") %>
+                                        <%# Eval("ApplicationNumber") %>
                                     </asp:LinkButton>
                                 </ItemTemplate>
                             </asp:TemplateField>
@@ -314,14 +314,14 @@
             <div class="card mb-5">
                 <div class="card-header d-flex justify-content-between">
                     <h3 class="card-title mt-1"><b><i class="fi fi-tr-browser"></i>Disengaged Applications</b></h3>
-                    <h3 class="card-counter">0</h3>
+                    <h3 class="card-counter"><asp:Label ID="lblDisengagedAppCount" runat="server"></asp:Label></h3>
                     <%--<h4 class="card-title mt-1">
                         <label id="unitname" runat="server"></label>
 
                     </h4>--%>
                 </div>
                 <div class="card-body">
-                    <asp:GridView ID="GridView6" runat="server" AutoGenerateColumns="False" CssClass="table table-bordered table-striped"
+                    <asp:GridView ID="grdDisengagedApp" runat="server" AutoGenerateColumns="False" CssClass="table table-bordered table-striped"
                         OnRowCommand="grdFilledForm_RowCommand">
                         <Columns>
                             <%--Application Number as a LinkButton--%>
@@ -329,7 +329,7 @@
                                 <ItemTemplate>
                                     <asp:LinkButton ID="lnkApplicationNumber" runat="server" CssClass="btn btn-link"
                                         CommandName="Redirect" CommandArgument='<%# Eval("FileUploadId") %>'>
-                                        <%# Eval("FileUploadId") %>
+                                        <%# Eval("ApplicationNumber") %>
                                     </asp:LinkButton>
                                 </ItemTemplate>
                             </asp:TemplateField>

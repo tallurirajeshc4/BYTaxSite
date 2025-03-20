@@ -84,8 +84,17 @@
 														</label>
 													  </div>
 												</div>
-												
+												<div class="row mt-3">
+													<div class="col-md-6">
+														<asp:DropDownList ID="ddlApplicationStatus" runat="server" CssClass="form-control">
+															
+														</asp:DropDownList>
+													</div>
+													<div class="col-md-6">
+														<asp:Button ID="btnUpdateStatus" runat="server" class="btn-info btn-sm" Text="Update Status" OnClick="btnUpdateStatus_Click" />
+													</div>
 												</div>
+											</div>
 										</div>
 										<%--<div class="mb-4">
 											<table class="table-striped table table-sm table-bordered table-response">
@@ -135,9 +144,15 @@
 														</ItemTemplate>
 													</asp:TemplateField>
 
-													<asp:TemplateField HeaderText="Application Number">
+													<asp:TemplateField HeaderText="Application Number" Visible="false">
 														<ItemTemplate>
 															<asp:Label ID="lblApplicationNumber" runat="server" Text='<%# Eval("FileUploadId") %>'></asp:Label>
+														</ItemTemplate>
+													</asp:TemplateField>
+
+													<asp:TemplateField HeaderText="Application Number">
+														<ItemTemplate>
+															<asp:Label ID="lblApplicationNumber" runat="server" Text='<%# Eval("ApplicationNumber") %>'></asp:Label>
 														</ItemTemplate>
 													</asp:TemplateField>
 
