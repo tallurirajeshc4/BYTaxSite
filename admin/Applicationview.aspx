@@ -2,6 +2,10 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style>
+        a:hover {
+    color: blue !important;
+    font-weight: 900;
+}
         .btn.btn-info.btn-sm {
             width: 45%;
         }
@@ -108,6 +112,15 @@
                             <%--File Upload Status--%>
                             <asp:BoundField DataField="FileUploadStatus" HeaderText="File Upload Status" />
                         </Columns>
+                        <EmptyDataTemplate>
+                            <table class="table table-bordered table-striped">
+                                <tr>
+                                    <td colspan="5" style="text-align:center; font-weight:bold; color: #888;">
+                                        No records found.
+                                    </td>
+                                </tr>
+                            </table>
+                        </EmptyDataTemplate>
                     </asp:GridView>
                 </div>
             </div>
@@ -150,6 +163,15 @@
                             <%--File Upload Status--%>
                             <asp:BoundField DataField="FileUploadStatus" HeaderText="File Upload Status" />
                         </Columns>
+                        <EmptyDataTemplate>
+                            <table class="table table-bordered table-striped">
+                                <tr>
+                                    <td colspan="5" style="text-align:center; font-weight:bold; color: #888;">
+                                        No records found.
+                                    </td>
+                                </tr>
+                            </table>
+                        </EmptyDataTemplate>
                     </asp:GridView>
                 </div>
             </div>
@@ -189,6 +211,15 @@
                             <%--File Upload Status--%>
                             <asp:BoundField DataField="FileUploadStatus" HeaderText="File Upload Status" />
                         </Columns>
+                        <EmptyDataTemplate>
+                            <table class="table table-bordered table-striped">
+                                <tr>
+                                    <td colspan="5" style="text-align:center; font-weight:bold; color: #888;">
+                                        No records found.
+                                    </td>
+                                </tr>
+                            </table>
+                        </EmptyDataTemplate>
                     </asp:GridView>
                 </div>
             </div>
@@ -228,6 +259,15 @@
                             <%--File Upload Status--%>
                             <asp:BoundField DataField="FileUploadStatus" HeaderText="File Upload Status" />
                         </Columns>
+                        <EmptyDataTemplate>
+                            <table class="table table-bordered table-striped">
+                                <tr>
+                                    <td colspan="5" style="text-align:center; font-weight:bold; color: #888;">
+                                        No records found.
+                                    </td>
+                                </tr>
+                            </table>
+                        </EmptyDataTemplate>
                     </asp:GridView>
                 </div>
             </div>
@@ -267,6 +307,15 @@
                             <%--File Upload Status--%>
                             <asp:BoundField DataField="FileUploadStatus" HeaderText="File Upload Status" />
                         </Columns>
+                        <EmptyDataTemplate>
+                            <table class="table table-bordered table-striped">
+                                <tr>
+                                    <td colspan="5" style="text-align:center; font-weight:bold; color: #888;">
+                                        No records found.
+                                    </td>
+                                </tr>
+                            </table>
+                        </EmptyDataTemplate>
                     </asp:GridView>
                 </div>
             </div>
@@ -307,6 +356,15 @@
                             <%--File Upload Status--%>
                             <asp:BoundField DataField="FileUploadStatus" HeaderText="File Upload Status" />
                         </Columns>
+                        <EmptyDataTemplate>
+                            <table class="table table-bordered table-striped">
+                                <tr>
+                                    <td colspan="5" style="text-align:center; font-weight:bold; color: #888;">
+                                        No records found.
+                                    </td>
+                                </tr>
+                            </table>
+                        </EmptyDataTemplate>
                     </asp:GridView>
                 </div>
             </div>
@@ -346,6 +404,15 @@
                             <%--File Upload Status--%>
                             <asp:BoundField DataField="FileUploadStatus" HeaderText="File Upload Status" />
                         </Columns>
+                        <EmptyDataTemplate>
+                            <table class="table table-bordered table-striped">
+                                <tr>
+                                    <td colspan="5" style="text-align:center; font-weight:bold; color: #888;">
+                                        No records found.
+                                    </td>
+                                </tr>
+                            </table>
+                        </EmptyDataTemplate>
                     </asp:GridView>
                 </div>
             </div>
